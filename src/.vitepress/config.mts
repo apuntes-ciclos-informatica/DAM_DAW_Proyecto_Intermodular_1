@@ -36,6 +36,7 @@ export default defineConfig({
             text: 'Sesiones',
             items: [
               { text: 'Sesión 1', link: '/contenidos/s1-project-management/' },
+              { text: 'Sesión 2', link: '/contenidos/s2-metodologias-agiles/' },
             ]
           }
         ],
@@ -70,7 +71,31 @@ export default defineConfig({
             { text: '<img src="/DAM_DAW_Proyecto_Intermodular_1/img/logo-centro.png" class="logo-anim" style="vertical-align:middle; height:90px; margin:0 auto;">', link: '' }
           ]
         }
-      ],    
+      ],
+      '/contenidos/s2-metodologias-agiles': [
+        {
+          text: 'Metodologías Ágiles. Scrum',
+          collapsed: false,
+          items: [
+            { text: 'Inicio', link: '/contenidos/s2-metodologias-agiles/' },
+            { text: '1. Metodologías', link: '/contenidos/s2-metodologias-agiles/capitulo-1-metodologias' },
+            { text: '2. Metodologías Tradicionales', link: '/contenidos/s2-metodologias-agiles/capitulo-2-tradicional' },
+            { text: '3. Metodologías Ágiles', link: '/contenidos/s2-metodologias-agiles/capitulo-3-agil' },
+            { text: '4. Scrum (I)', link: '/contenidos/s2-metodologias-agiles/capitulo-4-scrum-1' },
+            { text: '5. Scrum (II)', link: '/contenidos/s2-metodologias-agiles/capitulo-5-scrum-2' },
+            { text: '6. Scrum (III)', link: '/contenidos/s2-metodologias-agiles/capitulo-6-scrum-3' },
+            { text: '7. Ejemplo práctico', link: '/contenidos/s2-metodologias-agiles/capitulo-7-ejemplo-scrum' },
+          ]
+        },
+        {
+          // Sección para mostrar los logos en la barra lateral
+          text: '',
+          items: [
+            { text: '<img src="/DAM_DAW_Proyecto_Intermodular_1/img/logo-gva.png" class="logo-anim" style="vertical-align:middle; height:60px; margin:0 auto;">', link: '' },
+            { text: '<img src="/DAM_DAW_Proyecto_Intermodular_1/img/logo-centro.png" class="logo-anim" style="vertical-align:middle; height:90px; margin:0 auto;">', link: '' }
+          ]
+        }
+      ],   
     },
     footer: {
       message: '<div style="display: flex; align-items: center; justify-content: center;"><img src="/DAM_DAW_Proyecto_Intermodular_1/img/logo-gva.png" class="logo-anim"> <img src="/DAM_DAW_Proyecto_Intermodular_1/img/logo-centro.png" class="logo-anim"></div>',
