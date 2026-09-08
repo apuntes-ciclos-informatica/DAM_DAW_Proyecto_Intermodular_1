@@ -146,7 +146,7 @@ implicados son idénticos en ambos currículos.
 
 | Módulo | Resultado de Aprendizaje (RA) | Criterios de Evaluación (CE) | OG |
 | :--- | :--- | :--- | :--- |
-| **0483 - Sistemas informáticos** | **RA7:** Elabora documentación valorando y utilizando aplicaciones informáticas de propósito general. | a, b, c, f, g | OG3 |
+| **0483 - Sistemas informáticos** | **RA7:** Elabora documentación valorando y utilizando aplicaciones informáticas de propósito general. | a, c, f, g | OG3 |
 | **0373 - Lenguajes de marcas y sistemas de gestión de información** | **RA1:** Reconoce las características de lenguajes de marcas analizando e interpretando fragmentos de código. | a, b, c, d, f, g, h | OG3 |
 | | **RA2:** Utiliza lenguajes de marcas para la transmisión y presentación de información a través de la web analizando la estructura de los documentos e identificando sus elementos. | a, b, c, e, f, g, h | OG3 |
 | | **RA5:** Realiza conversiones sobre documentos para el intercambio de información utilizando técnicas, lenguajes y herramientas de procesamiento. | a, b, c, f, g | OG3 |
@@ -159,80 +159,92 @@ implicados son idénticos en ambos currículos.
 
 ::: details Cómo se justifica cada resultado de aprendizaje
 
-Cada RA incluido se evidencia con una parte concreta y comprobable del proyecto.
-Esta es la correspondencia entre lo que el alumnado entrega y lo que acredita:
+Cada criterio se acredita con una parte concreta y comprobable de lo que se entrega.
 
 #### 0483 · Sistemas informáticos
 
-* **RA7 — Elabora documentación (a, b, c, f, g).** Es el encaje más directo de todo el
-  módulo: el criterio **c** pide expresamente documentar *"mediante el uso de
-  herramientas ofimáticas y de trabajo colaborativo"*, que es exactamente lo que
-  ocurre cuando la memoria se redacta y se versiona en un repositorio compartido —Git y
-  el repositorio remoto son, en este proyecto, la herramienta de trabajo colaborativo—.
-  El criterio **a** —*"clasificar software en función de su licencia y propósito"*— se
-  acredita al justificar el stack: qué herramientas se eligen, con qué licencia y para
-  qué. El **b** al analizar las necesidades de software del entorno al que se dirige el
-  proyecto, y el **f** al buscar y citar documentación técnica durante el análisis.
+**RA7 — Elabora documentación (a, c, f, g)**
+
+* **a** · La justificación del stack clasifica cada herramienta empleada por su licencia
+  y su propósito.
+* **c** · La memoria se elabora con herramientas ofimáticas y de trabajo colaborativo:
+  se redacta, se versiona y se publica desde un repositorio compartido.
+* **f** · El análisis de la competencia y la elección del stack se apoyan en
+  documentación técnica localizada en Internet y citada en la memoria.
+* **g** · La memoria, los diagramas y el tablero se producen con herramientas de
+  propósito general.
 
 #### 0373 · Lenguajes de marcas
 
-* **RA1 — Reconoce las características de los lenguajes de marcas (a, b, c, d, f, g, h).**
-  Markdown **es** un lenguaje de marcas. Al escribir la memoria con él y compararlo con
-  HTML, el alumnado clasifica lenguajes, distingue ámbitos de aplicación y reconoce la
-  necesidad de que un documento esté bien formado para poder procesarse.
-* **RA2 — Utiliza lenguajes de marcas para la web (a, b, c, e, f, g, h).** El sitio
-  publicado es HTML, y **no basta con generarlo**: la memoria se entrega con una hoja de
-  estilos propia sobre la plantilla base y con el HTML y el CSS validados. Eso acredita
-  **g** *"se han aplicado hojas de estilo"* y **h** *"se han validado documentos HTML y
-  CSS"* con un entregable comprobable, no con una declaración. El criterio **c**
-  —etiquetas y atributos— se ejercita al insertar HTML dentro del Markdown allí donde el
-  formato no llega, que es algo que la propia memoria acaba necesitando.
-* **RA5 — Realiza conversiones sobre documentos (a, b, c, f, g).** Es el más elegante
-  del conjunto: **pasar de Markdown a HTML es una conversión de documentos**, y el
-  proceso de construcción del sitio es la herramienta que la realiza. El criterio **g**
-  se acredita cada vez que el alumnado publica su memoria.
+**RA1 — Reconoce las características de los lenguajes de marcas (a, b, c, d, f, g, h)**
+
+* **a**, **f** · La memoria se escribe en Markdown y se publica en HTML: dos lenguajes de
+  marcas cuyas características se comparan.
+* **b** · El marcado permite convertir, indexar y publicar el mismo documento sin
+  reescribirlo.
+* **c**, **d** · Se clasifican los lenguajes de marcas y se distinguen sus ámbitos:
+  Markdown para redactar, HTML para publicar.
+* **g** · La memoria aplica la estructura y las reglas sintácticas del lenguaje.
+* **h** · Un documento mal formado impide construir el sitio: la evidencia de que está
+  bien formado es que se publica.
+
+**RA2 — Utiliza lenguajes de marcas para la web (a, b, c, e, f, g, h)**
+
+* **a** · Se identifican los lenguajes de marcas de la web, sus versiones y estándares.
+* **b** · Se analiza la estructura del documento HTML que genera el sitio.
+* **c** · Se insertan etiquetas y atributos HTML dentro del Markdown allí donde el
+  formato no llega.
+* **e** · El sitio se crea con una herramienta de generación de documentos web.
+* **f**, **g** · La memoria se entrega con una hoja de estilos propia sobre la plantilla
+  base.
+* **h** · El HTML y el CSS del sitio pasan un validador sin errores.
+
+**RA5 — Realiza conversiones sobre documentos (a, b, c, f, g)**
+
+* **a**, **b** · La memoria se redacta en un formato y se entrega en otro: la conversión
+  es lo que permite publicarla.
+* **c** · La memoria describe el proceso de construcción del sitio y las tecnologías que
+  intervienen.
+* **f** · Se caracteriza la herramienta que realiza la conversión.
+* **g** · Cada publicación del sitio es una conversión ejecutada.
 
 #### 0484 · Bases de datos
 
-* **RA1 — Reconoce los elementos de las bases de datos (b, d, i).** Sin crear ninguna
-  base de datos: basta con razonar en la memoria qué tipo de almacenamiento necesita el
-  proyecto y qué gestor sería adecuado. El criterio **i** se cubre con un apartado sobre
-  **protección de datos**, analizando qué información personal manejaría la aplicación.
-* **RA6 — Diseña modelos relacionales desde diagramas E/R (a, b, c, d, e).** El modelo
-  entidad/relación del proyecto: entidades, atributos, relaciones y claves. Se exige un
-  modelo correcto y justificado, no una normalización formal.
+**RA1 — Reconoce los elementos de las bases de datos (b, d, i)**
+
+* **b** · La memoria identifica qué tipo de base de datos necesita el proyecto según su
+  modelo de datos.
+* **d** · Y qué sistema gestor sería adecuado, con su justificación.
+* **i** · El apartado de datos y cumplimiento identifica la legislación de protección de
+  datos aplicable al proyecto.
+
+**RA6 — Diseña modelos relacionales desde diagramas E/R (a, b, c, d, e)**
+
+* **a** · El modelo entidad/relación se representa con una herramienta gráfica.
+* **b**, **c** · Del modelo se derivan las tablas del diseño lógico y sus campos.
+* **d** · Se analizan las relaciones entre ellas.
+* **e** · Se identifican los campos clave.
 
 #### 0487 · Entornos de desarrollo
 
-* **RA1 — Reconoce elementos y herramientas del desarrollo (b, f, g).** El criterio
-  **g** —*"escenarios de uso de las metodologías ágiles"*— es el que sostiene la sesión
-  de Scrum y su aplicación al proyecto. El **b** se acredita al describir las fases por
-  las que pasa el proyecto.
-* **RA6 — Genera diagramas de comportamiento (a, b, e, f).** Diagramas de casos de uso,
-  que traducen las historias de usuario (**a**, **b**), y diagramas de actividades, que
-  describen los procesos principales de la aplicación (**e**, **f**). Los criterios **c**
-  y **d** quedan fuera: se refieren a **diagramas de interacción**, que este proyecto no
-  elabora.
+**RA1 — Reconoce elementos y herramientas del desarrollo (b, f, g)**
+
+* **b** · La memoria describe las fases por las que pasa el proyecto.
+* **f** · La justificación del stack evalúa la funcionalidad de las herramientas
+  elegidas.
+* **g** · Scrum se estudia y se aplica al propio proyecto, con su tablero y sus
+  historias de usuario.
+
+**RA6 — Genera diagramas de comportamiento (a, b, e, f)**
+
+* **a** · Se distinguen los tipos de diagrama de comportamiento.
+* **b** · Los diagramas de casos de uso traducen las historias de usuario.
+* **e**, **f** · Los diagramas de actividades describen los procesos principales de la
+  aplicación.
 
 > 💡 Los módulos **0485 Programación** y **0486 Acceso a datos** no figuran en la tabla:
 > todos sus resultados de aprendizaje exigen escribir y depurar código, y este proyecto
 > es documental. Se evalúan en sus propios módulos y en el Proyecto Intermodular II.
-
-> [!WARNING] Resultados de aprendizaje descartados a propósito
-> Dos RA que a primera vista podrían encajar **se han dejado fuera**, porque su enunciado
-> exige algo que este proyecto no hace:
->
-> * **0483 RA2 — Instala sistemas operativos.** Su criterio **c** habla de comparar
->   *sistemas operativos*, no tecnologías en general, y el resto de sus criterios son
->   instalaciones reales. Aquí no se instala ningún sistema operativo.
-> * **0487 RA4 — Optimiza código.** Sus criterios se refieren al *código*: control de
->   versiones integrado en el entorno de desarrollo, repositorios para desarrollo
->   colaborativo de código e integración continua del código. En este módulo no hay
->   código, y el uso de Git y del repositorio remoto ya queda acreditado, de forma
->   honesta, en el criterio **c** de 0483 RA7 como herramienta de trabajo colaborativo
->   para la documentación.
->
-> Preferimos una tabla más corta y defendible que una más larga y discutible.
 
 :::
 
