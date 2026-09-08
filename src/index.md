@@ -222,16 +222,10 @@ Esta es la correspondencia entre lo que el alumnado entrega y lo que acredita:
 
 :::
 
-::: tip Correspondencia entre sesiones y resultados de aprendizaje
+::: tip ¿Qué sesión trabaja cada resultado de aprendizaje?
 
-| Sesión | RA que trabaja |
-|:---:|:---|
-| **1** Fundamentos de la gestión de proyectos | 0487 RA1 (b, f) |
-| **2** Metodologías Ágiles. Scrum | 0487 RA1 (g) |
-| **3** Requisitos e historias de usuario | 0487 RA6 (b) · PI RA1, RA2 |
-| **4** Git y GitHub Projects | 0487 RA4 (f, h, i) · 0483 RA7 (c) |
-| **5** Diagramas del proyecto | 0487 RA6 · 0484 RA1, RA6 |
-| **6** Documentación con Markdown y VitePress | 0373 RA1, RA2, RA5 · 0483 RA7, RA2 (i) |
+La correspondencia entre sesiones y RAs figura en la propia tabla de
+[Sesiones autónomas](#sesiones-autonomas), en la última columna.
 
 :::
 
@@ -249,14 +243,14 @@ Las seis sesiones son **comunes a DAW y DAM**. El proyecto de este módulo es de
 naturaleza documental: no se pide programar, sino analizar, organizar, diagramar,
 documentar y comunicar un proyecto propio.
 
-| Sesión | Título | Tipo |
-|:---:|:---|:---:|
-| **1** | Fundamentos de la gestión de proyectos | Teórica |
-| **2** | Metodologías Ágiles. Scrum | Teórica |
-| **3** | Análisis de requisitos e historias de usuario | Teórica |
-| **4** | Organización del proyecto con Git y GitHub Projects | Teórico-práctica |
-| **5** | Diagramas del proyecto | Teórico-práctica |
-| **6** | Documentación del proyecto con Markdown y VitePress | Teórico-práctica |
+| Sesión | Título | Tipo | Resultados de aprendizaje que trabaja |
+|:---:|:---|:---:|:---|
+| **1** | Fundamentos de la gestión de proyectos | Teórica | 0487 RA1 (b, f) |
+| **2** | Metodologías Ágiles. Scrum | Teórica | 0487 RA1 (g) |
+| **3** | Análisis de requisitos e historias de usuario | Teórica | 0487 RA6 (b) · PI RA1, RA2 |
+| **4** | Organización del proyecto con Git y GitHub Projects | Teórico-práctica | 0487 RA4 (f, h, i) · 0483 RA7 (c) |
+| **5** | Diagramas del proyecto | Teórico-práctica | 0487 RA6 · 0484 RA1, RA6 |
+| **6** | Documentación del proyecto con Markdown y VitePress | Teórico-práctica | 0373 RA1, RA2, RA5 · 0483 RA7, RA2 (i) |
 
 ### La comunicación atraviesa todas las sesiones
 
