@@ -419,24 +419,16 @@ La evaluación de este módulo adopta el marco con el que se presenta un proyect
 ante una empresa o un inversor. No se entrega "un trabajo": se prepara el expediente
 que alguien pediría antes de poner dinero en la idea, y se defiende ante un comité.
 
-Cada pieza que se solicita tiene un equivalente exacto en el mundo profesional:
-
-| Lo que entregas | Cómo se llama fuera del aula |
-|:---|:---|
-| Tu repositorio con la memoria publicada | El **data room** |
-| Los vídeos breves al cerrar cada sesión | **Founder updates** |
-| El vídeo final comercial | El ***pitch*** |
-| Las preguntas del profesorado sobre tu proyecto | ***Due diligence*** |
-| La sesión presencial | El **Demo Day** |
+Por eso los instrumentos no llevan nombre de examen, sino el que reciben fuera del aula.
 
 ### Instrumentos de Evaluación y Calificación
 
-| Instrumento | Descripción | Peso | Nota mínima |
+| Instrumento | Qué entregas | Peso | Nota mínima |
 |:---|:---|:---:|:---:|
-| **Data room** | Repositorio con la memoria publicada, el tablero del proyecto y el _one-pager_. | 40 % | ≥ 5 |
-| **Píldoras** | Cinco vídeos de 90 segundos, uno al cerrar cada sesión. | 20 % | ≥ 5 |
-| **Pitch** | Vídeo final de 2-3 minutos de carácter comercial. | 15 % | — |
-| **Demo Day** | Prueba presencial: _due diligence_ y pregunta como inversor. | 25 % | ≥ 5 |
+| **Data room** | Tu repositorio, con la memoria publicada, el tablero del proyecto y el _one-pager_. | 40 % | ≥ 5 |
+| **Píldoras** <br>_(founder updates)_ | Cinco vídeos breves, de 90 segundos, uno al cerrar cada sesión. | 20 % | ≥ 5 |
+| **Pitch** | El vídeo final de carácter comercial, de 2 a 3 minutos. | 15 % | — |
+| **Demo Day** | La sesión presencial: _due diligence_ del profesorado sobre tu proyecto y una pregunta crítica al de un compañero. | 25 % | ≥ 5 |
 
 > [!IMPORTANT]
 > El **Demo Day es presencial y obligatorio**. Ningún vídeo lo sustituye: los vídeos son
