@@ -117,15 +117,6 @@ Las competencias son, por tanto, **comunes a DAW y DAM**.
 
 :::
 
-> 💡 Estas competencias son la **antesala del Proyecto Intermodular II** de segundo
-> curso. Aquí se aprende a definir y documentar un proyecto; allí se construye.
-
-::: warning Sobre la programación
-El proyecto de este módulo **no incluye desarrollo de código**. Las competencias de
-programación, bases de datos y despliegue se trabajan y evalúan en sus módulos
-correspondientes y, de forma integrada, en el Proyecto Intermodular II.
-:::
-
 ### Resultados de aprendizaje
 
 | Módulo | Resultado de Aprendizaje (RA) | Criterios de Evaluación (CE) | Objetivos Asociados (OG) |
@@ -242,17 +233,6 @@ Cada criterio se acredita con una parte concreta y comprobable de lo que se entr
 * **e**, **f** · Los diagramas de actividades describen los procesos principales de la
   aplicación.
 
-> 💡 Los módulos **0485 Programación** y **0486 Acceso a datos** no figuran en la tabla:
-> todos sus resultados de aprendizaje exigen escribir y depurar código, y este proyecto
-> es documental. Se evalúan en sus propios módulos y en el Proyecto Intermodular II.
-
-:::
-
-::: tip ¿Qué sesión trabaja cada resultado de aprendizaje?
-
-La correspondencia entre sesiones y RAs figura en la propia tabla de
-[Sesiones autónomas](#sesiones-autonomas), en la última columna.
-
 :::
 
 ## Estructura del Temario {.animate-title}
@@ -277,16 +257,6 @@ documentar y comunicar un proyecto propio.
 | **4** | Organización del proyecto con Git y GitHub Projects | Teórico-práctica | 0483 RA7 (c) · PI RA3 |
 | **5** | Diagramas del proyecto | Teórico-práctica | 0487 RA6 · 0484 RA1, RA6 |
 | **6** | Documentación del proyecto con Markdown y VitePress | Teórico-práctica | 0373 RA1, RA2, RA5 · 0483 RA7 |
-
-### La comunicación atraviesa todas las sesiones
-
-El **lenguaje verbal y no verbal** no ocupa una sesión propia: se trabaja de forma
-**transversal**. Cada sesión cierra con un ejercicio de comunicación, y ese ejercicio
-**es el guion de la píldora en vídeo** que se entrega al terminar la sesión.
-
-> 💡 De este modo no hay trabajo duplicado: lo que practicas al cerrar cada sesión es
-> exactamente lo que grabas, y al llegar al **Demo Day** habrás explicado tu proyecto
-> en voz alta cinco veces. Los detalles de entrega están en la sección de Evaluación.
 
 ### Contenidos por Sesión
 
@@ -364,12 +334,12 @@ pedirías** para poder llevarlo a cabo.
 
 ::: details Organización orientativa de Contenidos FASE 2
 
-Sesiones individuales dedicadas a tutorizar el proyecto y la prueba final.
+Sesiones individuales dedicadas a tutorizar el proyecto y preparar la prueba final.
 :::
 
 ## Metodología {.animate-title}
 
-La metodología utilizada en el módulo es _Aprendizaje Basado en Retos_. El módulo publica los contenidos teóricos de los primeros pasos del proceso de creación de un proyecto, y sobre ellos cada alumno construye un proyecto propio: primero lo define, después lo documenta y finalmente lo defiende. El calendario concreto está en [Entregas y Seguimiento del Proyecto](#entregas-y-seguimiento-del-proyecto).
+La metodología utilizada en el módulo es _Aprendizaje Basado en Retos_. El módulo publica los contenidos teóricos de los primeros pasos del proceso de creación de un proyecto, y sobre ellos cada alumno construye un proyecto propio: primero lo define, después lo documenta y finalmente lo defiende. 
 
 ::: tip PI1 + PI2
 
@@ -394,11 +364,6 @@ El alumnado contará únicamente con, previa cita con el profesorado, tutorías 
 :::
 
 ## Entregas y Seguimiento del Proyecto
-
-Esta sección es el **calendario**: qué se entrega y cuándo. Qué se pide exactamente en
-cada pieza y cómo se califica está en [Evaluación](#evaluacion).
-
-### Los dos itinerarios del módulo
 
 La primera pregunta del curso es **¿cursas PI2 este año?**, porque la respuesta cambia
 qué entregas. Los contenidos, los resultados de aprendizaje y la
@@ -426,28 +391,9 @@ rúbrica son idénticos en ambos casos; lo que cambia es de dónde sale la evide
 > PI2**. Y al revés, **PI1 y PI2 se califican por separado**: aprobar uno no aprueba el
 > otro, aunque el trabajo entregado sea el mismo.
 
-::: details PI1 + PI2 — qué parte de tu trabajo da la nota de PI1
-
-Entregas **una sola memoria** y haces **una sola defensa**. De ahí salen las dos notas:
-
-| De tu trabajo de PI2… | …sale tu nota de | Peso en PI1 |
-|:---|:---|:---:|
-| Las secciones de la memoria que PI1 evalúa: definición del problema, requisitos, historias de usuario, diagramas, tablero del proyecto y _one-pager_ | **Data room** | 60 % |
-| La defensa ante el tribunal: cómo justificas esas decisiones, y las preguntas que planteas en la mesa redonda | **Defensa** | 40 % |
-
-El **código, el despliegue y las pruebas no cuentan para PI1**: se corrigen solo en PI2.
-
-**No haces píldoras ni pitch.** Su función —acreditar que sabes explicar y defender tu
-proyecto en voz alta— la cumple la defensa ante tribunal de PI2, que exige una exposición
-oral fluida sin leer notas.
-
-Los pesos son los de la vía «solo PI1» reescalados: 40 y 25 sobre 65 dan 60 y 40.
-
-:::
-
 ### Las dos entregas
 
-::: details 📌 Entrega 1 — noviembre · Descripción del proyecto
+::: details 📌 Entrega Anticipada · Descripción del proyecto
 
 Una **descripción breve de tu proyecto**: qué problema resuelve, para quién, y qué
 entraría en el MVP. Las especificaciones concretas y la fecha están en el aula virtual.
@@ -456,24 +402,29 @@ Sirve para una sola cosa: comprobar que tu proyecto es **viable y adecuado** al 
 antes de que dediques meses a documentarlo. Si no lo es, se te indica qué ajustar y la
 reajustas hasta que sea válido.
 
-> Si cursas **PI1 + PI2**, esta entrega es a la vez la _propuesta de proyecto_ de PI2:
-> una sola descripción, una sola aprobación, válida para los dos módulos. En ese
-> itinerario **sí es obligatoria**, porque PI2 la exige para poder desarrollar el
-> proyecto. Coordínala con el profesorado de PI2.
-
-> [!TIP] No es un requisito para presentarte, es un seguro
-> Entregar en noviembre **no es obligatorio** para presentarte a ninguna de las dos
-> convocatorias, y **no tiene nota propia**: la descripción que escribes aquí acaba
-> siendo el _one-pager_ del data room, y se califica allí.
+> [!TIP] La fecha anticipada no es obligatoria, la aprobación sí
+> La propuesta **se puede entregar hasta la fecha límite de la convocatoria**. Además hay
+> una **fecha de entrega anticipada**, que no es obligatoria y **no tiene nota propia**:
+> la descripción que escribes aquí acaba siendo el _one-pager_ del data room, y se
+> califica allí.
 >
-> Es, eso sí, la única forma de saber **antes** de ponerte a trabajar que tu proyecto
-> sirve. Quien no entregue en noviembre presenta directamente en la entrega final,
-> asumiendo el riesgo de que su proyecto no cumpla los requisitos — y en ese momento ya
-> no queda margen para corregirlo.
+> Lo obligatorio es que **la propuesta esté aprobada**. De ahí salen tres momentos:
+>
+> * **Fecha anticipada** — Si entregas aquí y la propuesta no se aprueba, tienes por
+>   delante el resto del curso para corregirla: hasta la fecha límite de la convocatoria
+>   ordinaria, o incluso hasta la de la segunda.
+> * **Fecha límite de la convocatoria ordinaria** — Sin propuesta aprobada en este
+>   momento, **no puedes presentarte a la convocatoria ordinaria**.
+> * **Fecha límite de la segunda convocatoria** — Sin propuesta aprobada aquí, el módulo
+>   queda **suspendido**.
+>
+> Entregar en la fecha anticipada es la única forma de saber **antes** de ponerte a
+> trabajar que tu proyecto sirve. Quien no lo haga entrega directamente en la fecha
+> límite, asumiendo el riesgo de que su propuesta se rechace y pierda la evaluación correspondiente.
 
 :::
 
-::::: details 📦 Entrega 2 — final de curso · Todo el proyecto
+::::: details 📦 Entrega final de curso · Todo el proyecto
 
 En una única fecha se entrega **todo lo que se califica**:
 
@@ -502,27 +453,6 @@ En una única fecha se entrega **todo lo que se califica**:
 
 :::::
 
-### Dos ritmos de trabajo, la misma evaluación
-
-_Solo aplica a la vía «solo PI1»: en PI1 + PI2 no hay píldoras._
-
-Las píldoras se pueden grabar de dos maneras. **Los instrumentos, los pesos y la rúbrica
-son idénticos en ambos casos**; lo único que cambia es cuándo grabas.
-
-| | Ritmo continuo | Ritmo final |
-|:---|:---|:---|
-| **Cuándo grabas** | Una píldora al cerrar cada sesión | Las cinco con la entrega final |
-| **Qué implica** | Recibes corrección de cada una, repartes el esfuerzo y llegas al Demo Day con cinco ensayos hechos | Grabas las cinco seguidas, sin corrección previa |
-| **Fecha límite** | La entrega final | La entrega final |
-
-Seguir el curso semana a semana es lo recomendable, pero **no es una condición para ser
-evaluado**. Quien no haya podido seguirlo entrega las cinco píldoras al final y se
-presenta a la prueba presencial en igualdad de condiciones.
-
-> Esto también protege a quien **abandone PI2 a mitad de curso**: pasa a la vía «solo
-> PI1» y todavía está a tiempo de entregar las cinco píldoras y el pitch antes de la
-> fecha límite.
-
 ## Evaluación {.animate-title}
 
 La evaluación del módulo será **continua, formativa e integradora**, centrándose en la consecución de los **Resultados de Aprendizaje (RA)** asociados al proyecto.
@@ -533,10 +463,10 @@ La evaluación del módulo será **continua, formativa e integradora**, centrán
 >
 >* **Aprobado de Módulos Previos:** Para poder finalizar el módulo es necesario tener aprobados los módulos cuyos RAs se trabajan en Proyecto Intermodular 1. Aquel alumnado que no vaya a tener en el momento de la prueba final dichos módulos aprobados es aconsejable que anule la matrícula de este módulo (PI1).
 >* **Alumnado de PI1 y PI2 simultáneo:** Realizas **un único proyecto** para los dos módulos, con una sola memoria y una sola defensa. Qué parte de ese trabajo da tu nota de PI1 está en [Los dos itinerarios del módulo](#los-dos-itinerarios-del-modulo). Ponte en contacto con el profesorado de PI2 al inicio del curso para ajustar el calendario, que es el de PI2.
->* **Entregas y Plazos:** La calificación del módulo se obtiene de los **cuatro instrumentos** de la tabla siguiente, y es necesario superar los cuatro. El calendario está en [Entregas y Seguimiento del Proyecto](#entregas-y-seguimiento-del-proyecto); la fecha de la entrega final es **inamovible** y no se admiten entregas fuera de plazo en ningún caso.
+>* **Entregas y Plazos:** La calificación del módulo se obtiene de los **cuatro instrumentos** de la tabla siguiente, y es necesario superar los cuatro. La fecha de la entrega final es **inamovible** y no se admiten entregas fuera de plazo en ningún caso.
  >
  >   **No haber seguido el curso de forma continua, o no haber entregado en noviembre, no impide presentarse a ninguna de las dos convocatorias.** Todo lo que se califica se entrega en la entrega final y se defiende en la prueba presencial.
->* **Comunicación de resultados:** Si el módulo resulta suspendido, se te comunicará esa calificación y el **motivo** por el que no se ha superado. El desglose detallado instrumento a instrumento está a tu disposición si solicitas la revisión de la calificación por el procedimiento establecido.
+>* **Comunicación de resultados:** Si el módulo resulta suspendido, se te comunicará esa calificación y el **motivo** por el que no se ha superado. 
 >* **Fraude:** La detección de fraude o copia en cualquiera de las fases del proyecto implicará una calificación de 0 en el instrumento correspondiente. Ten en cuenta que este concepto de copia o de fraude está también asociado al uso indebido o abusivo de la IA.
 
 ### El proyecto se presenta a inversores
@@ -594,7 +524,6 @@ organiza **como la pediría un inversor**, no como un índice académico:
 * **Solución y alcance**: el MVP, y de forma explícita **qué queda fuera y por qué**.
 * **Qué hará el producto**: historias de usuario con criterios de aceptación.
 * **Cómo funciona**: diagramas de casos de uso, de actividades y entidad/relación.
-* **Stack propuesto** y justificación de la elección.
 * **Plan de ejecución**: el tablero de GitHub Projects, con las historias convertidas en
   tareas y su estado al día.
 * **Datos y cumplimiento**: qué información personal manejaría la aplicación y qué
@@ -633,8 +562,7 @@ solo ensayados. Son cinco y no seis porque el cierre de la sesión 6 es el propi
 No se busca producción audiovisual: se busca que sepas explicar tu proyecto en voz alta
 y en poco tiempo.
 
-**Puedes grabarlas al ritmo del curso o las cinco al final** — ver [los dos
-ritmos](#dos-ritmos-de-trabajo-la-misma-evaluacion). Se califican igual en ambos casos, y
+**Puedes grabarlas al ritmo del curso o las cinco al final**. Se califican igual en ambos casos, y
 la fecha límite para las cinco es la de la entrega final. Repartirlas a lo largo del
 curso es menos esfuerzo que grabarlas de golpe, te da corrección de cada una y te lleva
 al Demo Day con cinco ensayos hechos.
@@ -710,39 +638,18 @@ los criterios propios de cada pieza:
 | **3** | Correcto, completo y justificado. |
 | **4** | Además, coherente con el resto del proyecto y bien comunicado. |
 
-::: warning Grabación de los vídeos y protección de datos
-
-Los vídeos contienen tu imagen y tu voz, y son datos personales.
-
-* Se alojan **exclusivamente en las plataformas institucionales** (Aules y Microsoft
-  Teams). **No se publican en internet** ni se suben a plataformas de terceros.
-* Se conservan únicamente durante el periodo necesario para la evaluación y sus
-  reclamaciones.
-* Si prefieres **no aparecer en imagen**, puedes entregar los vídeos como grabación de
-  pantalla con voz en off. La competencia evaluada es la comunicación, no la presencia
-  ante la cámara.
-
-:::
-
-
 ### Segunda convocatoria
 
 Quien no supere la primera convocatoria, tenga algún módulo pendiente o renuncie a ella,
-dispone de una **segunda convocatoria a finales de junio**.
+dispone de una **segunda convocatoria**.
 
 Los cuatro instrumentos, sus pesos, sus notas mínimas y la rúbrica son **los mismos** que
-en la primera convocatoria. La diferencia está en qué hay que volver a hacer:
-
-> [!IMPORTANT] No se conserva ninguna nota
-> **Se reentrega todo**: el data room, las cinco píldoras y el pitch, y se repite el Demo
-> Day presencial. Los instrumentos superados en la primera convocatoria **no se guardan**.
+en la primera convocatoria. 
 
 Puedes partir del trabajo que ya tenías y mejorarlo — de hecho es lo esperable —, pero la
 calificación se construye entera sobre lo entregado y defendido en junio.
 
-Si cursas **PI1 + PI2**, la segunda convocatoria de ambos módulos es la misma —finales de
-junio— y sigue el mismo principio: se reentrega la memoria y se repite la defensa, y de
-ahí sale de nuevo tu nota de PI1.
+Si cursas **PI1 + PI2**, la segunda convocatoria de ambos módulos es la de PI2 y sigue el mismo principio: se reentrega la memoria y se repite la defensa, y de ahí sale de nuevo tu nota de PI1 y PI2.
 
 ## Recursos y Herramientas {.animate-title}
 
