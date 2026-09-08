@@ -1,6 +1,6 @@
 services:
   vitepress:
-    image: node:20-slim
+    image: node:20-alpine
     working_dir: /app
     volumes:
       - .:/app
