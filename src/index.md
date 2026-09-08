@@ -159,24 +159,66 @@ implicados son idénticos en ambos currículos.
 
 :::
 
-::: details Por qué estos criterios y no otros
+::: details Cómo se justifica cada resultado de aprendizaje
 
-Conviene dejar constancia de las exclusiones, para que el alcance del módulo quede claro:
+Cada RA incluido se evidencia con una parte concreta y comprobable del proyecto.
+Esta es la correspondencia entre lo que el alumnado entrega y lo que acredita:
 
-* **0485 Programación** y **0486 Acceso a datos** no aparecen. Todos sus resultados de
-  aprendizaje exigen escribir y depurar código, y este proyecto es documental. Se
-  evalúan en sus propios módulos y en el Proyecto Intermodular II.
-* **0373 RA1 (i)**, **RA2 (i, j)** y **RA5 (d, e)** quedan fuera: corresponden a espacios
-  de nombres, sindicación de contenidos y transformaciones XSLT, que este proyecto no
-  utiliza.
-* **0484 RA6 (g, h)** quedan fuera: la normalización formal excede las horas disponibles.
-  Se pide un modelo entidad/relación correcto, no normalizado hasta forma normal.
-* **0487 RA4** se acota a los criterios **f** (control de versiones), **h** (repositorios
-  remotos para trabajo colaborativo) e **i** (integración continua). El enunciado del RA
-  habla de optimización de código; aquí se evidencia únicamente su vertiente de
-  herramientas de trabajo colaborativo, que es la que el proyecto ejercita.
-* **0487 RA5** (diagramas de clases) no se incluye porque requiere conceptos de
-  programación orientada a objetos que el alumnado aún no ha adquirido en primero.
+#### 0483 · Sistemas informáticos
+
+* **RA7 — Elabora documentación (a, b, c, f, g).** Es el encaje más directo de todo el
+  módulo: el criterio **c** pide expresamente documentar *"mediante el uso de
+  herramientas ofimáticas y de trabajo colaborativo"*, que es exactamente lo que
+  ocurre cuando la memoria se redacta y se versiona en un repositorio compartido. El
+  criterio **a** se acredita al elegir y declarar la licencia del propio proyecto, y
+  el **f** al buscar y citar documentación técnica durante el análisis.
+* **RA2 — Instala sistemas operativos (c, i).** Solo dos criterios: **c**, al comparar
+  alternativas atendiendo a requisitos, campos de aplicación y **licencias**, e **i**,
+  *"se han documentado los procesos realizados"*, que es transversal a toda la memoria.
+
+#### 0373 · Lenguajes de marcas
+
+* **RA1 — Reconoce las características de los lenguajes de marcas (a, b, c, d, f, g, h).**
+  Markdown **es** un lenguaje de marcas. Al escribir la memoria con él y compararlo con
+  HTML, el alumnado clasifica lenguajes, distingue ámbitos de aplicación y reconoce la
+  necesidad de que un documento esté bien formado para poder procesarse.
+* **RA2 — Utiliza lenguajes de marcas para la web (a, b, c, e, f, g, h).** El sitio
+  publicado es HTML: se analiza su estructura, se personaliza su presentación aplicando
+  **hojas de estilo** y se valida el resultado.
+* **RA5 — Realiza conversiones sobre documentos (a, b, c, f, g).** Es el más elegante
+  del conjunto: **pasar de Markdown a HTML es una conversión de documentos**, y el
+  proceso de construcción del sitio es la herramienta que la realiza. El criterio **g**
+  se acredita cada vez que el alumnado publica su memoria.
+
+#### 0484 · Bases de datos
+
+* **RA1 — Reconoce los elementos de las bases de datos (b, d, i).** Sin crear ninguna
+  base de datos: basta con razonar en la memoria qué tipo de almacenamiento necesita el
+  proyecto y qué gestor sería adecuado. El criterio **i** se cubre con un apartado sobre
+  **protección de datos**, analizando qué información personal manejaría la aplicación.
+* **RA6 — Diseña modelos relacionales desde diagramas E/R (a, b, c, d, e).** El modelo
+  entidad/relación del proyecto: entidades, atributos, relaciones y claves. Se exige un
+  modelo correcto y justificado, no una normalización formal.
+
+#### 0487 · Entornos de desarrollo
+
+* **RA1 — Reconoce elementos y herramientas del desarrollo (b, f, g).** El criterio
+  **g** —*"escenarios de uso de las metodologías ágiles"*— es el que sostiene la sesión
+  de Scrum y su aplicación al proyecto. El **b** se acredita al describir las fases por
+  las que pasa el proyecto.
+* **RA4 — Optimiza código empleando las herramientas del entorno (f, h, i).** Se acota
+  a su vertiente de herramientas: **f** control de versiones, **h** repositorios remotos
+  para trabajo colaborativo e **i** integración continua, que es lo que sucede cuando
+  cada cambio publicado regenera el sitio automáticamente. El enunciado del RA habla de
+  optimización de código; aquí se evidencian únicamente esos tres criterios
+  instrumentales, que el proyecto sí ejercita de forma real y comprobable.
+* **RA6 — Genera diagramas de comportamiento (a, b, c, d, e, f).** Diagramas de casos de
+  uso, que traducen las historias de usuario, y diagramas de actividades, que describen
+  los procesos principales de la aplicación.
+
+> 💡 Los módulos **0485 Programación** y **0486 Acceso a datos** no figuran en la tabla:
+> todos sus resultados de aprendizaje exigen escribir y depurar código, y este proyecto
+> es documental. Se evalúan en sus propios módulos y en el Proyecto Intermodular II.
 
 :::
 
