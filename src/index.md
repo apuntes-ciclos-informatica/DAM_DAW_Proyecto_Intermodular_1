@@ -147,15 +147,13 @@ implicados son idénticos en ambos currículos.
 | Módulo | Resultado de Aprendizaje (RA) | Criterios de Evaluación (CE) | OG |
 | :--- | :--- | :--- | :--- |
 | **0483 - Sistemas informáticos** | **RA7:** Elabora documentación valorando y utilizando aplicaciones informáticas de propósito general. | a, b, c, f, g | OG3 |
-| | **RA2:** Instala sistemas operativos planificando el proceso e interpretando documentación técnica. | c, i | OG3 |
 | **0373 - Lenguajes de marcas y sistemas de gestión de información** | **RA1:** Reconoce las características de lenguajes de marcas analizando e interpretando fragmentos de código. | a, b, c, d, f, g, h | OG3 |
 | | **RA2:** Utiliza lenguajes de marcas para la transmisión y presentación de información a través de la web analizando la estructura de los documentos e identificando sus elementos. | a, b, c, e, f, g, h | OG3 |
 | | **RA5:** Realiza conversiones sobre documentos para el intercambio de información utilizando técnicas, lenguajes y herramientas de procesamiento. | a, b, c, f, g | OG3 |
 | **0484 - Bases de datos** | **RA1:** Reconoce los elementos de las bases de datos analizando sus funciones y valorando la utilidad de los sistemas gestores. | b, d, i | OG2 |
 | | **RA6:** Diseña modelos relacionales normalizados interpretando diagramas entidad/relación. | a, b, c, d, e | OG2 |
 | **0487 - Entornos de desarrollo** | **RA1:** Reconoce los elementos y herramientas que intervienen en el desarrollo de un programa informático, analizando sus características y las fases en las que actúan hasta llegar a su puesta en funcionamiento. | b, f, g | OG1, OG4 |
-| | **RA4:** Optimiza código empleando las herramientas disponibles en el entorno de desarrollo. | f, h, i | OG4 |
-| | **RA6:** Genera diagramas de comportamiento valorando su importancia en el desarrollo de aplicaciones y empleando herramientas específicas. | a, b, c, d, e, f | OG2 |
+| | **RA6:** Genera diagramas de comportamiento valorando su importancia en el desarrollo de aplicaciones y empleando herramientas específicas. | a, b, e, f | OG2 |
 
 :::
 
@@ -169,12 +167,12 @@ Esta es la correspondencia entre lo que el alumnado entrega y lo que acredita:
 * **RA7 — Elabora documentación (a, b, c, f, g).** Es el encaje más directo de todo el
   módulo: el criterio **c** pide expresamente documentar *"mediante el uso de
   herramientas ofimáticas y de trabajo colaborativo"*, que es exactamente lo que
-  ocurre cuando la memoria se redacta y se versiona en un repositorio compartido. El
-  criterio **a** se acredita al elegir y declarar la licencia del propio proyecto, y
-  el **f** al buscar y citar documentación técnica durante el análisis.
-* **RA2 — Instala sistemas operativos (c, i).** Solo dos criterios: **c**, al comparar
-  alternativas atendiendo a requisitos, campos de aplicación y **licencias**, e **i**,
-  *"se han documentado los procesos realizados"*, que es transversal a toda la memoria.
+  ocurre cuando la memoria se redacta y se versiona en un repositorio compartido —Git y
+  el repositorio remoto son, en este proyecto, la herramienta de trabajo colaborativo—.
+  El criterio **a** —*"clasificar software en función de su licencia y propósito"*— se
+  acredita al justificar el stack: qué herramientas se eligen, con qué licencia y para
+  qué. El **b** al analizar las necesidades de software del entorno al que se dirige el
+  proyecto, y el **f** al buscar y citar documentación técnica durante el análisis.
 
 #### 0373 · Lenguajes de marcas
 
@@ -206,19 +204,31 @@ Esta es la correspondencia entre lo que el alumnado entrega y lo que acredita:
   **g** —*"escenarios de uso de las metodologías ágiles"*— es el que sostiene la sesión
   de Scrum y su aplicación al proyecto. El **b** se acredita al describir las fases por
   las que pasa el proyecto.
-* **RA4 — Optimiza código empleando las herramientas del entorno (f, h, i).** Se acota
-  a su vertiente de herramientas: **f** control de versiones, **h** repositorios remotos
-  para trabajo colaborativo e **i** integración continua, que es lo que sucede cuando
-  cada cambio publicado regenera el sitio automáticamente. El enunciado del RA habla de
-  optimización de código; aquí se evidencian únicamente esos tres criterios
-  instrumentales, que el proyecto sí ejercita de forma real y comprobable.
-* **RA6 — Genera diagramas de comportamiento (a, b, c, d, e, f).** Diagramas de casos de
-  uso, que traducen las historias de usuario, y diagramas de actividades, que describen
-  los procesos principales de la aplicación.
+* **RA6 — Genera diagramas de comportamiento (a, b, e, f).** Diagramas de casos de uso,
+  que traducen las historias de usuario (**a**, **b**), y diagramas de actividades, que
+  describen los procesos principales de la aplicación (**e**, **f**). Los criterios **c**
+  y **d** quedan fuera: se refieren a **diagramas de interacción**, que este proyecto no
+  elabora.
 
 > 💡 Los módulos **0485 Programación** y **0486 Acceso a datos** no figuran en la tabla:
 > todos sus resultados de aprendizaje exigen escribir y depurar código, y este proyecto
 > es documental. Se evalúan en sus propios módulos y en el Proyecto Intermodular II.
+
+> [!WARNING] Resultados de aprendizaje descartados a propósito
+> Dos RA que a primera vista podrían encajar **se han dejado fuera**, porque su enunciado
+> exige algo que este proyecto no hace:
+>
+> * **0483 RA2 — Instala sistemas operativos.** Su criterio **c** habla de comparar
+>   *sistemas operativos*, no tecnologías en general, y el resto de sus criterios son
+>   instalaciones reales. Aquí no se instala ningún sistema operativo.
+> * **0487 RA4 — Optimiza código.** Sus criterios se refieren al *código*: control de
+>   versiones integrado en el entorno de desarrollo, repositorios para desarrollo
+>   colaborativo de código e integración continua del código. En este módulo no hay
+>   código, y el uso de Git y del repositorio remoto ya queda acreditado, de forma
+>   honesta, en el criterio **c** de 0483 RA7 como herramienta de trabajo colaborativo
+>   para la documentación.
+>
+> Preferimos una tabla más corta y defendible que una más larga y discutible.
 
 :::
 
@@ -248,9 +258,9 @@ documentar y comunicar un proyecto propio.
 | **1** | Fundamentos de la gestión de proyectos | Teórica | 0487 RA1 (b, f) |
 | **2** | Metodologías Ágiles. Scrum | Teórica | 0487 RA1 (g) |
 | **3** | Análisis de requisitos e historias de usuario | Teórica | 0487 RA6 (b) · PI RA1, RA2 |
-| **4** | Organización del proyecto con Git y GitHub Projects | Teórico-práctica | 0487 RA4 (f, h, i) · 0483 RA7 (c) |
+| **4** | Organización del proyecto con Git y GitHub Projects | Teórico-práctica | 0483 RA7 (c) · PI RA3 |
 | **5** | Diagramas del proyecto | Teórico-práctica | 0487 RA6 · 0484 RA1, RA6 |
-| **6** | Documentación del proyecto con Markdown y VitePress | Teórico-práctica | 0373 RA1, RA2, RA5 · 0483 RA7, RA2 (i) |
+| **6** | Documentación del proyecto con Markdown y VitePress | Teórico-práctica | 0373 RA1, RA2, RA5 · 0483 RA7 |
 
 ### La comunicación atraviesa todas las sesiones
 
@@ -388,9 +398,10 @@ rúbrica son idénticos en ambos casos; lo que cambia es de dónde sale la evide
 > 0 a 10, calculada con los instrumentos y los pesos de tu itinerario. Los dos caminos
 > llevan al mismo sitio; lo único que cambia es de dónde sale la evidencia.
 >
-> **Después**, esa nota —venga del itinerario que venga— entra en PI2 como un instrumento
-> más, con un peso del **10 % y nota mínima de 5**. Da igual si cursaste PI1 sola el año
-> anterior o a la vez que PI2: se usa exactamente igual.
+> **Después**, esa nota —venga del itinerario que venga— entra en PI2 como **un
+> instrumento más de su calificación, con su propio peso y nota mínima**, los que fije la
+> guía de PI2. Da igual si cursaste PI1 sola el año anterior o a la vez que PI2: se usa
+> exactamente igual.
 >
 > De ahí se sigue una consecuencia importante: **sin aprobar PI1 no se puede aprobar
 > PI2**. Y al revés, **PI1 y PI2 se califican por separado**: aprobar uno no aprueba el
