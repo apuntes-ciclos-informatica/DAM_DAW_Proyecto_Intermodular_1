@@ -51,10 +51,6 @@ _Ofrecer la base funcional de TaskFlow Web que permita a los usuarios registrars
 
 _Desarrollar la primera versión funcional de la app móvil que permita a los usuarios autenticarse y visualizar sus proyectos, conectándose a la API de TaskFlow Web._
 
-== ASIR (Infraestructura)
-
-_Establecer la infraestructura básica de monitorización que asegure la disponibilidad de la API y los servicios principales de TaskFlow, proporcionando visibilidad en un dashboard sencillo._
-
 :::
 
 - **Seleccionar ítems del Product Backlog**. El _Product Owner_ propone los elementos de mayor prioridad, y el equipo de desarrollo decide cuántos puede comprometerse a completar.  

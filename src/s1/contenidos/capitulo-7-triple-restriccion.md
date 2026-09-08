@@ -59,7 +59,7 @@ Cuando el equipo se enfrenta a presión (y siempre la habrá), la Triple Restric
 * **Tiempo y Costo**: Se fijó un plazo de 4 semanas y un costo mínimo utilizando herramientas de código abierto y planes de hosting gratuitos.
 * **Calidad**: No se negoció. El código de la API REST se escribió con tests de integración para asegurar que el equipo DAM tuviera una base estable sobre la que construir.
 
-> 💡 **Lección Clave**: La calidad de la API no era solo para TaskFlow Web, sino **para todo el ecosistema**. Una API mal diseñada habría condenado al fracaso tanto a DAM como a ASIR.
+> 💡 **Lección Clave**: La calidad de la API no era solo para TaskFlow Web, sino **para todo el ecosistema**. Una API mal diseñada habría condenado al fracaso también a DAM.
 
 == DAM
 
@@ -70,15 +70,6 @@ Cuando el equipo se enfrenta a presión (y siempre la habrá), la Triple Restric
 
 > 💡 **Interdependencia Crítica**: El equipo DAM sacrificó alcance propio para asegurar que su dependencia con la API de TaskFlow Web funcionara perfectamente.
 
-== ASIR
-
-**Caso ASIR (TaskFlow Infrastructure):**
-* **Alcance**: Mínimo. Solo se monitorizaron 3 métricas clave (uptime de web/API y uso de CPU) para los servidores de TaskFlow, con una única alerta por email configurada.
-* **Tiempo y Costo**: Se fijó un plazo de 2 semanas para que el sistema de monitorización estuviera operativo antes del lanzamiento de TaskFlow, usando herramientas Open Source (Prometheus/Grafana) para mantener el costo casi a cero.
-* **Calidad**: No negociable. El sistema de monitorización debía ser más fiable que la propia infraestructura de TaskFlow. Su robustez era la máxima prioridad para proteger todo el ecosistema.
-
-> 💡 **Responsabilidad Transversal**: ASIR sacrificó funcionalidades avanzadas de monitorización para garantizar que las pocas métricas implementadas fueran **absolutamente confiables** para DAW y DAM.
-
 ::::
 
 ## La Triple Restricción Como Estrategia de Ecosistema
@@ -88,7 +79,6 @@ Cuando el equipo se enfrenta a presión (y siempre la habrá), la Triple Restric
 ### Decisiones Interconectadas:
 - **DAW** sacrificó alcance (comentarios, fechas) pero **no negoció** la calidad de la API → **DAM** pudo confiar en una base sólida
 - **DAM** sacrificó alcance (modo offline, creación de proyectos) pero **no negoció** la sincronización → **Usuarios** tuvieron experiencia coherente entre web y móvil  
-- **ASIR** sacrificó alcance (métricas avanzadas) pero **no negoció** la confiabilidad → **Todo el ecosistema** tuvo una base estable
 
 ### Resultado del Ecosistema:
 **Los usuarios finales recibieron un producto cohesivo y profesional**, aunque limitado, porque cada equipo aplicó la Triple Restricción pensando no solo en su componente, sino en **cómo afectaba al conjunto**.

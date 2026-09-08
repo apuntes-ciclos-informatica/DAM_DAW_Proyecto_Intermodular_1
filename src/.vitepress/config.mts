@@ -11,7 +11,7 @@ import { PROJECT } from './config/project'
 import { COLORS }  from './config/colors'
 import { LOGOS, getDarkLogoPath } from './config/logos'
 import { UNITS, getAllUnitsArray, unitNavbars } from './config/units'
-import { getNavbarForUnit, getSidebarForUnit } from './unitHelpers'
+import { getSidebarForUnit } from './unitHelpers'
 
 
 // ── Helper: alineación del contenido en contenedores ───────────────────────
@@ -205,15 +205,11 @@ const logoBranding = {
 // ── Navbar global ─────────────────────────────────────────────────────────────
 // Curso de una sola unidad: usa el navbar de esa unidad tal cual (con prefijos).
 // Curso multi-unidad: Home + cada unidad como dropdown con sus ítems de nav.
-const navbar = nonRootUnits.length === 1
-  ? getNavbarForUnit(nonRootUnits[0].navbar, nonRootUnits[0].code)
-  : [
-      { text: '🏠 Inicio', link: '/' },
-      ...nonRootUnits.map(u => ({
-        text: `${u.icon} ${u.title}`,
-        items: getNavbarForUnit(u.navbar, u.code).filter((item: any) => item.link !== '/'),
-      }))
-    ]
+// La raíz aporta el navbar base. Cada sesión añade su propio desplegable
+// dinámico (definido en config/units.ts → unitNavbars), que el tema resuelve
+// en cliente según la URL activa: dentro de la sesión N se listan la N y las
+// anteriores.
+const navbar = UNITS.root.navbar
 
 // ── Sidebar multi-prefijo ─────────────────────────────────────────────────────
 // VitePress sirve el sidebar de cada unidad según el prefijo de URL:
@@ -298,7 +294,11 @@ export default defineConfig({
       // para evitar ruido en CI sin alterar el resultado de compilación.
       chunkSizeWarningLimit: 2000,
       rollupOptions: {
-        external: ['html2canvas', 'canvg', 'dompurify'],
+        // OJO: 'dompurify' NO puede ir aquí. Mermaid lo importa en tiempo de
+        // ejecución; si se externaliza, el chunk queda con un `import "dompurify"`
+        // que el navegador no sabe resolver, falla el import() dinámico de Mermaid
+        // y los diagramas se quedan como bloques de código.
+        external: ['html2canvas', 'canvg'],
       },
     },
   },

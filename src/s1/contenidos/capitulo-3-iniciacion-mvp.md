@@ -112,12 +112,11 @@ Es un resumen ejecutivo que complementa al Lean Canvas. Piensa en el Lean Canvas
 
 ## Aplicación Práctica: El Ecosistema TaskFlow
 
-Imaginad que estamos construyendo no tres proyectos aislados, sino **un ecosistema tecnológico completo**. El proyecto principal es **TaskFlow**, una plataforma de gestión de proyectos que necesita crecer desde una aplicación web hasta una solución multiplataforma robusta y escalable.
+Imaginad que estamos construyendo no dos proyectos aislados, sino **un ecosistema tecnológico completo**. El proyecto principal es **TaskFlow**, una plataforma de gestión de proyectos que necesita crecer desde una aplicación web hasta una solución multiplataforma robusta y escalable.
 
 **La Historia Completa:**
 - **DAW** construye el MVP de la aplicación web TaskFlow
 - **DAM** desarrolla la aplicación móvil que consumirá la misma API de TaskFlow  
-- **ASIR** implementa la infraestructura de monitorización que garantiza que todo el ecosistema funcione de manera fiable
 
 Veamos cómo cada equipo aborda la fase de iniciación del mismo gran proyecto desde su especialidad:
 
@@ -330,121 +329,18 @@ Veamos cómo cada equipo aborda la fase de iniciación del mismo gran proyecto d
     </tbody>
 </table>
 
-== ASIR
-
-### Caso ASIR: "TaskFlow Infrastructure" (Monitorización - La Base del Ecosistema)
-
-**Documento de Visión del MVP de "TaskFlow Infrastructure"**:
-- **Problema**: El éxito de TaskFlow Web y Mobile depende de una infraestructura fiable. Las caídas afectan a todos los equipos y usuarios.
-- **Solución Mínima Viable**:
-    * **Lo que SÍ construiremos (el MVP)**:
-        * **Monitorización de Uptime**: Check cada 5 minutos verificando que web y API respondan (código 200 OK).
-        * **Monitorización de CPU y RAM**: Supervisión básica del uso de recursos del servidor principal.
-        * **Dashboard Simple**: Una única pantalla en Grafana mostrando uptime, CPU y RAM.
-        * **Alerta por Email**: Correo automático al equipo técnico si web o API caen por >10 minutos.
-        * **Métricas de API**: Tiempo de respuesta promedio de los endpoints críticos para DAM.
-    * **Lo que NO construiremos (fuera del MVP)**:
-        * Monitorización avanzada de base de datos.
-        * Alertas por Slack o Telegram.
-        * Sistema de logs centralizado.
-        * Predicción de fallos con IA.
-        * Métricas de usuario (analytics).
-- **Objetivos de Aprendizaje**: Validar qué métricas son más críticas para la estabilidad de TaskFlow, si las alertas son accionables, y si el equipo puede responder eficazmente a incidentes.
-- **Autoridad**: DevOps Lead del equipo ASIR con coordinación estrecha con DAW y DAM para SLAs.
-
-**Lean Canvas Completo de TaskFlow Infrastructure:**
-
-<table style="width: 100%; border: 2px solid #dc2626; border-collapse: collapse; font-family: sans-serif; background-color: #fef2f2;">
-    <tbody>
-        <tr style="vertical-align: top;">
-            <td style="width: 20%; border: 1px solid #dc2626; padding: 12px; text-align: left" rowspan="2">
-                <strong style="color: #dc2626;">PROBLEMA</strong><br><br>
-                <strong>3 Problemas TOP:</strong><br>
-                1. TaskFlow Web y Mobile no pueden permitirse caídas de servicio<br>
-                2. Equipos DAW y DAM necesitan visibilidad del rendimiento en tiempo real<br>
-                3. Problemas de infraestructura afectan a toda la experiencia del usuario final<br><br>
-                <em style="color: #666;">Alternativas actuales:</em><br>
-                • Monitorización manual intermitente<br>
-                • Alertas básicas del hosting<br>
-                • Logs dispersos sin centralizar
-            </td>
-            <td style="width: 20%; border: 1px solid #dc2626; padding: 12px; text-align: left">
-                <strong style="color: #dc2626;">SOLUCIÓN</strong><br><br>
-                <strong>3 Características principales:</strong><br>
-                1. Monitorización 24/7 del ecosistema TaskFlow completo<br>
-                2. Dashboard unificado para equipos técnicos<br>
-                3. Alertas proactivas antes de que afecten a usuarios
-            </td>
-            <td style="width: 20%; border: 1px solid #dc2626; padding: 12px; text-align: left" rowspan="2">
-                <strong style="color: #dc2626;">PROPOSICIÓN DE VALOR ÚNICA</strong><br><br>
-                <em>"La tranquilidad del ecosistema TaskFlow. Detectamos problemas antes de que los usuarios los sufran"</em>
-            </td>
-            <td style="width: 20%; border: 1px solid #dc2626; padding: 12px; text-align: left">
-                <strong style="color: #dc2626;">VENTAJA ESPECIAL</strong><br><br>
-                <strong>Difícil de copiar:</strong><br>
-                • Conocimiento especializado del stack TaskFlow<br>
-                • Métricas custom para ecosistema académico<br>
-                • Integración nativa con desarrollo ágil
-            </td>
-            <td style="width: 20%; border: 1px solid #dc2626; padding: 12px; text-align: left" rowspan="2">
-                <strong style="color: #dc2626;">SEGMENTO DE CLIENTES</strong><br><br>
-                <strong>Early Adopters:</strong><br>
-                Equipo técnico interno de TaskFlow (DAW + DAM)<br><br>
-                <strong>Perfil:</strong><br>
-                • Desarrolladores y DevOps<br>
-                • Responsables de la experiencia de usuario<br>
-                • Necesitan datos para optimizar rendimiento
-            </td>
-        </tr>
-        <tr style="vertical-align: top;">
-            <td style="border: 1px solid #dc2626; padding: 12px; text-align: left">
-                <strong style="color: #dc2626;">MÉTRICAS CLAVE</strong><br><br>
-                <strong>Indicadores clave:</strong><br>
-                • MTTD (Mean Time To Detect) < 5 min<br>
-                • Uptime del ecosistema TaskFlow > 99.9%<br>
-                • % de incidentes detectados proactivamente<br>
-                • Tiempo de respuesta de alertas<br>
-                • Satisfacción de equipos DAW/DAM
-            </td>
-            <td style="border: 1px solid #dc2626; padding: 12px; text-align: left">
-                <strong style="color: #dc2626;">CANALES</strong><br><br>
-                <strong>Cómo llegar al cliente:</strong><br>
-                • Servicio interno para equipos DAW/DAM<br>
-                • Demos para otros equipos de desarrollo<br>
-                • Conferencias de DevOps y SRE<br>
-                • Documentación técnica y casos de uso
-            </td>
-        </tr>
-        <tr style="vertical-align: top;">
-            <td style="border: 1px solid #dc2626; padding: 12px; text-align: left" colspan="2">
-                <strong style="color: #dc2626;">ESTRUCTURA DE COSTES</strong><br><br>
-                <strong>Principales gastos:</strong><br>
-                • Servidores de monitorización • Licencias de Prometheus, Grafana • Tiempo de desarrollo y mantenimiento<br>
-                • Formación en nuevas herramientas • Almacenamiento de métricas históricas
-            </td>
-            <td style="border: 1px solid #dc2626; padding: 12px; text-align: left" colspan="3">
-                <strong style="color: #dc2626;">FLUJO DE INGRESOS</strong><br><br>
-                <strong>Cómo ganar dinero:</strong><br>
-                • Centro de coste interno (no monetización directa) • Potencial consultoría externa en infraestructura educativa<br>
-                • Licensing de plantillas de monitorización • Formación en DevOps para centros educativos
-            </td>
-        </tr>
-    </tbody>
-</table>
-
 ::::
 
 
 ## Interdependencias del Ecosistema TaskFlow
 
-> 💡 **Conexión Clave**: Observad cómo cada equipo no trabaja en aislamiento. DAM depende de la API que construye DAW. ASIR protege la infraestructura que soporta a ambos. **Esta es la realidad del desarrollo moderno: equipos interdependientes construyendo un ecosistema, no productos aislados.**
+> 💡 **Conexión Clave**: Observad cómo cada equipo no trabaja en aislamiento. DAM depende de la API que construye DAW. **Esta es la realidad del desarrollo moderno: equipos interdependientes construyendo un ecosistema, no productos aislados.**
 
 ### Conexiones Clave entre los Lean Canvas:
 
 1. **🔗 DAM depende de DAW**: El flujo de ingresos de DAM está ligado al plan Pro de TaskFlow Web
-2. **🔧 ASIR sirve a ambos**: Su segmento de clientes son los equipos DAW y DAM  
-3. **🎯 Propuestas de valor complementarias**: Web (base sólida) + Mobile (movilidad) + Infrastructure (confiabilidad)
-4. **📊 Métricas coordinadas**: El uptime de ASIR afecta directamente las métricas de DAW y DAM
+2. **🎯 Propuestas de valor complementarias**: Web (base sólida) + Mobile (movilidad)
+3. **📊 Métricas coordinadas**: La estabilidad de la API de DAW afecta directamente a las métricas de DAM
 
 ### Ejemplo Práctico de Interdependencia:
 
@@ -452,14 +348,13 @@ Veamos cómo cada equipo aborda la fase de iniciación del mismo gran proyecto d
 
 - **DAM necesita**: Un endpoint de la API que notifique cambios en tiempo real
 - **DAW debe proveer**: WebSocket o webhook en su API para eventos de tareas  
-- **ASIR debe monitorizar**: La latencia y estabilidad de estas nuevas conexiones en tiempo real
 
-**Resultado**: Una funcionalidad aparentemente "solo de móvil" requiere coordinación de los tres equipos.
+**Resultado**: Una funcionalidad aparentemente "solo de móvil" requiere coordinación de ambos equipos.
 
 ### Ventaja Competitiva del Ecosistema:
-La suma de los tres Lean Canvas crea una **proposición de valor ecosistémica** imposible de replicar por competidores que solo ofrecen una pieza del puzzle.
+La suma de ambos Lean Canvas crea una **proposición de valor ecosistémica** imposible de replicar por competidores que solo ofrecen una pieza del puzzle.
 
-> 💡 **Insight Clave**: Estos Lean Canvas demuestran que el ecosistema TaskFlow no son tres productos separados, sino **tres capas de una solución integral** que se potencian mutuamente.
+> 💡 **Insight Clave**: Estos Lean Canvas demuestran que el ecosistema TaskFlow no son dos productos separados, sino **dos capas de una solución integral** que se potencian mutuamente.
 
 ## Ejemplos de posibles tableros Lean de aplicaciones reales
 

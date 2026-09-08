@@ -52,7 +52,7 @@ En lugar de un Diagrama de Gantt a largo plazo, el trabajo se divide en **Sprint
 
 ## Aplicación Práctica: Priorizando el Ecosistema TaskFlow
 
-Veamos cómo nuestros tres equipos utilizan MoSCoW para definir el alcance exacto de sus MVPs **coordinándose como un ecosistema unificado**. La interdependencia entre equipos afecta directamente a sus prioridades.
+Veamos cómo nuestros dos equipos utilizan MoSCoW para definir el alcance exacto de sus MVPs **coordinándose como un ecosistema unificado**. La interdependencia entre equipos afecta directamente a sus prioridades.
 
 :::: tabs 
 == DAW
@@ -110,38 +110,13 @@ El equipo de TaskFlow Mobile depende completamente de la API que construye DAW, 
 
 > 💡 **Dependencia Crítica**: El equipo DAM **no puede avanzar** hasta que DAW tenga la API funcionando. Su planificación debe coordinarse estrechamente.
  
-== ASIR
-
-### Caso ASIR: "TaskFlow Infrastructure" (La Base del Ecosistema)
-
-El equipo de ASIR debe garantizar que tanto la web como la móvil funcionen sin problemas, priorizando según el impacto en todo el ecosistema.
-
-*   **(M) Must Have (El MVP)**:
-    *   Monitorizar el servidor web de TaskFlow (donde corre la interfaz).
-    *   Monitorizar el servidor de la API REST (crítico para DAW y DAM).
-    *   Monitorizar la base de datos de TaskFlow (punto único de fallo).
-    *   Dashboard en Grafana mostrando estado de todo el ecosistema TaskFlow.
-    *   Alerta crítica por email al equipo técnico si cualquier componente falla.
-*   **(S) Should Have (Si hay tiempo)**:
-    *   Alertas por Slack del equipo técnico.
-    *   Monitorizar latencia de respuesta de la API (importante para móvil).
-    *   Métricas de uso: número de usuarios concurrentes, requests por minuto.
-*   **(C) Could Have (Futuras versiones)**:
-    *   Logs centralizados de errores de toda la plataforma.
-    *   Alertas predictivas basadas en tendencias.
-*   **(W) Won't Have (Fuera de alcance)**:
-    *   Monitorización de experiencia de usuario final.
-    *   Auto-escalado automático de servidores.
-
-> 💡 **Responsabilidad Transversal**: El equipo ASIR es el **garante de la estabilidad** de todo el ecosistema. Si fallan, fallan todos los demás equipos.
-
 ::::
 
 ## Coordinación Entre Equipos
 
-**Reuniones de Sincronización**: Los tres equipos se reúnen semanalmente para:
+**Reuniones de Sincronización**: Ambos equipos se reúnen semanalmente para:
 - **DAW** informa el progreso de la API → **DAM** adapta su planning
-- **ASIR** reporta métricas de rendimiento → **DAW/DAM** optimizan según datos reales
-- **Todos** identifican bloqueos mutuos y los resuelven en conjunto
+- **DAM** reporta el uso real de los endpoints → **DAW** optimiza según datos reales
+- **Ambos** identifican bloqueos mutuos y los resuelven en conjunto
 
 **Esta coordinación es la clave del éxito en proyectos intermodulares reales.**

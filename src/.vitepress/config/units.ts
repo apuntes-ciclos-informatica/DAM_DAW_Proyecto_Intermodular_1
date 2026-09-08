@@ -42,11 +42,6 @@ const s1Items: DefaultTheme.SidebarItem[] = [
   { text: '8. Roles', link: '/contenidos/capitulo-8-roles' },
 ]
 
-const s1Navbar: DefaultTheme.NavItem[] = [
-  { text: '🏠 Inicio', link: '/' },
-  ...s1Items as DefaultTheme.NavItem[],
-]
-
 const s1Sidebar: DefaultTheme.SidebarItem[] = [
   {
     text: 'Gestión de proyectos',
@@ -65,11 +60,6 @@ const s2Items: DefaultTheme.SidebarItem[] = [
   { text: '5. Scrum (II)', link: '/contenidos/capitulo-5-scrum-2' },
   { text: '6. Scrum (III)', link: '/contenidos/capitulo-6-scrum-3' },
   { text: '7. Ejemplo práctico', link: '/contenidos/capitulo-7-ejemplo-scrum' },
-]
-
-const s2Navbar: DefaultTheme.NavItem[] = [
-  { text: '🏠 Inicio', link: '/' },
-  ...s2Items as DefaultTheme.NavItem[],
 ]
 
 const s2Sidebar: DefaultTheme.SidebarItem[] = [
@@ -91,7 +81,9 @@ const s2Sidebar: DefaultTheme.SidebarItem[] = [
 //   fullTitle — Nombre completo (pestaña del navegador)
 //   siteTitle — Nombre en el sidebar (puede usar </br> para saltos de línea)
 //   icon      — Emoji decorativo
-//   navbar    — Ítems del menú superior de esta unidad
+//   navbar    — Barra superior. El navbar global lo aporta `root`; en las
+//               sesiones basta con el enlace a la guía. El desplegable de
+//               sesiones se define abajo, en unitNavbars.
 //   sidebar   — Ítems del panel lateral de esta unidad
 
 export interface UnitConfig {
@@ -127,7 +119,7 @@ export const UNITS: Record<string, UnitConfig> = {
     fullTitle: 'Sesión 1 · Fundamentos del Project Management',
     siteTitle: 'Proyecto </br>intermodular I',
     icon: '📋',
-    navbar: s1Navbar,
+    navbar: [{ text: '🏠 Guía Didáctica', link: '/' }],
     sidebar: s1Sidebar
   },
 
@@ -138,7 +130,7 @@ export const UNITS: Record<string, UnitConfig> = {
     fullTitle: 'Sesión 2 · Metodologías Ágiles. Scrum',
     siteTitle: 'Proyecto </br>intermodular I',
     icon: '🏃',
-    navbar: s2Navbar,
+    navbar: [{ text: '🏠 Guía Didáctica', link: '/' }],
     sidebar: s2Sidebar
   },
 
@@ -156,7 +148,17 @@ export function getUnitByCode(code: string): UnitConfig | undefined {
   return UNITS[code]
 }
 
-// ── Navbar dinámico por unidad (opcional) ────────────────────────────────
-// Grupo extra que aparece en la barra superior solo dentro de una unidad.
-// No se usa en este curso: las sesiones ya tienen su desplegable propio.
-export const unitNavbars: Record<string, NavGroup[]> = {}
+// ── Navbar dinámico por unidad ───────────────────────────────────────────
+// Desplegable «📚 Sesiones» que aparece en la barra superior solo cuando
+// estás dentro de una sesión. Es acumulativo: dentro de la sesión N se
+// listan la N y todas las anteriores, nunca las futuras.
+//
+// Al añadir la sesión 3: crear su entrada aquí copiando la lista de s2 y
+// añadiendo la nueva línea al final.
+const S1 = { text: 'S1 — Fundamentos del Project Management', link: '/s1/contenidos/' }
+const S2 = { text: 'S2 — Metodologías Ágiles. Scrum',         link: '/s2/contenidos/' }
+
+export const unitNavbars: Record<string, NavGroup[]> = {
+  s1: [{ text: '📚 Sesiones', items: [S1] }],
+  s2: [{ text: '📚 Sesiones', items: [S1, S2] }],
+}

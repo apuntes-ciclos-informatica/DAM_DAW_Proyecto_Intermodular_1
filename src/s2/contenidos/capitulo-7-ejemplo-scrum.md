@@ -10,8 +10,7 @@ Aunque la mejor forma de entender el día a día de una metodología _Scrum_ es 
 |---------|------------------|------------|------------------------------------------|
 | **DAW** (Web) | 5 | Desarrollo | 2 Frontend, 2 Backend, 1 QA | 
 | **DAM** (Mobile) | 4 | Desarrollo | 2 Mobile Dev, 1 Backend de apoyo, 1 QA |
-| **ASIR** (Infraestructura) | 3 | Desarrollo | 2 DevOps, 1 Sysadmin | 
-| **DAW, DAM, ASIR** | 3 (1 por equipo) | Scrum Masters | |
+| **DAW, DAM** | 2 (1 por equipo) | Scrum Masters | |
 | **Global** | 1 | Product Owner |  |
 
 ## Product Backlog inicial (antes del Sprint 1)
@@ -24,23 +23,19 @@ Aunque la mejor forma de entender el día a día de una metodología _Scrum_ es 
 | 4 | PBI-04 | DAW | API REST con endpoints para proyectos y tareas | Detallado |
 | 5 | PBI-05 | DAM | Login móvil contra API | Detallado |
 | 6 | PBI-06 | DAM | Visualización de proyectos en la app móvil | Detallado |
-| 7 | PBI-07 | ASIR | Monitorización uptime de API y web | Detallado |
-| 8 | PBI-08 | ASIR | Dashboard simple en Grafana | Detallado |
-| 9 | PBI-09 | DAM | Notificaciones push | Vago |
-| 10 | PBI-10 | ASIR | Monitorización avanzada de base de datos | Vago |
-| 11 | PBI-11 | DAW | Roles de usuario en proyectos | Vago |
+| 7 | PBI-09 | DAM | Notificaciones push | Vago |
+| 8 | PBI-11 | DAW | Roles de usuario en proyectos | Vago |
 
 ## Sprint Planning (1)
 
 El _Product Owner_ propone que el objetivo del _Sprint_ sea:
 
-  > _Ofrecer la base funcional de TaskFlow Web, con API mínima consumida por la app móvil, y asegurar la disponibilidad con monitorización básica._
+  > _Ofrecer la base funcional de TaskFlow Web, con una API mínima consumida por la app móvil._
 
 De este modo, cada equipo selecciona historias:
 
 * **DAW**: ítems 1, 2, 3, 4.
 * **DAM**: ítems 5, 6.
-* **ASIR**: ítems 7, 8.
 
 
 ## Product Backlog inicial (Sprint 1)
@@ -64,13 +59,6 @@ De este modo, cada equipo selecciona historias:
 | PBI-06 | Conectar app con endpoint `/projects` | Pendiente |
 | PBI-06 | Pruebas de integración con API | Pendiente |
 
-==Equipo ASIR – TaskFlow Infraestructura
-| ID | Tarea | Estado |
-|----|-------|--------|
-| PBI-07 | Configurar Prometheus para uptime de API y web | Pendiente |
-| PBI-07 | Automatizar alerta básica si uptime < 200 OK | Pendiente |
-| PBI-08 | Instalar y configurar Grafana | Pendiente |
-| PBI-08 | Crear dashboard inicial (uptime, CPU, RAM) | Pendiente |
 :::
 
 
@@ -80,33 +68,27 @@ De este modo, cada equipo selecciona historias:
 
 * El equipo DAM ve que no puede avanzar sin el endpoint /api/projects → depende de DAW → se retrasa su tarea de “Visualización de proyectos”.
 
-* El equipo ASIR descubre que falta definir qué métricas son críticas → se añade tarea “Reunión rápida con PO y DAM para definir métricas API”.
-
 ## Día 5 - Refinamiento de Product Backlog 
 
 Durante el refinamiento, se revisan ítems vagos del Product Backlog:
 
 | Prioridad | ID  | Equipo | Historia de usuario / Ítem | Estado |
 |-----------|-----|--------|-----------------------------|--------|
-| 9 | PBI-09 | DAM | Notificaciones push | Vago |
-| 10 | PBI-10 | ASIR | Monitorización avanzada de base de datos | Vago |
-| 11 | PBI-11 | DAW | Roles de usuario en proyectos | Vago |
+| 7 | PBI-09 | DAM | Notificaciones push | Vago |
+| 8 | PBI-11 | DAW | Roles de usuario en proyectos | Vago |
 
 pasa a:
 
 | Prioridad | ID  | Equipo | Historia de usuario / Ítem | Estado |
 |-----------|-----|--------|-----------------------------|--------|
-| 9 | PBI-09 | DAM | El sistema debe enviar una notificación al móvil cuando alguien crea una tarea en un proyecto compartido. | Detallado |
-| 10 | PBI-10 | ASIR | Monitorear conexiones activas y tiempos de respuesta de consultas SQL | Detallado |
-| 11 | PBI-11 | DAW | Roles de usuario en proyectos | Vago |
+| 7 | PBI-09 | DAM | El sistema debe enviar una notificación al móvil cuando alguien crea una tarea en un proyecto compartido. | Detallado |
+| 8 | PBI-11 | DAW | Roles de usuario en proyectos | Vago |
 
 ## Día 6 – Daily Scrum → cambios en Sprint Backlog
 
 * El equipo de DAW termina API básica → libera a DAM para avanzar en visualización de proyectos.
 
 * El equipo de DAM encuentra bug en login (token expira demasiado pronto) → añade tarea de “Refactor de autenticación”.
-
-* El equipo de ASIR avanza con dashboard pero necesita acceso a métricas de API → se coordina con DAW.
 
 En general el _Sprint Backlog_ evoluciona, se reordenan prioridades y algunas tareas pasan a “En progreso” o “Hechas”.
 
@@ -116,19 +98,17 @@ Se presenta el incremento al _Product Owner_ y _stakeholders_:
 
 * DAW muestra TaskFlow Web funcionando con login, proyectos y tablero Kanban.
 * DAM enseña login en móvil y lista de proyectos.
-* ASIR enseña dashboard en Grafana con uptime, CPU y RAM.
 
 Los _stakeholders_ aportan feedback:
 
 * Cliente pide: “Sería útil poder mover tareas también desde el móvil” → nuevo ítem al _Product Backlog_.
-* Dirección de TI pide: “Que las alertas también lleguen por email” → nuevo ítem al _Product Backlog_.
 
 
 ## Día 10 – Retrospectiva
 
 El equipo reflexiona:
 
-* **Bien**: API lista a tiempo, buena coordinación DAW-DAM, dashboard básico útil.
+* **Bien**: API lista a tiempo y buena coordinación DAW-DAM.
 
 * **Mejorar**: dependencia DAM-DAW bloqueó 2 días → se propone refinamiento conjunto previo entre equipos.
 
@@ -144,10 +124,6 @@ El equipo reflexiona:
 | - | PBI-04 | DAW | API REST con endpoints para proyectos y tareas | ✅ |
 | - | PBI-05 | DAM | Login móvil contra API | ✅ |
 | 1 | PBI-06 | DAM | Visualización de proyectos en la app móvil | Detallado |
-| - | PBI-07 | ASIR | Monitorización uptime de API y web | ✅ |
-| - | PBI-08 | ASIR | Dashboard simple en Grafana | ✅ |
 | 2 | PBI-12 | DAM | Mover tareas desde móvil | Detallado |
-| 3 | PBI-13 | ASIR | Alertas por email | Detallado |
-| 4 | PBI-09 | DAM | Enviar una notificación al móvil cuando alguien crea una tarea en un proyecto compartido. | Detallado |
-| 5 | PBI-10 | ASIR | Monitorear conexiones activas y tiempos de respuesta de consultas SQL | Detallado |
-| 6 | PBI-11 | DAW | Roles de usuario en proyectos | Vago |
+| 3 | PBI-09 | DAM | Enviar una notificación al móvil cuando alguien crea una tarea en un proyecto compartido. | Detallado |
+| 4 | PBI-11 | DAW | Roles de usuario en proyectos | Vago |

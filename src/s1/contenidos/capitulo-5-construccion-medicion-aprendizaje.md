@@ -53,27 +53,22 @@ graph TD
 **Recomendaciones por Especialidad:**
 - **DAW**: _GitHub Actions_ + _Google Analytics_ + _Grafana_
 - **DAM**: _GitHub Actions_ + _Firebase Analytics_ + _Crashlytics_  
-- **ASIR**: _GitLab CI_ + _Prometheus_ + _Grafana_ + _Ansible_
 
 **Aplicación Práctica: El Ecosistema TaskFlow en Construcción**
 
-En esta fase, vemos cómo los tres equipos no solo construyen sus respectivos MVPs, sino que **coordinan sus ciclos de aprendizaje** para crear un ecosistema coherente y robusto.
+En esta fase, vemos cómo ambos equipos no solo construyen sus respectivos MVPs, sino que **coordinan sus ciclos de aprendizaje** para crear un ecosistema coherente y robusto.
 
 :::: tabs
 == DAW
 * **Caso DAW (`TaskFlow Web`):**
     * **Ejecución**: El equipo desarrolla la aplicación web y su API REST, configurando un pipeline de CI/CD con GitHub Actions. Cada commit ejecuta tests automáticos tanto de la interfaz como de la API. **Prioridad especial**: la API debe estar estable para que DAM pueda consumirla.
-    * **Monitoreo y Aprendizaje**: Se implementa Google Analytics para la web y logging específico de la API. **Insight clave**: el 85% de las peticiones a la API vienen de la app móvil (DAM), validando la estrategia multi-plataforma. Se observó que las operaciones de "mover tareas" tardaban más de lo esperado. **Acción coordinada**: se optimizó la API y se informó al equipo ASIR para que ajusten los umbrales de alerta.
+    * **Monitoreo y Aprendizaje**: Se implementa Google Analytics para la web y logging específico de la API. **Insight clave**: el 85% de las peticiones a la API vienen de la app móvil (DAM), validando la estrategia multi-plataforma. Se observó que las operaciones de "mover tareas" tardaban más de lo esperado. **Acción coordinada**: se optimizó la API y se avisó al equipo DAM del cambio de tiempos de respuesta.
 
 == DAM
 * **Caso DAM (`TaskFlow Mobile`):**
     * **Ejecución**: Desarrollo de la app móvil con CI/CD mediante GitHub Actions y distribución a testers vía Firebase App Distribution. **Dependencia crítica**: el equipo debe esperar a que DAW estabilice ciertos endpoints antes de implementar funcionalidades.
     * **Monitoreo y Aprendizaje**: Uso de Firebase Analytics y Crashlytics. **Descubrimiento importante**: los usuarios móviles intentan usar la app sin conexión un 40% del tiempo. **Aprendizaje del ecosistema**: esta información ayuda al equipo DAW a priorizar funcionalidades offline en su roadmap futuro.
 
-== ASIR
-* **Caso ASIR (`TaskFlow Infrastructure`):**
-    * **Ejecución**: Implementación de Prometheus y Grafana con Ansible. El sistema monitoriza tanto el servidor web (DAW) como la base de datos compartida. **Rol de mediador**: proporciona métricas en tiempo real a ambos equipos de desarrollo.
-    * **Monitoreo y Aprendizaje**: Los dashboards muestran que la API tiene picos de uso cuando la app móvil sincroniza datos. **Insight del ecosistema**: se identificó que las sincronizaciones masivas de la app móvil generan carga excesiva. **Acción coordinada**: el equipo ASIR configuró alertas específicas y los equipos DAW/DAM implementaron sincronización gradual.
 ::::
 
-> **Ciclo de Aprendizaje del Ecosistema**: Los insights de un equipo benefician a todos. ASIR detecta patrones → DAW optimiza la API → DAM mejora la experiencia móvil → El ciclo se repite.
+> **Ciclo de Aprendizaje del Ecosistema**: Los insights de un equipo benefician al otro. DAM detecta patrones de uso → DAW optimiza la API → DAM mejora la experiencia móvil → El ciclo se repite.

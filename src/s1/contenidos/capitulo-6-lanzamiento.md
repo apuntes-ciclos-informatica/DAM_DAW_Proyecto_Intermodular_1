@@ -4,7 +4,7 @@ El cierre del proyecto MVP no es un final, sino el comienzo de la vida del produ
 
 **Aplicación Práctica: Lanzamiento Coordinado del Ecosistema TaskFlow**
 
-El lanzamiento de un ecosistema es más complejo que el de un producto aislado. Los tres equipos deben **coordinar sus retrospectivas y planes futuros** para que el ecosistema evolucione de manera coherente.
+El lanzamiento de un ecosistema es más complejo que el de un producto aislado. Ambos equipos deben **coordinar sus retrospectivas y planes futuros** para que el ecosistema evolucione de manera coherente.
 
 :::: tabs
 == DAW
@@ -17,18 +17,13 @@ El lanzamiento de un ecosistema es más complejo que el de un producto aislado. 
     * **Lecciones Aprendidas**: Sobre el producto, se confirmó que el 60% de los usuarios usan tanto web como móvil, validando la estrategia multiplataforma. La funcionalidad offline fue más demandada de lo esperado. Sobre el proceso, la coordinación continua con DAW fue esencial para el éxito.
     * **Informe y Siguientes Pasos**: La app móvil alcanzó 200 descargas en la primera semana con 4.2 estrellas. **Insight del ecosistema**: los usuarios que empezaron en web y después instalaron móvil tienen 3x más retención que los que empezaron solo en móvil. La siguiente prioridad son las notificaciones push, aprovechando la API de notificaciones que DAW incluirá en su siguiente iteración.
 
-== ASIR
-* **Caso ASIR (`TaskFlow Infrastructure`):**
-    * **Lecciones Aprendidas**: Sobre la infraestructura, se validó que monitorizar la API por separado del frontend era crucial. El pico de uso de la app móvil a las 8:00 AM generaba carga inesperada. Sobre el proceso, proporcionar dashboards en tiempo real a DAW y DAM aceleró la resolución de problemas.
-    * **Informe y Siguientes Pasos**: El sistema detectó 3 problemas críticos antes de que afectaran a usuarios, logrando 99.5% de uptime del ecosistema. **Aquí vemos otra conexión narrativa importante**: el siguiente paso es monitorizar latencia de la API por endpoints, que era uno de sus "Should Have" iniciales del Capítulo 2. **Valor para el ecosistema**: estas métricas ayudarán a DAW a optimizar los endpoints más usados por DAM.
 ::::
 
 ## Retrospectiva del Ecosistema Completo
 
-**Lección Global**: Los tres MVPs funcionaron mejor **juntos** que como productos aislados:
+**Lección Global**: Los dos MVPs funcionaron mejor **juntos** que como productos aislados:
 - TaskFlow Web proporcionó la base sólida y la API
 - TaskFlow Mobile extendió el alcance y validó nuevos casos de uso  
-- TaskFlow Infrastructure garantizó la confiabilidad de todo el conjunto
 
 **Siguiente Gran Hito**: Evolucionar de MVP a "Producto de Primera Iteración" con todas las funcionalidades "Should Have" implementadas de manera coordinada.
 

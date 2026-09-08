@@ -31,7 +31,7 @@ Este es el corazón del equipo, encargado de diseñar, construir y mantener el c
 
 ## Infraestructura y Operaciones (DevOps)
 
-Este equipo se asegura de que el software funcione de manera fiable, segura y escalable. El equipo de **ASIR** en el proyecto TaskFlow representa perfectamente esta área.
+Este equipo se asegura de que el software funcione de manera fiable, segura y escalable.
 
 * **DevOps Engineer**: Su misión es automatizar y optimizar los procesos entre el desarrollo de software y las operaciones de sistemas. Construyen los pipelines de CI/CD, gestionan la infraestructura como código y se aseguran de que el despliegue de nuevas versiones sea rápido y seguro.
 * **SRE (Site Reliability Engineer)**: Se enfoca en la fiabilidad, el rendimiento y la escalabilidad del sistema. Utiliza la ingeniería de software para resolver problemas de infraestructura. Su lema es "automatizar para prevenir problemas". Son los responsables de monitorizar el sistema (como con Prometheus/Grafana) y garantizar el uptime.
