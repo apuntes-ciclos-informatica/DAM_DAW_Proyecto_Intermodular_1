@@ -665,6 +665,7 @@ Durante el curso, se utilizarán diversas herramientas y recursos para facilitar
   o cualquier herramienta de captura de pantalla y audio.
 * **Entrega de los vídeos:** Aules o Microsoft Teams. No se publican en internet.
 * **Comunicación:** Microsoft Teams.
+* **Inteligencia Artificial:** para **creación de contenido multimedia**, no para generar la documentación ni para sustituir el trabajo propio.
 
 :::
 
