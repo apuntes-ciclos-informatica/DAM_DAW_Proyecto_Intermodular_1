@@ -31,7 +31,7 @@
 
 ::: info Descripción del Curso
 
-Este curso está diseñado para proporcionar a los alumnos de **DAW y DAM** una base sólida en la gestión de proyectos tecnológicos, el diseño de arquitecturas y las metodologías de desarrollo y operaciones modernas. A través de un enfoque práctico y adaptado a cada especialidad, los estudiantes aprenderán a planificar, ejecutar y desplegar proyectos técnicos, preparándolos para los desafíos del sector.
+Este curso proporciona al alumnado de **DAW y DAM** una base sólida en la gestión de proyectos tecnológicos: cómo se define un proyecto, cómo se organiza el trabajo con metodologías ágiles, cómo se modela mediante diagramas y cómo se documenta y se comunica. El proyecto que se realiza es **documental**: no se programa, se aprende a definir y explicar un proyecto antes de construirlo, que es justo el paso previo al Proyecto Intermodular II de segundo curso.
 
   > Aunque las líneas generales se mantendrán durante todo el curso, esta guía es un documento vivo que puede ir actualizándose (básicamente aclaraciones) a lo largo del curso. Todas las modificaciones serán notificadas a través del foro de _Novedades_ del aula de del módulo.
 :::
@@ -46,13 +46,30 @@ Los objetivos generales de este módulo formativo son los siguientes:
 
 ### **OG1: Planificar y Gestionar el Proyecto Técnico**
 
-Este objetivo se centra en el análisis de requisitos, el diseño de alto nivel, la planificación de fases, la gestión de riesgos y la documentación del proyecto. Se aplicarán **metodologías ágiles** para organizar el trabajo, utilizando herramientas de software de gestión profesional.
+Análisis de necesidades, definición del alcance, planificación de fases y organización
+del trabajo aplicando **metodologías ágiles** y herramientas de gestión profesional.
 
 ---
 
-### **OG2: Diseñar y Documentar la Arquitectura de la Solución** 
+### **OG2: Modelar y Documentar la Solución mediante Diagramas**
 
-Se centra en define y documenta la arquitectura técnica detallada.
+Representar el proyecto con los diagramas adecuados —casos de uso, actividades y
+entidad/relación— e interpretarlos correctamente, de modo que la solución quede
+descrita antes de escribir una sola línea de código.
+
+---
+
+### **OG3: Elaborar y Publicar la Documentación del Proyecto**
+
+Redactar la memoria del proyecto empleando **lenguajes de marcas**, convertirla a
+formato web y publicarla, cuidando la estructura, la corrección y la presentación.
+
+---
+
+### **OG4: Utilizar Herramientas Profesionales de Desarrollo Colaborativo**
+
+Emplear un **sistema de control de versiones** y un repositorio remoto para organizar
+el trabajo, gestionar las tareas del proyecto y mantener trazabilidad de los cambios.
 
 :::
 
@@ -68,33 +85,45 @@ Estas competencias están orientadas al "saber hacer" en un entorno profesional 
 
 ::: details Competencias Transversales
 
-* **Análisis y Resolución de Problemas Complejos:** Evaluar requisitos, identificar problemas y diseñar e implementar soluciones técnicas que sean **funcionales, robustas y escalables**.
-* **Trabajo en Equipo y Comunicación Profesional:** **Colaborar eficazmente** en un flujo de trabajo que integra desarrollo y operaciones, respetando la autonomía de los compañeros y comunicando decisiones técnicas de forma clara.
-* **Adaptación y Aprendizaje Continuo:** Demostrar iniciativa para **asimilar nuevas tecnologías**, paradigmas (**Agile, IaC, GitOps**) y herramientas que optimicen el ciclo de vida del proyecto, manteniendo los conocimientos actualizados.
+* **Análisis y Resolución de Problemas:** Evaluar necesidades, identificar problemas y **proponer y justificar** soluciones técnicas viables.
+* **Trabajo en Equipo y Comunicación Profesional:** **Comunicar decisiones técnicas de forma clara**, tanto por escrito como oralmente, adaptando el mensaje a interlocutores técnicos y no técnicos. Esta competencia se trabaja de forma **transversal en las seis sesiones**.
+* **Adaptación y Aprendizaje Continuo:** Demostrar iniciativa para **asimilar nuevas herramientas y metodologías** (control de versiones, tableros de proyecto, metodologías ágiles) y mantener los conocimientos actualizados.
 * **Autonomía, Iniciativa y Gestión de Proyectos:** **Planificar tareas**, gestionar tiempos y resolver contingencias de manera proactiva para cumplir con los objetivos del proyecto, aplicando un espíritu de mejora continua.
 :::
 
-### Competencias Técnicas Específicas (Por Ciclo Formativo)
+### Competencias Técnicas del Módulo
 
-A través del proyecto, cada alumno demostrará la consolidación de las competencias técnicas clave de su itinerario formativo.
+Este módulo se cursa en **primero**, cuando el alumnado todavía no domina las
+tecnologías de desarrollo. Por eso el proyecto **no exige programar**: exige
+*comprender, modelar, organizar, documentar y comunicar* un proyecto informático.
+Las competencias son, por tanto, **comunes a DAW y DAM**.
 
-::: tabs
-==DAW
+::: details Competencias Técnicas
 
-#### **Para el alumnado de Desarrollo de Aplicaciones Web (DAW):**
+* **Análisis y especificación de requisitos:** Identificar una necesidad real,
+  delimitar el alcance de una solución viable y expresarla como **historias de
+  usuario** con criterios de aceptación.
+* **Modelado mediante diagramas:** Representar el sistema con **diagramas de casos
+  de uso, de actividades y entidad/relación**, e interpretar correctamente los
+  diagramas de otros.
+* **Organización del trabajo con herramientas profesionales:** Utilizar **Git y un
+  repositorio remoto** para versionar el proyecto, y convertir las historias de
+  usuario en tareas gestionadas en un **tablero de proyecto**.
+* **Elaboración de documentación técnica:** Redactar la memoria del proyecto con
+  **lenguajes de marcas**, convertirla a formato web, personalizar su presentación
+  y publicarla.
+* **Comunicación técnica:** Explicar y defender oralmente las decisiones tomadas,
+  adaptando el discurso a interlocutores técnicos y no técnicos.
 
-* **Desarrollo integral de aplicaciones web (Full-Stack):** Construir soluciones completas desarrollando tanto interfaces en el entorno cliente (**frontend**) como componentes de lógica de negocio en el entorno servidor (**backend**).
-* **Gestión de bases de datos y servicios:** **Diseñar y gestionar bases de datos** asegurando la integridad y seguridad de la información, y desarrollar e integrar servicios web (APIs) para garantizar la comunicación entre componentes.
-* **Despliegue y administración en servidores web:** **Configurar servidores**, empaquetar la aplicación y desplegarla en un entorno real, verificando su correcto funcionamiento y aplicando las medidas de seguridad necesarias.
+:::
 
-== DAM
+> 💡 Estas competencias son la **antesala del Proyecto Intermodular II** de segundo
+> curso. Aquí se aprende a definir y documentar un proyecto; allí se construye.
 
-#### **Para el alumnado de Desarrollo de Aplicaciones Multiplataforma (DAM):**
-
-* **Desarrollo de aplicaciones multiplataforma:** Diseñar y programar aplicaciones funcionales para **diferentes sistemas y dispositivos**, como móviles o tabletas, utilizando los lenguajes y herramientas adecuados.
-* **Gestión de datos y desarrollo de interfaces:** **Gestionar el acceso a bases de datos** y desarrollar **interfaces de usuario interactivas** y usables, integrando elementos gráficos y multimedia.
-* **Empaquetado y despliegue de aplicaciones:** Preparar las aplicaciones para su **distribución en distintas plataformas**, creando paquetes autoinstalables y verificando su comportamiento en el entorno de implantación.
-
+::: warning Sobre la programación
+El proyecto de este módulo **no incluye desarrollo de código**. Las competencias de
+programación, bases de datos y despliegue se trabajan y evalúan en sus módulos
+correspondientes y, de forma integrada, en el Proyecto Intermodular II.
 :::
 
 ### Resultados de aprendizaje
@@ -111,31 +140,58 @@ Los _Resultados de Aprendizaje_ específicos de otros módulos que se evaluarán
 
 ### **Tabla de Módulos, RAs, CEs y Objetivos Asociados**
 
-:::: tabs
-== DAW
+Los criterios se enumeran de forma **explícita**: solo figuran aquellos que el proyecto
+puede evidenciar realmente. La tabla es **común a DAW y DAM**, porque los cuatro módulos
+implicados son idénticos en ambos currículos.
 
-| Módulo | Resultado de Aprendizaje (RA) | Criterios de Evaluación (CE) | Objetivos Asociados (OG) |
+| Módulo | Resultado de Aprendizaje (RA) | Criterios de Evaluación (CE) | OG |
 | :--- | :--- | :--- | :--- |
-| **0373 - Lenguajes de marcas y sistemas de gestión de información** | **RA1:** Reconoce las características de lenguajes de marcas analizando e interpretando fragmentos de código. | Todos | OG3 |
-| | **RA2:** Utiliza lenguajes de marcas para la transmisión y presentación de información a través de la web analizando la estructura de los documentos e identificando sus elementos. | Todos | OG3 |
-| | **RA5:** Realiza conversiones sobre documentos para el intercambio de información utilizando técnicas, lenguajes y herramientas de procesamiento.. | Todos | OG3 |
-| **0484 - Bases de datos** | **RA6:** Diseña modelos relacionales normalizados interpretando diagramas entidad/relación.  | Todos | OG2, OG3 |
-| **0487 - Entornos de desarrollo** | **RA1:** Reconoce los elementos y herramientas que intervienen en el desarrollo de un programa informático, analizando sus características y las fases en las que actúan hasta llegar a su puesta en funcionamiento.  | f, g | OG1, OG4 |
-| | **RA6:** Genera diagramas de comportamiento valorando su importancia en el desarrollo de aplicaciones y empleando herramientas específicas.  | a, b, c, d, e, f, g, h | OG2 |
+| **0483 - Sistemas informáticos** | **RA7:** Elabora documentación valorando y utilizando aplicaciones informáticas de propósito general. | a, b, c, f, g | OG3 |
+| | **RA2:** Instala sistemas operativos planificando el proceso e interpretando documentación técnica. | c, i | OG3 |
+| **0373 - Lenguajes de marcas y sistemas de gestión de información** | **RA1:** Reconoce las características de lenguajes de marcas analizando e interpretando fragmentos de código. | a, b, c, d, f, g, h | OG3 |
+| | **RA2:** Utiliza lenguajes de marcas para la transmisión y presentación de información a través de la web analizando la estructura de los documentos e identificando sus elementos. | a, b, c, e, f, g, h | OG3 |
+| | **RA5:** Realiza conversiones sobre documentos para el intercambio de información utilizando técnicas, lenguajes y herramientas de procesamiento. | a, b, c, f, g | OG3 |
+| **0484 - Bases de datos** | **RA1:** Reconoce los elementos de las bases de datos analizando sus funciones y valorando la utilidad de los sistemas gestores. | b, d, i | OG2 |
+| | **RA6:** Diseña modelos relacionales normalizados interpretando diagramas entidad/relación. | a, b, c, d, e | OG2 |
+| **0487 - Entornos de desarrollo** | **RA1:** Reconoce los elementos y herramientas que intervienen en el desarrollo de un programa informático, analizando sus características y las fases en las que actúan hasta llegar a su puesta en funcionamiento. | b, f, g | OG1, OG4 |
+| | **RA4:** Optimiza código empleando las herramientas disponibles en el entorno de desarrollo. | f, h, i | OG4 |
+| | **RA6:** Genera diagramas de comportamiento valorando su importancia en el desarrollo de aplicaciones y empleando herramientas específicas. | a, b, c, d, e, f | OG2 |
 
-== DAM
+:::
 
-| Módulo | Resultado de Aprendizaje (RA) | Criterios de Evaluación (CE) | Objetivos Asociados (OG) |
-| :--- | :--- | :--- | :--- |
-| **0373 - Lenguajes de marcas y sistemas de gestión de información** | **RA1:** Reconoce las características de lenguajes de marcas analizando e interpretando fragmentos de código. | Todos | OG3 |
-| | **RA2:** Utiliza lenguajes de marcas para la transmisión y presentación de información a través de la web analizando la estructura de los documentos e identificando sus elementos. | Todos | OG3 |
-| | **RA5:** Realiza conversiones sobre documentos para el intercambio de información utilizando técnicas, lenguajes y herramientas de procesamiento.. | Todos | OG3 |
-| **0484 - Bases de datos** | **RA6:** Diseña modelos relacionales normalizados interpretando diagramas entidad/relación.  | Todos | OG2, OG3 |
-| **0487 - Entornos de desarrollo** | **RA1:** Reconoce los elementos y herramientas que intervienen en el desarrollo de un programa informático, analizando sus características y las fases en las que actúan hasta llegar a su puesta en funcionamiento.  | f, g | OG1, OG4 |
-| | **RA6:** Genera diagramas de comportamiento valorando su importancia en el desarrollo de aplicaciones y empleando herramientas específicas.  | a, b, c, d, e, f, g, h | OG2 |
+::: details Por qué estos criterios y no otros
 
+Conviene dejar constancia de las exclusiones, para que el alcance del módulo quede claro:
 
-::::
+* **0485 Programación** y **0486 Acceso a datos** no aparecen. Todos sus resultados de
+  aprendizaje exigen escribir y depurar código, y este proyecto es documental. Se
+  evalúan en sus propios módulos y en el Proyecto Intermodular II.
+* **0373 RA1 (i)**, **RA2 (i, j)** y **RA5 (d, e)** quedan fuera: corresponden a espacios
+  de nombres, sindicación de contenidos y transformaciones XSLT, que este proyecto no
+  utiliza.
+* **0484 RA6 (g, h)** quedan fuera: la normalización formal excede las horas disponibles.
+  Se pide un modelo entidad/relación correcto, no normalizado hasta forma normal.
+* **0487 RA4** se acota a los criterios **f** (control de versiones), **h** (repositorios
+  remotos para trabajo colaborativo) e **i** (integración continua). El enunciado del RA
+  habla de optimización de código; aquí se evidencia únicamente su vertiente de
+  herramientas de trabajo colaborativo, que es la que el proyecto ejercita.
+* **0487 RA5** (diagramas de clases) no se incluye porque requiere conceptos de
+  programación orientada a objetos que el alumnado aún no ha adquirido en primero.
+
+:::
+
+::: tip Correspondencia entre sesiones y resultados de aprendizaje
+
+| Sesión | RA que trabaja |
+|:---:|:---|
+| **1** Fundamentos de la gestión de proyectos | 0487 RA1 (b, f) |
+| **2** Metodologías Ágiles. Scrum | 0487 RA1 (g) |
+| **3** Requisitos e historias de usuario | 0487 RA6 (b) · PI RA1, RA2 |
+| **4** Git y GitHub Projects | 0487 RA4 (f, h, i) · 0483 RA7 (c) |
+| **5** Diagramas del proyecto | 0487 RA6 · 0484 RA1, RA6 |
+| **6** Documentación con Markdown y VitePress | 0373 RA1, RA2, RA5 · 0483 RA7, RA2 (i) |
+
+:::
 
 ## Estructura del Temario {.animate-title}
 
@@ -143,96 +199,96 @@ Los _Resultados de Aprendizaje_ específicos de otros módulos que se evaluarán
 
 El contenido se organiza en las siguientes fases y sesiones:
 
-::: details Organización orientativa de Contenidos FASE 1
-
-:::: tabs
-== DAW
+:::: details Organización orientativa de Contenidos FASE 1
 
 ### Sesiones autónomas
 
+Las seis sesiones son **comunes a DAW y DAM**. El proyecto de este módulo es de
+naturaleza documental: no se pide programar, sino analizar, organizar, diagramar,
+documentar y comunicar un proyecto propio.
+
 | Sesión | Título | Tipo |
 |:---:|:---|:---:|
-| **1** | Fundamentos del Project Management | Teórica |
-| **2** | Metodologías Ágiles. Scrum Lite | Teórica |
-| **3** | Análisis de Requisitos e Historias de Usuario | Teórica |
-| **4** | Elección de tecnologías | Teórica |
-| **5** | Lenguaje verbal y no verbal | Teórica |
-| **6** | Creación de documentación | Teórica |
+| **1** | Fundamentos de la gestión de proyectos | Teórica |
+| **2** | Metodologías Ágiles. Scrum | Teórica |
+| **3** | Análisis de requisitos e historias de usuario | Teórica |
+| **4** | Organización del proyecto con Git y GitHub Projects | Teórico-práctica |
+| **5** | Diagramas del proyecto | Teórico-práctica |
+| **6** | Documentación del proyecto con Markdown y VitePress | Teórico-práctica |
+
+### La comunicación atraviesa todas las sesiones
+
+El **lenguaje verbal y no verbal** no ocupa una sesión propia: se trabaja de forma
+**transversal**. Cada sesión cierra con un ejercicio breve de preparación de la
+defensa, de modo que al llegar a la prueba final el alumnado ya ha ensayado en seis
+ocasiones cómo explicar su proyecto en voz alta.
+
+> 💡 Estos ejercicios no se entregan ni se califican por separado. Su función es
+> que llegues a la defensa habiendo practicado, no improvisando.
 
 ### Contenidos por Sesión
 
 ::: details Ver Detalles de Cada Sesión
 
-#### Sesión 1: Fundamentos del Project Management
+#### Sesión 1: Fundamentos de la gestión de proyectos
 
-  * Roles clave en un equipo técnico moderno.
-  * ¿Qué es un proyecto? Ciclo de vida y la triple restricción.
-  * ¿Qué es un MVP?
+* ¿Qué es un proyecto? Ciclo de vida y triple restricción.
+* Roles clave en un equipo técnico moderno.
+* Qué es un MVP y por qué se acota el alcance.
 
-#### Sesión 2: Metodologías Ágiles, Scrum y Herramientas
+🎤 **Prepara la defensa**: resume tu idea de proyecto en 30 segundos, sin tecnicismos,
+como si se lo contaras a alguien que no es informático.
 
-* Manifiesto Ágil, framework Scrum aplicado a elementos sencillos.
+#### Sesión 2: Metodologías Ágiles. Scrum
 
-#### Sesión 3: Análisis de Requisitos e Historias de Usuario.
+* Manifiesto Ágil y diferencias con las metodologías tradicionales.
+* Framework Scrum: roles, eventos y artefactos.
 
-* Historias de Usuario y Criterios de Aceptación.
+🎤 **Prepara la defensa**: justifica en un minuto por qué usarías Scrum en tu proyecto
+y no un enfoque en cascada. Cuenta con que te preguntarán *"¿por qué?"*.
 
-#### Sesión 4: Elección de tecnologías.
+#### Sesión 3: Análisis de requisitos e historias de usuario
 
-* Como elegir las tecnologías más adecuadas para la implementación de un proyecto.
+* Requisitos funcionales y no funcionales.
+* Historias de usuario y criterios de aceptación.
+* Priorización del alcance (MoSCoW).
 
-#### Sesión 5: Lenguaje verbal y no verbal.
+🎤 **Prepara la defensa**: elige la historia de usuario más importante de tu proyecto
+y explica a quién sirve y qué problema le resuelve.
 
-* Técnicas para comunicar de la mejor manera las características técnicas y comerciales del proyecto.
+#### Sesión 4: Organización del proyecto con Git y GitHub Projects
 
-#### Sesión 6: Creación de documentación.
+* Control de versiones: qué es un repositorio, un commit y un historial.
+* Repositorios remotos y trabajo colaborativo en GitHub.
+* Conversión de historias de usuario en tareas y gestión del tablero en GitHub Projects.
+* Publicación automática del sitio del proyecto.
 
-* Uso de herramientas y formatos para la creación de documentación, videos, podcast de ayuda a técnicos y usuarios
+🎤 **Prepara la defensa**: enseña tu tablero y explica en qué estado está el proyecto
+y qué harías a continuación.
 
-== DAM
+#### Sesión 5: Diagramas del proyecto
 
-### Sesiones autónomas
+* Diagramas de casos de uso: quién usa el sistema y para qué.
+* Diagramas de actividades: cómo fluye un proceso.
+* Diagramas entidad/relación: qué información guarda la aplicación.
+* Herramientas de diagramación.
 
-| Sesión | Título | Tipo |
-|:---:|:---|:---:|
-| **1** | Fundamentos del Project Management | Teórica |
-| **2** | Metodologías Ágiles. Scrum Lite | Teórica |
-| **3** | Análisis de Requisitos e Historias de Usuario | Teórica |
-| **4** | Elección de tecnologías | Teórica |
-| **5** | Lenguaje verbal y no verbal | Teórica |
-| **6** | Creación de documentación | Teórica |
+🎤 **Prepara la defensa**: recorre tu diagrama de casos de uso en voz alta. Un diagrama
+que no sabes narrar no está terminado.
 
-### Contenidos por Sesión
+#### Sesión 6: Documentación del proyecto con Markdown y VitePress
 
-::: details Ver Detalles de Cada Sesión
+* Lenguajes de marcas: qué son y para qué sirven. Markdown frente a HTML.
+* De Markdown a HTML: el proceso de conversión y publicación.
+* Personalización del aspecto con hojas de estilo.
+* Estructura de una memoria técnica.
 
-#### Sesión 1: Fundamentos del Project Management
-
-  * Roles clave en un equipo técnico moderno.
-  * ¿Qué es un proyecto? Ciclo de vida y la triple restricción.
-  * ¿Qué es un MVP?
-
-#### Sesión 2: Metodologías Ágiles, Scrum y Herramientas
-
-* Manifiesto Ágil, framework Scrum aplicado a elementos sencillos.
-
-#### Sesión 3: Análisis de Requisitos e Historias de Usuario.
-
-* Historias de Usuario y Criterios de Aceptación.
-
-#### Sesión 4: Elección de tecnologías.
-
-* Como elegir las tecnologías más adecuadas para la implementación de un proyecto.
-
-#### Sesión 5: Lenguaje verbal y no verbal.
-
-* Técnicas para comunicar de la mejor manera las características técnicas y comerciales del proyecto.
-
-#### Sesión 6: Creación de documentación.
-
-* Uso de herramientas y formatos para la creación de documentación, videos, podcast de ayuda a técnicos y usuarios
+🎤 **Prepara la defensa**: presenta tu sitio publicado explicando por qué lo has
+organizado así y qué encontrará quien lo visite.
 
 :::
+
+::::
 
 ::: details Organización orientativa de Contenidos FASE 2
 
@@ -270,9 +326,25 @@ El desarrollo del módulo se estructura en dos retos clave
 * La aprobación de la propuesta **no significa el aprobado del reto**, que consistirá en la entrega de los elmentos que definene el MVP.
 :::
 ::: details **2. Documentación del proyecto:**
-* Todos los alumnos deberán entregar la **versión final de la documentación y el proyecto completo** en la fecha límite establecida en el aula virtual.
-* Esta fecha es **inamovible y de obligado cumplimiento** para poder ser evaluado en el módulo. No se admitirán entregas fuera de plazo bajo ninguna circunstancia.
-* Esa documentación, junto con la documentación del reto 1, será defendida en la defensa final.
+
+El entregable de este reto **no es un archivo, es un repositorio**. Cada alumno
+entregará la URL de un repositorio de GitHub que contenga:
+
+* **La memoria del proyecto**, escrita en Markdown y publicada como sitio web con
+  VitePress. Incluye, como mínimo: introducción y contexto, análisis de la competencia,
+  requisitos, historias de usuario, diagramas (casos de uso, actividades y
+  entidad/relación), tecnologías propuestas y planificación.
+* **El tablero del proyecto** en GitHub Projects, con las historias de usuario
+  convertidas en tareas y su estado actualizado.
+* **Un historial de trabajo coherente**: el repositorio debe mostrar la evolución del
+  proyecto a lo largo del curso, no una única entrega al final.
+
+> ⚠️ El historial del repositorio forma parte de la evaluación. Un proyecto volcado
+> de una sola vez en la última semana no evidencia el proceso que este módulo evalúa.
+
+* La fecha límite es **inamovible y de obligado cumplimiento** para poder ser evaluado.
+  No se admitirán entregas fuera de plazo bajo ninguna circunstancia.
+* Esta documentación, junto con la del reto 1, será defendida en la prueba final.
 :::
 
 ## Evaluación {.animate-title}
@@ -285,7 +357,7 @@ La evaluación del módulo será **continua, formativa e integradora**, centrán
 >
 >* **Aprobado de Módulos Previos:** Para poder finalizar el módulo es necesario tener aprobados los módulos cuyos RAs se trabajan en Proyecto Intermodular 1. Aquel alumnado que no vaya a tener en el momento de la prueba final dichos módulos aprobados es aconsejable que anule la matricula de este módulo (PI1).
 >* **Alumnado de PI1 y PI2 simultáneo:** Si estás cursando simultáneamente _Proyecto Intermodular 1_ (PI1) y _Proyecto Intermodular 2_ (PI2), ponte en contacto con el profesor de PI2 para que te explique cual será tu plan de aprendizaje, evaluación y calificacíon.
->* **Entregas y Plazos:** El módulo se evalúa de manera continua, por lo que es la nota de la defensa final la única que se utilizará como nota del módulo. Los retos tienen asignada una fecha de entrega _recomendada_, si bien su entrega debe ser secuencial y por lo tanto no se podrá realizar el segundo reto hasta que no se apruebe el primero.
+>* **Entregas y Plazos:** La calificación del módulo se obtiene de los dos instrumentos recogidos en la tabla siguiente (documentación y defensa), y es necesario superar ambos. Los retos tienen asignada una fecha de entrega _recomendada_, si bien su entrega debe ser secuencial y por lo tanto no se podrá realizar el segundo reto hasta que no se apruebe el primero.
  >
  >   En el caso de la última entrega, la previa a la prueba presencial, la fecha es **inamovible y no se admitirán entregas fuera de plazo en ningún caso**.
  >
@@ -353,10 +425,12 @@ Durante el curso, se utilizarán diversas herramientas y recursos para facilitar
 
 ::: details Software orientativo para las Prácticas
 
-* **Gestión de Proyectos:** Jira, Trello, o similares.
-* **Diseño y Diagramación:** Draw.io, Lucidchart.
+* **Control de versiones y gestión del proyecto:** Git, GitHub y GitHub Projects.
+* **Redacción y publicación de la documentación:** Markdown, VitePress y GitHub Pages.
+* **Diseño y diagramación:** Draw.io, Mermaid o Lucidchart.
+* **Editor de textos:** Visual Studio Code (o cualquier editor con soporte de Markdown).
+* **Grabación y edición de la presentación:** cualquier herramienta de captura de pantalla y audio.
 * **Comunicación:** Microsoft Teams.
-* **Entornos de Desarrollo (IDE):** Visual Studio Code, Android Studio, etc. (según ciclo).
 
 :::
 
