@@ -181,8 +181,12 @@ Esta es la correspondencia entre lo que el alumnado entrega y lo que acredita:
   HTML, el alumnado clasifica lenguajes, distingue ámbitos de aplicación y reconoce la
   necesidad de que un documento esté bien formado para poder procesarse.
 * **RA2 — Utiliza lenguajes de marcas para la web (a, b, c, e, f, g, h).** El sitio
-  publicado es HTML: se analiza su estructura, se personaliza su presentación aplicando
-  **hojas de estilo** y se valida el resultado.
+  publicado es HTML, y **no basta con generarlo**: la memoria se entrega con una hoja de
+  estilos propia sobre la plantilla base y con el HTML y el CSS validados. Eso acredita
+  **g** *"se han aplicado hojas de estilo"* y **h** *"se han validado documentos HTML y
+  CSS"* con un entregable comprobable, no con una declaración. El criterio **c**
+  —etiquetas y atributos— se ejercita al insertar HTML dentro del Markdown allí donde el
+  formato no llega, que es algo que la propia memoria acaba necesitando.
 * **RA5 — Realiza conversiones sobre documentos (a, b, c, f, g).** Es el más elegante
   del conjunto: **pasar de Markdown a HTML es una conversión de documentos**, y el
   proceso de construcción del sitio es la herramienta que la realiza. El criterio **g**
@@ -331,8 +335,11 @@ no sabes narrar no está terminado.
 #### Sesión 6: Documentación del proyecto con Markdown y VitePress
 
 * Lenguajes de marcas: qué son y para qué sirven. Markdown frente a HTML.
+* Estructura de un documento HTML: etiquetas y atributos principales. HTML dentro de
+  Markdown, cuando el formato no llega.
 * De Markdown a HTML: el proceso de conversión y publicación.
 * Personalización del aspecto con hojas de estilo.
+* Validación del HTML y del CSS resultantes.
 * Estructura de una memoria técnica.
 
 🎥 **Pitch final (2-3 min)**: con el sitio ya publicado, graba el vídeo comercial del
@@ -583,6 +590,12 @@ organiza **como la pediría un inversor**, no como un índice académico:
 
 El **README del repositorio** funciona como página de aterrizaje: es lo primero que ve
 quien llega, y debe permitir entender el proyecto y encontrar la memoria publicada.
+
+**El sitio publicado se evalúa también como documento web**, no solo por su contenido:
+
+* Debe tener **presentación propia**: al menos una hoja de estilos personalizada sobre
+  la plantilla base, no la apariencia por defecto.
+* Su **HTML y su CSS deben pasar un validador** sin errores.
 
 > ⚠️ El **historial del repositorio forma parte de la evidencia**: debe permitir atribuirte
 > el trabajo y seguir cómo fuiste tomando las decisiones. No se exige una cadencia
