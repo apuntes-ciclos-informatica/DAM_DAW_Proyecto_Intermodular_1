@@ -261,12 +261,12 @@ documentar y comunicar un proyecto propio.
 ### La comunicación atraviesa todas las sesiones
 
 El **lenguaje verbal y no verbal** no ocupa una sesión propia: se trabaja de forma
-**transversal**. Cada sesión cierra con un ejercicio breve de preparación de la
-defensa, de modo que al llegar a la prueba final el alumnado ya ha ensayado en seis
-ocasiones cómo explicar su proyecto en voz alta.
+**transversal**. Cada sesión cierra con un ejercicio de comunicación, y ese ejercicio
+**es el guion de la píldora en vídeo** que se entrega al terminar la sesión.
 
-> 💡 Estos ejercicios no se entregan ni se califican por separado. Su función es
-> que llegues a la defensa habiendo practicado, no improvisando.
+> 💡 De este modo no hay trabajo duplicado: lo que practicas al cerrar cada sesión es
+> exactamente lo que grabas, y al llegar al **Demo Day** habrás explicado tu proyecto
+> en voz alta cinco veces. Los detalles de entrega están en la sección de Evaluación.
 
 ### Contenidos por Sesión
 
@@ -278,16 +278,16 @@ ocasiones cómo explicar su proyecto en voz alta.
 * Roles clave en un equipo técnico moderno.
 * Qué es un MVP y por qué se acota el alcance.
 
-🎤 **Prepara la defensa**: resume tu idea de proyecto en 30 segundos, sin tecnicismos,
-como si se lo contaras a alguien que no es informático.
+🎥 **Píldora 1 (90 s)**: ¿qué problema resuelves y para quién? Cuéntalo sin tecnicismos,
+como si se lo explicaras a alguien que no es informático.
 
 #### Sesión 2: Metodologías Ágiles. Scrum
 
 * Manifiesto Ágil y diferencias con las metodologías tradicionales.
 * Framework Scrum: roles, eventos y artefactos.
 
-🎤 **Prepara la defensa**: justifica en un minuto por qué usarías Scrum en tu proyecto
-y no un enfoque en cascada. Cuenta con que te preguntarán *"¿por qué?"*.
+🎥 **Píldora 2 (90 s)**: justifica por qué usarías Scrum en tu proyecto y no un enfoque
+en cascada. Cuenta con que en el Demo Day te preguntarán *"¿por qué?"*.
 
 #### Sesión 3: Análisis de requisitos e historias de usuario
 
@@ -295,8 +295,8 @@ y no un enfoque en cascada. Cuenta con que te preguntarán *"¿por qué?"*.
 * Historias de usuario y criterios de aceptación.
 * Priorización del alcance (MoSCoW).
 
-🎤 **Prepara la defensa**: elige la historia de usuario más importante de tu proyecto
-y explica a quién sirve y qué problema le resuelve.
+🎥 **Píldora 3 (90 s)**: ¿qué hará exactamente tu producto? Apóyate en la historia de
+usuario más importante: a quién sirve y qué problema le resuelve.
 
 #### Sesión 4: Organización del proyecto con Git y GitHub Projects
 
@@ -305,8 +305,8 @@ y explica a quién sirve y qué problema le resuelve.
 * Conversión de historias de usuario en tareas y gestión del tablero en GitHub Projects.
 * Publicación automática del sitio del proyecto.
 
-🎤 **Prepara la defensa**: enseña tu tablero y explica en qué estado está el proyecto
-y qué harías a continuación.
+🎥 **Píldora 4 (90 s)**: enseña tu tablero en pantalla y explica en qué estado está el
+proyecto y qué harás a continuación.
 
 #### Sesión 5: Diagramas del proyecto
 
@@ -315,8 +315,8 @@ y qué harías a continuación.
 * Diagramas entidad/relación: qué información guarda la aplicación.
 * Herramientas de diagramación.
 
-🎤 **Prepara la defensa**: recorre tu diagrama de casos de uso en voz alta. Un diagrama
-que no sabes narrar no está terminado.
+🎥 **Píldora 5 (90 s)**: recorre tus diagramas en voz alta y explícalos. Un diagrama que
+no sabes narrar no está terminado.
 
 #### Sesión 6: Documentación del proyecto con Markdown y VitePress
 
@@ -325,8 +325,8 @@ que no sabes narrar no está terminado.
 * Personalización del aspecto con hojas de estilo.
 * Estructura de una memoria técnica.
 
-🎤 **Prepara la defensa**: presenta tu sitio publicado explicando por qué lo has
-organizado así y qué encontrará quien lo visite.
+🎥 **Pitch final (2-3 min)**: con el sitio ya publicado, graba el vídeo comercial del
+proyecto. Por qué debería existir, a quién le sirve y por qué merece la pena.
 
 :::
 
@@ -369,8 +369,8 @@ El desarrollo del módulo se estructura en dos retos clave
 :::
 ::: details **2. Documentación del proyecto:**
 
-El entregable de este reto **no es un archivo, es un repositorio**. Cada alumno
-entregará la URL de un repositorio de GitHub que contenga:
+El entregable de este reto **no es un archivo, es un repositorio**: el *data room* del
+proyecto. Cada alumno entregará la URL de un repositorio de GitHub que contenga:
 
 * **La memoria del proyecto**, escrita en Markdown y publicada como sitio web con
   VitePress. Incluye, como mínimo: introducción y contexto, análisis de la competencia,
@@ -406,54 +406,160 @@ La evaluación del módulo será **continua, formativa e integradora**, centrán
  >   Recuerda que la fecha de la entrega final es fecha límite. En caso de tener alguna circunstancia personal, laboral o familiar que te dificulte la entrega ese día, planificate para realiazarla previamente.
 >* **Fraude:** La detección de fraude o copia en cualquiera de las fases del proyecto implicará una calificación de 0 en el instrumento correspondiente y puede suponer la pérdida del derecho a la evaluación continua. Ten en cuenta que este concpeto de copia o de fraude está también asociado al uso indebido o abusivo de la IA.
 
+### El proyecto se presenta a inversores
+
+La evaluación de este módulo adopta el marco con el que se presenta un proyecto real
+ante una empresa o un inversor. No se entrega "un trabajo": se prepara el expediente
+que alguien pediría antes de poner dinero en la idea, y se defiende ante un comité.
+
+Cada pieza que se solicita tiene un equivalente exacto en el mundo profesional:
+
+| Lo que entregas | Cómo se llama fuera del aula |
+|:---|:---|
+| Tu repositorio con la memoria publicada | El **data room** |
+| Los vídeos breves al cerrar cada sesión | **Founder updates** |
+| El vídeo final comercial | El ***pitch*** |
+| Las preguntas del profesorado sobre tu proyecto | ***Due diligence*** |
+| La sesión presencial | El **Demo Day** |
+
 ### Instrumentos de Evaluación y Calificación
 
-La calificación final se basa en la superación de todos los instrumentos de evaluación con una nota mínima de 5.00 sobre 10.
-
 | Instrumento | Descripción | Peso | Nota mínima |
-|:---|:---|:---:|:---|
-| **Documentación** | Elaboración y entrega de la documentación técnica y de usuario del proyecto, siguiendo las pautas y estándares definidos en el curso. | 50% | >= 5 |
-| **Defensa** | Exposición y defensa oral del proyecto ante el profesorado y compañeros, demostrando el dominio de los conceptos, la justificación de decisiones técnicas y la capacidad de argumentación. | 50% | >= 5 |
+|:---|:---|:---:|:---:|
+| **Data room** | Repositorio con la memoria publicada, el tablero del proyecto y el _one-pager_. | 40 % | ≥ 5 |
+| **Píldoras** | Cinco vídeos de 90 segundos, uno al cerrar cada sesión. | 20 % | ≥ 5 |
+| **Pitch** | Vídeo final de 2-3 minutos de carácter comercial. | 15 % | — |
+| **Demo Day** | Prueba presencial: _due diligence_ y pregunta como inversor. | 25 % | ≥ 5 |
+
+> [!IMPORTANT]
+> El **Demo Day es presencial y obligatorio**. Ningún vídeo lo sustituye: los vídeos son
+> entregables, la verificación ocurre en el aula.
 
 ### Desglose de los Instrumentos de Evaluación
 
-Aquí puedes consultar los detalles de cada parte evaluable.
+::: details 1. Data room — 40 %
 
-::: details Documentación
-La documentación constituye la tarea base del módulo, identificada como **_[Reto 2]_**. Su desarrollo se realiza durante la segunda fase del curso y sirve para establecer las líneas generales del proyecto, partiendo de la idea definida en el _[Reto 1]_.
+Tu repositorio es el expediente del proyecto. La memoria se publica como sitio web y se
+organiza **como la pediría un inversor**, no como un índice académico:
 
-* **Contenido clave:** Debe incluir toda la documentación técnica necesaria para poder iniciar la fase de implementación del proyecto de manera organizada.
-* **Objetivo:** Funciona como el plano fundamental sobre el que se construirá la solución técnica en la segunda parte del curso.
-* **Evaluación:** Para la calificación, se valorará la consecución de todos los **_Criterios de Evaluación (CE)_** asociados a esta tarea en cada **_Resultado de Aprendizaje (RA)_**. Es un requisito indispensable **aprobar todos y cada uno** de ellos para superar este instrumento.
+* **One-pager**: resumen ejecutivo en una página. Lo primero que se lee y lo último que
+  se escribe. Debe poder **exportarse a PDF** desde el propio sitio.
+* **Problema y oportunidad**: a quién le duele esto y análisis de la competencia.
+* **Solución y alcance**: el MVP, y de forma explícita **qué queda fuera y por qué**.
+* **Qué hará el producto**: historias de usuario con criterios de aceptación.
+* **Cómo funciona**: diagramas de casos de uso, de actividades y entidad/relación.
+* **Stack propuesto** y justificación de la elección.
+* **Plan de ejecución**: el tablero de GitHub Projects, con las historias convertidas en
+  tareas y su estado al día.
+* **Datos y cumplimiento**: qué información personal manejaría la aplicación y qué
+  implica el RGPD.
+
+El **README del repositorio** funciona como página de aterrizaje: es lo primero que ve
+quien llega, y debe permitir entender el proyecto y encontrar la memoria publicada.
+
+> ⚠️ El **historial del repositorio forma parte de la evidencia**. Un proyecto volcado de
+> una sola vez en la última semana no acredita el proceso que este módulo evalúa.
+
 :::
 
-::: details Defensa
+::: details 2. Píldoras — 20 %
 
-* **Modalidad:** La defensa será **presencial**.
-* **Carácter:** Es **obligatoria** para superar el módulo.
-* **Formato:** Será una sesión **grupal**, organizada en los siguientes términos:
-  * Se podrán establecer varios turnos si el número de alumnos lo requiere.
-  * Cada turno agrupará a varios estudiantes, cuya asignación será gestionada por el profesor.
-* **Asistencia:** La sesión no es pública. Solo asistirán los alumnos del grupo y el tribunal calificador.
-* **Tribunal:** Estará compuesto por el profesor del módulo y otros profesores que hayan participado en la tutorización de proyectos.
-* **Fechas:** Las fechas y la organización de los turnos se publicarán en el aula del módulo y en la de Tutoría.
+**Cinco vídeos de 90 segundos**, uno al cerrar cada sesión, publicados con su fecha. Son
+los ejercicios de preparación de la defensa que cierran cada sesión, grabados en lugar
+de solo ensayados.
 
-La prueba se divide en dos partes consecutivas que se realizarán en el mismo acto: una exposición individual y una mesa redonda grupal.
+| Tras la sesión | Píldora |
+|:---:|:---|
+| **1** | ¿Qué problema resuelves y para quién? |
+| **2** | ¿Por qué Scrum y no un enfoque en cascada en tu proyecto? |
+| **3** | ¿Qué hará exactamente el producto? |
+| **4** | Enseña tu tablero: dónde estás y qué harás a continuación |
+| **5** | Recorre tus diagramas y explícalos |
 
-#### **1. Exposición Oral (Individual)**
+No se busca producción audiovisual: se busca que sepas explicar tu proyecto en voz alta
+y en poco tiempo. Cinco grabaciones de minuto y medio a lo largo del curso son menos
+esfuerzo que una exposición larga al final, y te llevan a la prueba final con cinco
+ensayos hechos.
 
-Cada alumno presentará su proyecto de manera individual y consecutiva. El orden de exposición se sorteará el mismo día de la prueba.
+:::
 
-* **Formato de presentación:** Se utilizará el formato [PechaKucha](https://es.wikipedia.org/wiki/PechaKucha), que consiste en 20 diapositivas de exposición.
-* **Prohibido leer:** La exposición debe ser una defensa oral fluida; no se permitirá la lectura de notas.
+::: details 3. Pitch — 15 %
 
-#### **2. Mesa Redonda (Grupal y Colaborativa)**
+Un vídeo de **2 a 3 minutos**, de carácter comercial: por qué este proyecto debería
+existir, a quién le sirve y por qué merece la pena apostar por él.
 
-Una vez finalizadas todas las exposiciones, se dará paso a una mesa redonda en la que participarán todos los alumnos del turno y el tribunal.
+Aquí sí se valora la forma: narrativa, ritmo, claridad y cuidado en la presentación. Es
+la pieza donde se acredita el lenguaje verbal y no verbal trabajado durante todo el
+módulo.
 
-* **Objetivo:** Fomentar un debate técnico donde los estudiantes realicen preguntas, aporten ideas, mejoras o identifiquen inconvenientes en los proyectos de sus compañeros.
-* **Defensa activa:** Los alumnos deberán responder y argumentar las cuestiones planteadas sobre su propio proyecto.
-* **Evaluación cruzada:** La participación activa y la calidad de las intervenciones (tanto al preguntar como al responder) serán tenidas en cuenta en la calificación de la **Defensa**.
+Se entrega antes del Demo Day, porque **se proyecta allí**.
+
+:::
+
+::: details 4. Demo Day — 25 %
+
+La prueba presencial. Se organiza en turnos y ocupa unos **10 minutos por alumno**.
+
+#### 1. Proyección del pitch
+
+Se reproduce tu vídeo final. No expones, no lees y no preparas diapositivas: el trabajo
+de comunicación ya está hecho y entregado.
+
+#### 2. Ronda de _due diligence_
+
+El tribunal pregunta sobre **tu** data room. Se te señalará un elemento concreto de tu
+propio proyecto y tendrás que explicarlo y justificarlo. Por ejemplo:
+
+* _"Señala en tu modelo E/R dónde se guardaría esta información."_
+* _"¿Qué historia de usuario justifica esta entidad?"_
+* _"¿Por qué dejaste fuera del MVP esta funcionalidad?"_
+
+No es una exposición ensayable, porque no sabes qué se te va a señalar. Se evalúa que
+sepas justificar **tus propias decisiones**, no que las recuerdes.
+
+#### 3. Tú también eres inversor
+
+Cada alumno prepara **una pregunta crítica** al proyecto de un compañero y la formula en
+directo. Se valora la pertinencia de la pregunta: detectar un punto débil ajeno exige
+haber entendido tanto el proyecto como los conceptos del módulo.
+
+:::
+
+::: details Due diligence asíncrona
+
+A lo largo del curso, el profesorado podrá **abrir _issues_ en tu repositorio** con
+preguntas sobre decisiones concretas del proyecto, que deberás responder allí mismo.
+
+Es exactamente lo que hace un inversor técnico antes de comprometerse, deja constancia
+fechada del proceso y permite resolver dudas mucho antes de llegar al Demo Day.
+
+:::
+
+### Rúbrica común
+
+Todos los instrumentos se califican con la misma escala de cuatro niveles, aplicada a
+los criterios propios de cada pieza:
+
+| Nivel | Descripción |
+|:---:|:---|
+| **0** | No entregado o sin relación con lo solicitado. |
+| **1** | Incompleto o incorrecto. Faltan elementos esenciales. |
+| **2** | Correcto y completo, pero sin justificar las decisiones. |
+| **3** | Correcto, completo y justificado. |
+| **4** | Además, coherente con el resto del proyecto y bien comunicado. |
+
+::: warning Grabación de los vídeos y protección de datos
+
+Los vídeos contienen tu imagen y tu voz, y son datos personales.
+
+* Se alojan **exclusivamente en las plataformas institucionales** (Aules y Microsoft
+  Teams). **No se publican en internet** ni se suben a plataformas de terceros.
+* Se conservan únicamente durante el periodo necesario para la evaluación y sus
+  reclamaciones.
+* Si prefieres **no aparecer en imagen**, puedes entregar los vídeos como grabación de
+  pantalla con voz en off. La competencia evaluada es la comunicación, no la presencia
+  ante la cámara.
+
 :::
 
 
@@ -471,7 +577,9 @@ Durante el curso, se utilizarán diversas herramientas y recursos para facilitar
 * **Redacción y publicación de la documentación:** Markdown, VitePress y GitHub Pages.
 * **Diseño y diagramación:** Draw.io, Mermaid o Lucidchart.
 * **Editor de textos:** Visual Studio Code (o cualquier editor con soporte de Markdown).
-* **Grabación y edición de la presentación:** cualquier herramienta de captura de pantalla y audio.
+* **Grabación de las píldoras y el pitch:** la grabación de pantalla de Microsoft Teams,
+  o cualquier herramienta de captura de pantalla y audio.
+* **Entrega de los vídeos:** Aules o Microsoft Teams. No se publican en internet.
 * **Comunicación:** Microsoft Teams.
 
 :::
