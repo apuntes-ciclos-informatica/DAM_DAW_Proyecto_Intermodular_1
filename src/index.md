@@ -278,16 +278,19 @@ El **lenguaje verbal y no verbal** no ocupa una sesión propia: se trabaja de fo
 * Roles clave en un equipo técnico moderno.
 * Qué es un MVP y por qué se acota el alcance.
 
-🎥 **Píldora 1 (90 s)**: ¿qué problema resuelves y para quién? Cuéntalo sin tecnicismos,
-como si se lo explicaras a alguien que no es informático.
+🎥 **Píldora 1 (90 s)**: ¿qué problema resuelves, para quién, y **cómo lo resuelve hoy
+esa gente sin ti**? Cuéntalo sin tecnicismos, como si hablaras con alguien que no es
+informático.
 
 #### Sesión 2: Metodologías Ágiles. Scrum
 
 * Manifiesto Ágil y diferencias con las metodologías tradicionales.
 * Framework Scrum: roles, eventos y artefactos.
 
-🎥 **Píldora 2 (90 s)**: justifica por qué usarías Scrum en tu proyecto y no un enfoque
-en cascada. Cuenta con que en el Demo Day te preguntarán *"¿por qué?"*.
+🎥 **Píldora 2 (90 s)**: eres el responsable técnico del proyecto y un inversor te
+pregunta cómo lo construirías. Explica cómo organizarías el trabajo: qué metodología
+seguirías y **por qué encaja con tu proyecto**, qué perfiles necesitarías en el equipo
+y cómo repartirías el trabajo en el tiempo.
 
 #### Sesión 3: Análisis de requisitos e historias de usuario
 
@@ -295,8 +298,9 @@ en cascada. Cuenta con que en el Demo Day te preguntarán *"¿por qué?"*.
 * Historias de usuario y criterios de aceptación.
 * Priorización del alcance (MoSCoW).
 
-🎥 **Píldora 3 (90 s)**: ¿qué hará exactamente tu producto? Apóyate en la historia de
-usuario más importante: a quién sirve y qué problema le resuelve.
+🎥 **Píldora 3 (90 s)**: ¿qué hará tu producto y, sobre todo, **qué no hará**? Elige
+tu historia de usuario más importante y explica **cuándo la darías por terminada**, es
+decir, sus criterios de aceptación.
 
 #### Sesión 4: Organización del proyecto con Git y GitHub Projects
 
@@ -305,8 +309,9 @@ usuario más importante: a quién sirve y qué problema le resuelve.
 * Conversión de historias de usuario en tareas y gestión del tablero en GitHub Projects.
 * Publicación automática del sitio del proyecto.
 
-🎥 **Píldora 4 (90 s)**: enseña tu tablero en pantalla y explica en qué estado está el
-proyecto y qué harás a continuación.
+🎥 **Píldora 4 (90 s)**: comparte pantalla con tu repositorio y tu tablero. Enseña
+**cómo has convertido una historia de usuario en tareas concretas**, en qué estado está
+el proyecto y qué harás a continuación.
 
 #### Sesión 5: Diagramas del proyecto
 
@@ -315,7 +320,8 @@ proyecto y qué harás a continuación.
 * Diagramas entidad/relación: qué información guarda la aplicación.
 * Herramientas de diagramación.
 
-🎥 **Píldora 5 (90 s)**: recorre tus diagramas en voz alta y explícalos. Un diagrama que
+🎥 **Píldora 5 (90 s)**: elige uno de tus diagramas, recórrelo en voz alta y explica
+**una decisión que tomaste al dibujarlo y qué alternativa descartaste**. Un diagrama que
 no sabes narrar no está terminado.
 
 #### Sesión 6: Documentación del proyecto con Markdown y VitePress
@@ -326,7 +332,8 @@ no sabes narrar no está terminado.
 * Estructura de una memoria técnica.
 
 🎥 **Pitch final (2-3 min)**: con el sitio ya publicado, graba el vídeo comercial del
-proyecto. Por qué debería existir, a quién le sirve y por qué merece la pena.
+proyecto: por qué debería existir, **qué lo hace distinto de lo que ya existe** y **qué
+pedirías** para poder llevarlo a cabo.
 
 :::
 
@@ -470,11 +477,11 @@ de solo ensayados.
 
 | Tras la sesión | Píldora |
 |:---:|:---|
-| **1** | ¿Qué problema resuelves y para quién? |
-| **2** | ¿Por qué Scrum y no un enfoque en cascada en tu proyecto? |
-| **3** | ¿Qué hará exactamente el producto? |
-| **4** | Enseña tu tablero: dónde estás y qué harás a continuación |
-| **5** | Recorre tus diagramas y explícalos |
+| **1** | ¿Qué problema resuelves, para quién, y cómo se resuelve hoy sin ti? |
+| **2** | Como responsable técnico: ¿cómo organizarías el trabajo y con qué perfiles? |
+| **3** | ¿Qué hará tu producto, qué no hará, y cuándo está terminada una historia? |
+| **4** | Enseña repositorio y tablero: de la historia de usuario a las tareas |
+| **5** | Recorre un diagrama: una decisión que tomaste y la alternativa que descartaste |
 
 No se busca producción audiovisual: se busca que sepas explicar tu proyecto en voz alta
 y en poco tiempo. Cinco grabaciones de minuto y medio a lo largo del curso son menos
