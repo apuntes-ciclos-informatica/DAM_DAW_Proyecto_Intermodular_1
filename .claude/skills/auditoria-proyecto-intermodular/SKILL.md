@@ -146,12 +146,18 @@ significa que se está evaluando otra cosa, y que el mapa de cobertura construid
 sobre él puede ser válido en apariencia y falso en el fondo. Gravedad **crítica**,
 siempre.
 
-**Comprobación adicional propia del PI.** Verifica que **todos** los RA y CE
-citados pertenecen al Proyecto Intermodular. Un RA de Sistemas Informáticos, de
-Entornos de Desarrollo o de cualquier otro módulo que aparezca en la tabla de
-evaluación del PI no es una imprecisión: es una infracción del principio de
-evaluación modular (apartado 3, vector 3) y se consigna como **crítica** aunque su
-transcripción sea literalmente correcta.
+**De dónde salen los RA del PI en grado superior.** No los inventa el centro ni los
+fija un currículo propio: la guía oficial de la Conselleria establece que, para grado
+superior, *«los resultados de aprendizaje y los criterios de evaluación son los
+establecidos en los respectivos reales decretos»* de título. Para DAW son los del
+módulo de proyecto del **RD 686/2010** (0616, cuatro RA); para DAM, los del **RD
+450/2010** (0492). Cotéjalos contra esa fuente, no contra otra.
+
+**Los RA de otros módulos no son un hallazgo.** Que el documento del PI recoja RA y CE
+de otros módulos del ciclo es **lo que la norma exige** (ver vector 3): no lo consignes
+como no conformidad. Lo que sí debes verificar es que **los RA propios del módulo estén
+completos** —los cuatro— y que el reparto entre PI1 y PI2 esté declarado. Un RA propio
+ausente, sin asignar al otro tramo, sí es **crítico**.
 
 ### 0.5. Constancia en el informe
 
@@ -173,8 +179,8 @@ El informe abre, inmediatamente después del encabezado, con este bloque:
 **Documentos del entorno revisados:** [lista] · **Excluidos:** [lista y motivo]
 **Guía del tramo complementario (PI1↔PI2):** [localizada y revisada / no existe / no localizada]
 
-**Cotejo literal de RA/CE:** [n] idénticos · [n] discrepantes · [n] ausentes, sobre [n] criterios oficiales.
-**RA ajenos al PI detectados en la tabla de evaluación:** [n] · [enumerar]
+**Cotejo literal de RA/CE propios del módulo:** [n] idénticos · [n] discrepantes · [n] ausentes, sobre [n] oficiales.
+**RA de otros módulos integrados en el proyecto:** [n] · [enumerar] — *integración exigida por la norma, no es hallazgo; se consigna para verificar que no determinan la calificación del PI*
 
 **Resultado de la puerta:** [SUPERADA / SUPERADA CON RESERVAS / NO SUPERADA — motivo]
 ```
@@ -279,7 +285,20 @@ una no conformidad inventada.
    > de currículo, comprueba **(a)** que el número y el rango son los que crees y
    > **(b)** que el grado al que se refiere es el del ciclo que auditas.
 
-4. Bajo la LO 3/2022 las competencias transversales tienen **módulos propios** en el
+4. **Guía para la programación del módulo Proyecto Intermodular en la Comunitat
+   Valenciana** (Conselleria d'Educació, `ceice.gva.es`). No es norma, pero es la
+   interpretación oficial y **resuelve las tres dudas que más se auditan mal**:
+   - **Grado superior: los RA y CE del PI son los de los respectivos reales decretos de
+     título** (para DAW, el módulo 0616 del RD 686/2010; para DAM, el 0492 del RD
+     450/2010). Los currículos básicos cerrados con RA propios existen solo para grado
+     básico (código **3160**) y grado medio (código **1713**).
+   - **Código en grado superior:** *«depende de cada ciclo formativo su numeración»* —la
+     codificación heredada es correcta—. **Horas:** mínimo 50, con **1 h semanal en
+     primero y 3 h en segundo** en la Comunitat Valenciana.
+   - **La programación del PI debe incluir RA, criterios de evaluación y actividades del
+     resto de módulos del ciclo**: el carácter integrador lo exige. Ver vector 3.
+
+5. Bajo la LO 3/2022 las competencias transversales tienen **módulos propios** en el
    ciclo (Digitalización aplicada al sistema productivo, Sostenibilidad aplicada al
    sistema productivo, Itinerario personal para la empleabilidad, Inglés profesional
    y el propio Proyecto Intermodular). Comprueba que la guía del PI no se atribuya
@@ -356,17 +375,28 @@ conformidades críticas de este módulo.
 
 ### Vector 1 — Codificación, nomenclatura y carga horaria
 
-Comprobar que la denominación, los códigos y la carga horaria semanal y anual
-coincidan con el currículo vigente. Señalar la convivencia de codificación del
-marco anterior con la denominación del nuevo (apartado 0.1).
+Comprobar que la denominación, los códigos y la carga horaria coincidan con el
+currículo vigente.
+
+> ⚠️ **No confundas codificación heredada con error.** En **grado superior** la guía oficial
+> de la Conselleria establece que el código del PI *«depende de cada ciclo formativo su
+> numeración»*: que un PI de DAW se identifique como **0616** (o **0492** en DAM) es
+> **correcto**, no un residuo del marco anterior. Los códigos propios y cerrados existen en
+> grado básico (**3160**, Proyecto intermodular de aprendizaje colaborativo) y en grado medio
+> (**1713**), no en grado superior.
+>
+> **Carga horaria de referencia en la Comunitat Valenciana (grado superior):** duración
+> mínima 50 h, repartidas en **1 h semanal en primer curso y 3 h semanales en segundo**.
+> Grado básico: 2 h en segundo. Grado medio: 2 h en segundo.
 
 ### Vector 2 — Naturaleza jurídica del Proyecto Intermodular
 
 Cuatro comprobaciones, todas con fundamento en el RD 659/2023 art. 96 y el
 Decreto 114/2025:
 
-- **No dualizable.** El documento debe declarar —o al menos no contradecir— que el
-  módulo se realiza y evalúa **íntegramente en el centro educativo**. Una guía que
+- **No dualizable.** Las instrucciones de inicio de curso lo dicen en cinco palabras:
+  *«Este módulo no se podrá dualizar»*. El documento debe declarar —o al menos no
+  contradecir— que se realiza y evalúa **íntegramente en el centro educativo**. Una guía que
   prevea estancia en empresa, tutor de empresa o calificación por la empresa dentro
   del PI incurre en no conformidad **crítica**. El silencio absoluto sobre la
   cuestión es no conformidad **grave**: en un ciclo dualizado, lo que no se excluye
@@ -379,24 +409,45 @@ Decreto 114/2025:
 - **Integrador, no absorbente.** El carácter integrador se refiere a las
   **competencias** del ciclo, no a los RA de otros módulos. Ver vector 3.
 
-### Vector 3 — Evaluación estrictamente modular (Orden 8/2025)
+### Vector 3 — Evaluación modular (Orden 8/2025) — **leer entero antes de dictaminar**
 
-El vector donde más documentos caen. Tres prohibiciones:
+El vector donde más documentos caen **y donde más falsos positivos produce un auditor
+apresurado**. La distinción es fina y hay que hacerla bien.
 
-- **No evaluar RA ajenos.** El PI se califica **únicamente** por la consecución de
-  **sus propios** RA. Ningún RA de otro módulo puede aparecer en su tabla de
-  evaluación, ni siquiera «de forma transversal» o «como evidencia». Crítico.
-- **No acreditar RA ajenos.** Simétricamente, aprobar el PI no aprueba RA de otros
-  módulos, ni viceversa. Una guía que insinúe compensación entre módulos es
-  **crítica**.
-- **No condicionar la superación del PI a la de otros módulos.** Exigir tener
-  aprobados módulos técnicos para superar —o para presentarse a— el PI carece de
-  cobertura normativa y es **crítico**. Distínguelo con cuidado de una
-  recomendación pedagógica de secuenciación, que es legítima si se redacta como tal
-  y no produce efectos sobre la calificación.
+**LO QUE LA NORMA EXIGE, y por tanto NO es no conformidad:**
 
-Comprobar además que la ponderación de RA/CE sume exactamente el 100 % en cada
-itinerario previsto, y que cada instrumento esté asociado a CE medibles.
+Las instrucciones de inicio de curso de la Comunitat Valenciana establecen que cada equipo
+docente diseñará retos que **contengan varios RA de diferentes módulos profesionales del
+ciclo**, y que los centros determinarán en la programación **los RA y criterios de
+evaluación que se trabajarán en el Proyecto Intermodular**, recogiéndolo en el Proyecto
+Curricular de Ciclo Formativo. La guía oficial de la Conselleria para la programación del PI
+lo dice sin rodeos: *«El carácter integrador del módulo exige que en la programación de
+dicho Proyecto incluya RA, criterios de evaluación y actividades del resto de módulos
+profesionales del ciclo»*. No es necesario que estén los de todos los módulos.
+
+Por tanto: **una tabla de RA de otros módulos dentro del documento del PI es lo que la norma
+pide, no una infracción.** Marcarla como no conformidad es un error de auditoría, y de los
+caros: invalida el informe entero ante quien conozca la norma.
+
+**LO QUE SÍ ESTÁ PROHIBIDO** (Orden 8/2025, evaluación modular), tres cosas y solo estas:
+
+- **Que la calificación del PI se obtenga de RA ajenos.** El PI se **califica** por la
+  consecución de **sus propios** RA —los del módulo de proyecto del título—. Los RA de otros
+  módulos se **trabajan y evidencian** en el proyecto, pero quien los **evalúa y acredita**
+  es cada módulo titular, con su profesorado. Audita la diferencia entre *trabajar* y
+  *calificar*: el verbo del documento importa. Una redacción del tipo «los RA de otros
+  módulos **que se evaluarán a través de este proyecto**» es imprecisa y conviene
+  corregirla, pero es **defecto de redacción (leve)**, no infracción de fondo, si la
+  calificación del PI no depende realmente de ellos.
+- **Que aprobar el PI acredite RA ajenos, o viceversa.** Sin compensación entre módulos.
+- **Que la superación del PI se condicione a la de otros módulos.** No existe «módulo
+  llave». Exigir tener aprobados módulos técnicos para superar —o para presentarse a— el PI
+  **es crítico**, y es la infracción que de verdad hay que buscar en este vector. Distínguela
+  de una recomendación pedagógica de secuenciación, legítima si se redacta como tal y no
+  produce efectos sobre la calificación.
+
+Comprobar además que la ponderación sume exactamente el 100 % en cada itinerario previsto y
+que cada instrumento esté asociado a CE medibles.
 
 ### Vector 4 — Reparto PI1 / PI2 y calificación parcial
 
@@ -406,9 +457,16 @@ itinerario previsto, y que cada instrumento esté asociado a CE medibles.
 - **Naturaleza de la nota de PI1.** Conforme al art. 12.8 de la Orden 8/2025 en la
   redacción dada por la Orden 5/2026, la calificación de fin de primer curso es
   **parcial, numérica e informativa**, no figura en el expediente y **pondera** en
-  la calificación final del módulo en segundo. Verifica que el documento la
-  presente así y que **declare el peso concreto** con que ponderará. Presentarla
-  como calificación firme, o no declarar su peso, es **grave**.
+  la calificación final del módulo en segundo. Las instrucciones autonómicas lo
+  formulan igual: en primer curso *«se reflejará en el acta de cada sesión de
+  evaluación una valoración del aprovechamiento y el grado de consecución del
+  desarrollo del módulo con una **calificación orientativa** que formará parte de la
+  calificación final en segundo»*, y la nota final *«será ponderada entre ambos cursos
+  en función de la naturaleza de los contenidos»*. Verifica que el documento la
+  presente así y que **declare el peso concreto** con que ponderará. Presentarla como
+  calificación firme de módulo —«PI1 se califica como cualquier otro módulo»— es
+  **crítico**, no grave: de ahí se derivan después condicionamientos entre tramos que
+  la norma no contempla.
 - **Ámbito de cada guía.** La guía de PI1 puede describir el itinerario completo,
   pero **no puede regular** el régimen de evaluación de PI2 ni remitir su propio
   régimen a la guía del otro tramo. Cada documento debe ser suficiente para el
