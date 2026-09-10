@@ -314,9 +314,7 @@ organiza, se dibuja, se documenta y se explica un proyecto propio.
 * Roles clave en un equipo técnico moderno.
 * Qué es un MVP y por qué se acota el alcance.
 
-🎥 **Píldora 1 (90 s)**: ¿qué problema resuelves, para quién, y **cómo lo resuelve hoy
-esa gente sin ti**? Cuéntalo sin tecnicismos, como si hablaras con alguien que no es
-informático.
+Esta sesión **no lleva píldora**: primero necesitas la sesión 2 para saber cómo grabarla.
 
 #### Sesión 2: Comunicación verbal y no verbal
 
@@ -325,8 +323,13 @@ informático.
 * Errores típicos al grabarse: leer, ir deprisa, empezar por el detalle.
 * Cómo se prepara una respuesta cuando no sabes qué te van a preguntar.
 
-Esta sesión **no lleva píldora propia**: es la que te enseña a grabar las cinco
-siguientes y a defenderte el día del Demo Day.
+🎥 **Píldora 1 (90 s)**: ¿qué problema resuelves, para quién, y **cómo lo resuelve hoy
+esa gente sin ti**? Cuéntalo sin tecnicismos, como si hablaras con alguien que no es
+informático.
+
+> Es la primera píldora y la que estrena todo lo anterior: **aplicas lo que acabas de ver
+> en esta sesión sobre la teoría de la sesión 1**. Estructura, voz y ritmo puestos al
+> servicio de explicar tu proyecto por primera vez.
 
 #### Sesión 3: Metodologías Ágiles. Scrum
 
@@ -565,7 +568,7 @@ Por eso los instrumentos no llevan nombre de examen, sino el que reciben fuera d
 | Instrumento | Qué entregas | Peso | Nota mínima |
 |:---|:---|:---:|:---:|
 | **Data room** | Tu repositorio, con la memoria publicada, el tablero del proyecto y el _one-pager_. | 40 % | ≥ 5 |
-| **Píldoras** <br>_(founder updates)_ | Cinco vídeos breves, de 90 segundos, uno al cerrar las sesiones 1, 3, 4, 5 y 6. | 20 % | ≥ 5 |
+| **Píldoras** <br>_(founder updates)_ | Cinco vídeos breves, de 90 segundos, uno al cerrar cada sesión de la 2 a la 6. | 20 % | ≥ 5 |
 | **Pitch** | El vídeo final de carácter comercial, de 2 a 3 minutos. | 15 % | ≥ 5 |
 | **Demo Day** | La sesión presencial: _due diligence_ del profesorado sobre tu proyecto y una pregunta crítica al de un compañero. | 25 % | ≥ 5 |
 
@@ -628,14 +631,14 @@ permitir entender el proyecto y encontrar la memoria publicada.
 
 ::: details 2. Píldoras — 20 %
 
-**Cinco vídeos de 90 segundos**, uno al cerrar las sesiones 1, 3, 4, 5 y 6. Son los
+**Cinco vídeos de 90 segundos**, uno al cerrar cada sesión de la 2 a la 6. Son los
 ejercicios de preparación de la defensa que cierran cada sesión, grabados en lugar de
-solo ensayados. La sesión 2 no lleva píldora —es la que enseña a grabarlas— y el cierre
-de la sesión 7 es el propio pitch.
+solo ensayados. La sesión 1 no lleva píldora —hace falta antes la sesión 2, que enseña a
+grabarlas— y el cierre de la sesión 7 es el propio pitch.
 
 | Tras la sesión | Píldora |
 |:---:|:---|
-| **1** | ¿Qué problema resuelves, para quién, y cómo se resuelve hoy sin ti? |
+| **2** | ¿Qué problema resuelves, para quién, y cómo se resuelve hoy sin ti? |
 | **3** | Como responsable técnico: ¿cómo organizarías el trabajo y con qué perfiles? |
 | **4** | ¿Qué hará tu producto, qué no hará, y cuándo está terminada una historia? |
 | **5** | Enseña repositorio y tablero: de la historia de usuario a las tareas |
