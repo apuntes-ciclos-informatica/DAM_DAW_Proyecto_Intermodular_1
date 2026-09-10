@@ -12,7 +12,7 @@
 
 **Curso:** Primero
 
-**Horas semanales:** 1 horas (modalidad online)
+**Horas semanales:** 1 hora (modalidad online)
 
 **Horas totales:** 34 horas (de las 2000 del ciclo formativo)
 
@@ -31,14 +31,16 @@
 
 ::: info Descripción del Curso
 
-Este curso proporciona al alumnado de **DAW y DAM** una base sólida en la gestión de proyectos tecnológicos: cómo se define un proyecto, cómo se organiza el trabajo con metodologías ágiles, cómo se modela mediante diagramas y cómo se documenta y se comunica. El proyecto que se realiza es **documental**: no se programa, se aprende a definir y explicar un proyecto antes de construirlo, que es justo el paso previo al Proyecto Intermodular II de segundo curso.
+En este módulo aprenderás a **definir un proyecto informático antes de construirlo**: cómo se decide qué va a hacer, cómo se organiza el trabajo con metodologías ágiles, cómo se dibuja con diagramas y cómo se documenta y se explica.
+
+El proyecto que harás es **documental**: **aquí no se programa**. Escribir el código llega en el Proyecto Intermodular II, en segundo curso, y este módulo es el paso previo.
 
   > Aunque las líneas generales se mantendrán durante todo el curso, esta guía es un documento vivo que puede ir actualizándose (básicamente aclaraciones) a lo largo del curso. Todas las modificaciones serán notificadas a través del foro de _Novedades_ del aula del módulo.
 :::
 
 ## Objetivos de Aprendizaje {.animate-title}
 
-Durante el modulo se trabajarán diversas competencias profesionales y personales con el fin de preparar al alumnado para su futura vida laboral.
+En este módulo trabajarás competencias profesionales y personales que te preparan para tu futura vida laboral.
 
 ::: details Objetivos Generales del Curso
 
@@ -75,28 +77,27 @@ el trabajo, gestionar las tareas del proyecto y mantener trazabilidad de los cam
 
 ### Competencias a Desarrollar
 
-La formación del módulo contribuye a alcanzar un conjunto de competencias clave, divididas en dos grandes bloques: las **transversales**, comunes a todos los perfiles profesionales, y las **técnicas**, específicas de cada ciclo formativo.
+El módulo desarrolla dos tipos de competencias: las **transversales**, que sirven en cualquier trabajo, y las **técnicas**, propias de la informática.
 
 ---
 
 ### Competencias Transversales
 
-Estas competencias están orientadas al "saber hacer" en un entorno profesional real, independientemente de la especialización.
+Son las que se te van a pedir en cualquier empresa, trabajes de lo que trabajes.
 
 ::: details Competencias Transversales
 
-* **Análisis y Resolución de Problemas:** Evaluar necesidades, identificar problemas y **proponer y justificar** soluciones técnicas viables.
-* **Trabajo en Equipo y Comunicación Profesional:** **Comunicar decisiones técnicas de forma clara**, tanto por escrito como oralmente, adaptando el mensaje a interlocutores técnicos y no técnicos. Esta competencia se trabaja de forma **transversal en las seis sesiones**.
-* **Adaptación y Aprendizaje Continuo:** Demostrar iniciativa para **asimilar nuevas herramientas y metodologías** (control de versiones, tableros de proyecto, metodologías ágiles) y mantener los conocimientos actualizados.
-* **Autonomía, Iniciativa y Gestión de Proyectos:** **Planificar tareas**, gestionar tiempos y resolver contingencias de manera proactiva para cumplir con los objetivos del proyecto, aplicando un espíritu de mejora continua.
+* **Análisis y Resolución de Problemas:** Detectar qué problema hay que resolver y **proponer una solución técnica realista, explicando por qué es esa y no otra**.
+* **Trabajo en Equipo y Comunicación Profesional:** **Explicar decisiones técnicas con claridad**, por escrito y en voz alta, y saber cambiar el mensaje según hables con alguien técnico o con alguien que no lo es. Tiene su propia sesión y se practica en cada píldora.
+* **Adaptación y Aprendizaje Continuo:** **Aprender herramientas nuevas por tu cuenta** —control de versiones, tableros de proyecto, metodologías ágiles— y mantenerte al día.
+* **Autonomía, Iniciativa y Gestión de Proyectos:** **Planificar tus tareas**, organizar tu tiempo y resolver los imprevistos sin esperar a que alguien te lo diga.
 :::
 
 ### Competencias Técnicas del Módulo
 
-Este módulo se cursa en **primero**, cuando el alumnado todavía no domina las
-tecnologías de desarrollo. Por eso el proyecto **no exige programar**: exige
-*comprender, modelar, organizar, documentar y comunicar* un proyecto informático.
-Las competencias son, por tanto, **comunes a DAW y DAM**.
+Estás en **primer curso**, y todavía no dominas las tecnologías de desarrollo. Por eso el
+proyecto no te pide programar: te pide *entender, dibujar, organizar, documentar y
+explicar* un proyecto informático. Son las mismas competencias para **DAW y DAM**.
 
 ::: details Competencias Técnicas
 
@@ -127,7 +128,7 @@ Las competencias son, por tanto, **comunes a DAW y DAM**.
 
 ::: details Cómo se justifican los resultados de aprendizaje del Proyecto Intermodular
 
-Los tres resultados se acreditan con evidencias del propio proyecto. 
+Los tres se demuestran con partes concretas del proyecto que entregas.
 
 #### RA01 — Identifica necesidades del sector productivo
 
@@ -144,8 +145,8 @@ sector de desarrollo de aplicaciones informáticas.
   queda fuera y la razón.
 * **Viabilidad inicial** · La propuesta anticipa la oportunidad, las limitaciones y los
   recursos técnicos necesarios para que la idea pueda desarrollarse.
-* **Evidencia oral** · La primera píldora y el _pitch_ permiten comprobar que el alumno
-  identifica el problema, su público y la diferencia frente a lo que ya existe.
+* **Evidencia oral** · La primera píldora y el _pitch_ permiten comprobar que identificas
+  el problema, su público y la diferencia frente a lo que ya existe.
 
 #### RA02 — Diseña el proyecto y sus fases
 
@@ -200,9 +201,8 @@ Los _Resultados de Aprendizaje_ específicos de otros módulos que se evaluarán
 
 ### **Tabla de Módulos, RAs, CEs y Objetivos Asociados**
 
-Los criterios se enumeran de forma **explícita**: solo figuran aquellos que el proyecto
-puede evidenciar realmente. La tabla es **común a DAW y DAM**, porque los cuatro módulos
-implicados son idénticos en ambos currículos.
+Solo figuran los criterios que el proyecto demuestra de verdad. La tabla es **común a DAW
+y DAM**, porque los módulos implicados son idénticos en ambos currículos.
 
 | Módulo | Resultado de Aprendizaje (RA) | Criterios de Evaluación (CE) | OG |
 | :--- | :--- | :--- | :--- |
@@ -217,7 +217,7 @@ implicados son idénticos en ambos currículos.
 
 ::: details Cómo se justifica cada resultado de aprendizaje
 
-Cada criterio se acredita con una parte concreta y comprobable de lo que se entrega.
+Cada criterio se demuestra con una parte concreta de lo que entregas.
 
 #### 0373 · Lenguajes de marcas
 
@@ -285,29 +285,28 @@ Cada criterio se acredita con una parte concreta y comprobable de lo que se entr
 
 ### Contenidos
 
-El contenido se organiza en las siguientes fases y sesiones:
+El curso tiene dos fases: primero los contenidos, después el acompañamiento del proyecto.
 
-:::: details Organización orientativa de Contenidos FASE 1
+:::: details Fase 1 · Las siete sesiones de contenido
 
-### Sesiones autónomas
+### Las siete sesiones
 
-Las seis sesiones son **comunes a DAW y DAM**. El proyecto de este módulo es de
-naturaleza documental: no se pide programar, sino analizar, organizar, diagramar,
-documentar y comunicar un proyecto propio.
+Las siete sesiones son **iguales para DAW y DAM**. En ninguna se programa: se analiza, se
+organiza, se dibuja, se documenta y se explica un proyecto propio.
 
 | Sesión | Título | Resultados de aprendizaje que trabaja |
-|:---:|:---|:---:|:---|
+|:---:|:---|:---|
 | **1** | Fundamentos de la gestión de proyectos | 0487 RA1 (b, f) |
-| **2** | Comunicación verbal y no verbal | RT  |
+| **2** | Comunicación verbal y no verbal | Competencia transversal de comunicación |
 | **3** | Metodologías Ágiles. Scrum | 0487 RA1 (g) |
 | **4** | Análisis de requisitos e historias de usuario | 0487 RA6 (b) · PI RA1, RA2 |
 | **5** | Organización del proyecto con Git y GitHub Projects | PI RA3 |
-| **6** | Diagramas del proyecto | 0487 RA6 · 0484 RA1, RA6 |
-| **7** | Documentación del proyecto con Markdown y VitePress | 0373 RA1, RA2, RA5 · 0483 RA7 |
+| **6** | Diagramas del proyecto | 0487 RA6 · 0484 RA6 |
+| **7** | Documentación del proyecto con Markdown y VitePress | 0373 RA1, RA2, RA5 |
 
 ### Contenidos por Sesión
 
-::: details Ver Detalles de Cada Sesión
+::: details Qué se ve en cada sesión
 
 #### Sesión 1: Fundamentos de la gestión de proyectos
 
@@ -319,7 +318,17 @@ documentar y comunicar un proyecto propio.
 esa gente sin ti**? Cuéntalo sin tecnicismos, como si hablaras con alguien que no es
 informático.
 
-#### Sesión 2: Metodologías Ágiles. Scrum
+#### Sesión 2: Comunicación verbal y no verbal
+
+* Cómo se estructura una explicación breve: qué va primero y qué sobra.
+* Voz, ritmo y pausas. Qué hacer con las manos y con la mirada.
+* Errores típicos al grabarse: leer, ir deprisa, empezar por el detalle.
+* Cómo se prepara una respuesta cuando no sabes qué te van a preguntar.
+
+Esta sesión **no lleva píldora propia**: es la que te enseña a grabar las cinco
+siguientes y a defenderte el día del Demo Day.
+
+#### Sesión 3: Metodologías Ágiles. Scrum
 
 * Manifiesto Ágil y diferencias con las metodologías tradicionales.
 * Framework Scrum: roles, eventos y artefactos.
@@ -329,17 +338,17 @@ pregunta cómo lo construirías. Explica cómo organizarías el trabajo: qué me
 seguirías y **por qué encaja con tu proyecto**, qué perfiles necesitarías en el equipo
 y cómo repartirías el trabajo en el tiempo.
 
-#### Sesión 3: Análisis de requisitos e historias de usuario
+#### Sesión 4: Análisis de requisitos e historias de usuario
 
 * Requisitos funcionales y no funcionales.
 * Historias de usuario y criterios de aceptación.
-* Priorización del alcance (MoSCoW).
+* Priorización del alcance: qué es imprescindible y qué puede esperar (método MoSCoW).
 
 🎥 **Píldora 3 (90 s)**: ¿qué hará tu producto y, sobre todo, **qué no hará**? Elige
 tu historia de usuario más importante y explica **cuándo la darías por terminada**, es
 decir, sus criterios de aceptación.
 
-#### Sesión 4: Organización del proyecto con Git y GitHub Projects
+#### Sesión 5: Organización del proyecto con Git y GitHub Projects
 
 * Control de versiones: qué es un repositorio, un commit y un historial.
 * Repositorios remotos y trabajo colaborativo en GitHub.
@@ -350,7 +359,7 @@ decir, sus criterios de aceptación.
 **cómo has convertido una historia de usuario en tareas concretas**, en qué estado está
 el proyecto y qué harás a continuación.
 
-#### Sesión 5: Diagramas del proyecto
+#### Sesión 6: Diagramas del proyecto
 
 * Diagramas de casos de uso: quién usa el sistema y para qué.
 * Diagramas de actividades: cómo fluye un proceso.
@@ -361,7 +370,7 @@ el proyecto y qué harás a continuación.
 **una decisión que tomaste al dibujarlo y qué alternativa descartaste**. Un diagrama que
 no sabes narrar no está terminado.
 
-#### Sesión 6: Documentación del proyecto con Markdown y VitePress
+#### Sesión 7: Documentación del proyecto con Markdown y VitePress
 
 * Lenguajes de marcas: qué son y para qué sirven. Markdown frente a HTML.
 * Estructura de un documento HTML: etiquetas y atributos principales. HTML dentro de
@@ -379,14 +388,14 @@ pedirías** para poder llevarlo a cabo.
 
 ::::
 
-::: details Organización orientativa de Contenidos FASE 2
+::: details Fase 2 · Tutorización del proyecto
 
-Sesiones individuales dedicadas a tutorizar el proyecto y preparar la prueba final.
+Sesiones individuales para acompañarte con tu proyecto y preparar la prueba final.
 :::
 
 ## Metodología {.animate-title}
 
-La metodología utilizada en el módulo es _Aprendizaje Basado en Retos_. El módulo publica los contenidos teóricos de los primeros pasos del proceso de creación de un proyecto, y sobre ellos cada alumno construye un proyecto propio: primero lo define, después lo documenta y finalmente lo defiende. 
+La metodología utilizada en el módulo es _Aprendizaje Basado en Retos_. El módulo te da los contenidos teóricos de los primeros pasos para crear un proyecto, y sobre ellos construyes uno propio: primero lo defines, después lo documentas y al final lo defiendes.
 
 ::: tip PI1 + PI2
 
@@ -398,7 +407,7 @@ Por eso **este módulo se puede cursar de dos formas**, y conviene decidirlo al 
 * **PI1 junto con PI2**, con un **único proyecto** que sirve para los dos módulos y se
   entrega y se defiende una sola vez.
 
-La segunda opción es la recomendable si te corresponde cursar ambos: evita duplicar el trabajo. Los detalles están en [Los dos itinerarios del módulo](#los-dos-itinerarios-del-modulo).
+La segunda opción es la recomendable si te corresponde cursar ambos: evita duplicar el trabajo. Los detalles están en [Entregas y Seguimiento del Proyecto](#entregas-y-seguimiento-del-proyecto).
 
 > 💡 Si cursas **solo PI1** este año, ten en cuenta que —por la falta de conocimientos técnicos en primer curso— es poco probable que el proyecto que definas aquí te sirva para PI2 el año que viene. La garantía de proyecto único existe únicamente cuando se cursan los dos módulos a la vez.
 
@@ -406,28 +415,49 @@ La segunda opción es la recomendable si te corresponde cursar ambos: evita dupl
 
 ::: details Tutorías
 
-El alumnado contará únicamente con, previa cita con el profesorado, tutorías individuales de apoyo para llevar a cabo el curso. El módulo no contiene tutorías colectivas.
+Este módulo tiene **tutorías individuales**, siempre con cita previa con el profesorado. No hay tutorías colectivas.
 
 :::
 
 ## Entregas y Seguimiento del Proyecto
 
+::: tip Antes de seguir: el vocabulario del módulo
+
+Este módulo llama a las cosas por el nombre que reciben **fuera del aula**, en una
+empresa. Puede que no te suenen todavía, así que aquí están todas juntas:
+
+| Palabra | Qué es aquí |
+|:---|:---|
+| **MVP** | La versión más pequeña de tu idea que ya sirve para algo. Lo que entra, y lo que dejas fuera a propósito. |
+| **Data room** | Tu repositorio con toda la documentación del proyecto. Es el expediente que alguien leería antes de invertir en tu idea. |
+| **One-pager** | El resumen del proyecto en una sola página. |
+| **Píldora** | Un vídeo corto, de 90 segundos, en el que cuentas cómo va tu proyecto. |
+| **Pitch** | El vídeo final, de 2 a 3 minutos, en el que vendes tu proyecto. |
+| **Demo Day** | La prueba presencial en la que defiendes el proyecto ante el profesorado. |
+| **Due diligence** | Las preguntas que te hacen sobre tu propio proyecto para comprobar que de verdad lo entiendes. |
+| **Stack** | El conjunto de tecnologías con las que construirías el proyecto. |
+| **Repositorio** | La carpeta de tu proyecto alojada en GitHub, que guarda todos los cambios que vas haciendo. |
+
+No hace falta que te las aprendas ahora: cada una se explica en su sesión.
+
+:::
+
 La primera pregunta del curso es **¿cursas PI2 este año?**, porque la respuesta cambia
-qué entregas. Los contenidos, los resultados de aprendizaje y la
-rúbrica son idénticos en ambos casos; lo que cambia es de dónde sale la evidencia.
+qué entregas. Los contenidos, los resultados de aprendizaje y la rúbrica son idénticos en
+ambos casos; lo que cambia es de dónde sale el trabajo que se califica.
 
 | | **Solo PI1** | **PI1 + PI2** |
 |:---|:---|:---|
 | **Tu proyecto** | Un proyecto documental propio de este módulo | **Un único proyecto** para los dos módulos |
 | **Data room** | Lo construyes para PI1 | Es la memoria de PI2 |
 | **Píldoras** | Cinco vídeos de 90 s | No se piden |
-| **Pitch** | Vídeo comercial de 2-3 min | Vídeo comercial y demostrativo de 3-5 min |
+| **Pitch** | Vídeo comercial de 2-3 min | El vídeo de 3-5 min que pide PI2, calificado allí |
 | **Defensa** | El Demo Day de PI1 | La defensa ante tribunal de PI2 |
 
 > [!IMPORTANT] Los dos itinerarios dan una nota de PI1 de 0 a 10
 > Elijas el que elijas, **PI1 se califica como cualquier otro módulo**: una nota propia de
 > 0 a 10, calculada con los instrumentos y los pesos de tu itinerario. Los dos caminos
-> llevan al mismo sitio; lo único que cambia es de dónde sale la evidencia.
+> llevan al mismo sitio; lo único que cambia es de dónde sale el trabajo que se califica.
 >
 > **Después**, esa nota —venga del itinerario que venga— entra en PI2 como **un
 > instrumento más de su calificación, con su propio peso y nota mínima**, los que fije la
@@ -487,7 +517,8 @@ En una única fecha se entrega **todo lo que se califica**:
 
 * La **memoria de PI2** y su repositorio, en la fecha y la forma que fije PI2. No hay
   ninguna entrega adicional para PI1.
-* **No se entregan píldoras ni pitch.**
+* **No se entregan píldoras.** El vídeo lo pide PI2, con su formato y su duración; para
+  PI1 no hay ninguna entrega aparte.
 
 ::::
 
@@ -502,19 +533,21 @@ En una única fecha se entrega **todo lo que se califica**:
 
 ## Evaluación {.animate-title}
 
-La evaluación del módulo será **continua, formativa e integradora**, centrándose en la consecución de los **Resultados de Aprendizaje (RA)** asociados al proyecto.
+La evaluación es **continua**: no hay un examen final de contenidos, sino un proyecto que vas construyendo durante el curso y que defiendes en persona al terminar.
+
+Lo que se califica son los **resultados de aprendizaje**: lo que debes ser capaz de hacer cuando acabes el módulo.
 
 > [!CAUTION] ¡ATENCIÓN IMPORTANTE!
 >
 > ### Principios y Condiciones de la Evaluación
 >
->* **Aprobado de Módulos Previos:** Para poder finalizar el módulo es necesario tener aprobados los módulos cuyos RAs se trabajan en Proyecto Intermodular 1. Aquel alumnado que no vaya a tener en el momento de la prueba final dichos módulos aprobados es aconsejable que anule la matrícula de este módulo (PI1).
->* **Alumnado de PI1 y PI2 simultáneo:** Realizas **un único proyecto** para los dos módulos, con una sola memoria y una sola defensa. Qué parte de ese trabajo da tu nota de PI1 está en [Instrumentos de Evaluación y Calificación](#instrumentos-de-evaluación-y-calificación). Ponte en contacto con el profesorado de PI2 al inicio del curso para ajustar el calendario, que es el de PI2.
->* **Entregas y Plazos:** La calificación del módulo se obtiene de los **cuatro instrumentos** de la tabla siguiente, y es necesario superar los cuatro. La fecha de la entrega final es **inamovible** y no se admiten entregas fuera de plazo en ningún caso.
+>* **Aprobado de Módulos Previos:** Para superar PI1 necesitas tener aprobados los módulos cuyos resultados de aprendizaje se evalúan aquí: **Lenguajes de marcas**, **Bases de datos** y **Entornos de desarrollo**. Si al llegar la prueba final no los vas a tener aprobados, lo aconsejable es que anules la matrícula de PI1.
+>* **Alumnado de PI1 y PI2 simultáneo:** Realizas **un único proyecto** para los dos módulos, con una sola memoria y una sola defensa. Qué parte de ese trabajo da tu nota de PI1 está en [Instrumentos de Evaluación y Calificación](#instrumentos-de-evaluacion-y-calificacion). Ponte en contacto con el profesorado de PI2 al inicio del curso para ajustar el calendario, que es el de PI2.
+>* **Entregas y Plazos:** Tu nota sale de las **cuatro cosas que se califican** —los cuatro instrumentos de la tabla siguiente—, y hay que superar las cuatro. La fecha de la entrega final es **inamovible** y no se admiten entregas fuera de plazo en ningún caso.
  >
- >   **No haber seguido el curso de forma continua, o no haber entregado en noviembre, no impide presentarse a ninguna de las dos convocatorias.** Todo lo que se califica se entrega en la entrega final y se defiende en la prueba presencial.
+ >   **No haber seguido el curso de forma continua, o no haber entregado en la fecha anticipada, no impide presentarse a ninguna de las dos convocatorias.** Todo lo que se califica se entrega en la entrega final y se defiende en la prueba presencial.
 >* **Comunicación de resultados:** Si el módulo resulta suspendido, se te comunicará esa calificación y el **motivo** por el que no se ha superado. 
->* **Fraude:** La detección de fraude o copia en cualquiera de las fases del proyecto implicará una calificación de 0 en el instrumento correspondiente. Ten en cuenta que este concepto de copia o de fraude está también asociado al uso indebido o abusivo de la IA.
+>* **Fraude:** Copiar, o presentar como tuyo un trabajo que no lo es, supone un **0** en la parte afectada. Esto incluye el uso indebido o abusivo de la inteligencia artificial: puedes usarla para aprender y para revisar lo que escribes, no para que haga el trabajo por ti.
 
 ### El proyecto se presenta a inversores
 
@@ -532,7 +565,7 @@ Por eso los instrumentos no llevan nombre de examen, sino el que reciben fuera d
 | Instrumento | Qué entregas | Peso | Nota mínima |
 |:---|:---|:---:|:---:|
 | **Data room** | Tu repositorio, con la memoria publicada, el tablero del proyecto y el _one-pager_. | 40 % | ≥ 5 |
-| **Píldoras** <br>_(founder updates)_ | Cinco vídeos breves, de 90 segundos, uno por cada una de las sesiones 1 a 5. | 20 % | ≥ 5 |
+| **Píldoras** <br>_(founder updates)_ | Cinco vídeos breves, de 90 segundos, uno al cerrar las sesiones 1, 3, 4, 5 y 6. | 20 % | ≥ 5 |
 | **Pitch** | El vídeo final de carácter comercial, de 2 a 3 minutos. | 15 % | ≥ 5 |
 | **Demo Day** | La sesión presencial: _due diligence_ del profesorado sobre tu proyecto y una pregunta crítica al de un compañero. | 25 % | ≥ 5 |
 
@@ -545,8 +578,8 @@ Entregas una sola memoria y haces una sola defensa. Tu nota de PI1 sale de ahí:
 | **Data room** | Las secciones de tu memoria de PI2 que PI1 evalúa: definición del problema, requisitos, historias de usuario, diagramas, tablero y _one-pager_. | 40 % | ≥ 5 |
 | **Defensa** | Tu defensa ante el tribunal de PI2: cómo justificas esas decisiones, y las preguntas que planteas en la mesa redonda. | 60 % | ≥ 5 |
 
-**No se piden píldoras ni pitch.** El código, el despliegue y las pruebas se corrigen
-solo en PI2.
+**No se piden píldoras.** El vídeo que pide PI2 se califica en PI2. El código, el
+despliegue y las pruebas también se corrigen solo allí.
 
 ::::
 
@@ -571,13 +604,14 @@ organiza **como la pediría un inversor**, no como un índice académico:
 * **Solución y alcance**: el MVP, y de forma explícita **qué queda fuera y por qué**.
 * **Qué hará el producto**: historias de usuario con criterios de aceptación.
 * **Cómo funciona**: diagramas de casos de uso, de actividades y entidad/relación.
+* **Stack propuesto** y justificación de la elección.
 * **Plan de ejecución**: el tablero de GitHub Projects, con las historias convertidas en
   tareas y su estado al día.
 * **Datos y cumplimiento**: qué información personal manejaría la aplicación y qué
-  implica el RGPD.
+  implica el **RGPD**, el reglamento europeo de protección de datos.
 
-El **README del repositorio** funciona como página de aterrizaje: es lo primero que ve
-quien llega, y debe permitir entender el proyecto y encontrar la memoria publicada.
+El **README del repositorio** es su portada: es lo primero que ve quien llega, y debe
+permitir entender el proyecto y encontrar la memoria publicada.
 
 **El sitio publicado se evalúa también como documento web**, no solo por su contenido:
 
@@ -594,17 +628,18 @@ quien llega, y debe permitir entender el proyecto y encontrar la memoria publica
 
 ::: details 2. Píldoras — 20 %
 
-**Cinco vídeos de 90 segundos**, uno por cada una de las sesiones 1 a 5. Son los
+**Cinco vídeos de 90 segundos**, uno al cerrar las sesiones 1, 3, 4, 5 y 6. Son los
 ejercicios de preparación de la defensa que cierran cada sesión, grabados en lugar de
-solo ensayados. Son cinco y no seis porque el cierre de la sesión 6 es el propio pitch.
+solo ensayados. La sesión 2 no lleva píldora —es la que enseña a grabarlas— y el cierre
+de la sesión 7 es el propio pitch.
 
 | Tras la sesión | Píldora |
 |:---:|:---|
 | **1** | ¿Qué problema resuelves, para quién, y cómo se resuelve hoy sin ti? |
-| **2** | Como responsable técnico: ¿cómo organizarías el trabajo y con qué perfiles? |
-| **3** | ¿Qué hará tu producto, qué no hará, y cuándo está terminada una historia? |
-| **4** | Enseña repositorio y tablero: de la historia de usuario a las tareas |
-| **5** | Recorre un diagrama: una decisión que tomaste y la alternativa que descartaste |
+| **3** | Como responsable técnico: ¿cómo organizarías el trabajo y con qué perfiles? |
+| **4** | ¿Qué hará tu producto, qué no hará, y cuándo está terminada una historia? |
+| **5** | Enseña repositorio y tablero: de la historia de usuario a las tareas |
+| **6** | Recorre un diagrama: una decisión que tomaste y la alternativa que descartaste |
 
 No se busca producción audiovisual: se busca que sepas explicar tu proyecto en voz alta
 y en poco tiempo.
@@ -623,8 +658,8 @@ existir, a quién le sirve y por qué merece la pena apostar por él.
 
 Aquí no se califica si el proyecto está bien documentado — de eso se ocupa el data room.
 Se califica **cómo lo vendes**: la creatividad del planteamiento, la narrativa, el ritmo,
-la claridad y el cuidado de la presentación. Es la pieza donde se acredita el lenguaje
-verbal y no verbal trabajado durante todo el módulo.
+la claridad y el cuidado de la presentación. Es donde demuestras la forma de comunicar
+—voz, ritmo, presencia— que trabajaste en la sesión 2 y practicaste en cada píldora.
 
 Tiene **nota mínima**, como el resto de instrumentos: saber vender un proyecto no es un
 adorno del módulo, es una de las competencias que evalúa.
@@ -664,8 +699,9 @@ haber entendido tanto el proyecto como los conceptos del módulo.
 
 ::: details Due diligence asíncrona
 
-A lo largo del curso, el profesorado podrá **abrir _issues_ en tu repositorio** con
-preguntas sobre decisiones concretas del proyecto, que deberás responder allí mismo.
+A lo largo del curso, el profesorado podrá **abrir _issues_ en tu repositorio** —preguntas
+escritas, dentro del propio GitHub— sobre decisiones concretas del proyecto. Las
+respondes allí mismo.
 
 Es exactamente lo que hace un inversor técnico antes de comprometerse, deja constancia
 fechada del proceso y permite resolver dudas mucho antes de llegar al Demo Day.
@@ -674,8 +710,8 @@ fechada del proceso y permite resolver dudas mucho antes de llegar al Demo Day.
 
 ### Rúbrica común
 
-Todos los instrumentos se califican con la misma escala de cuatro niveles, aplicada a
-los criterios propios de cada pieza:
+Todo se califica con la misma escala de niveles, aplicada a lo que se pide en cada pieza.
+Esta tabla es la **rúbrica**: dice qué hace falta para llegar a cada nivel.
 
 | Nivel | Descripción |
 |:---:|:---|
@@ -694,15 +730,15 @@ Los cuatro instrumentos, sus pesos, sus notas mínimas y la rúbrica son **los m
 en la primera convocatoria. 
 
 Puedes partir del trabajo que ya tenías y mejorarlo — de hecho es lo esperable —, pero la
-calificación se construye entera sobre lo entregado y defendido en junio.
+calificación se construye entera sobre lo entregado y defendido en la segunda convocatoria.
 
 Si cursas **PI1 + PI2**, la segunda convocatoria de ambos módulos es la de PI2 y sigue el mismo principio: se reentrega la memoria y se repite la defensa, y de ahí sale de nuevo tu nota de PI1 y PI2.
 
 ## Recursos y Herramientas {.animate-title}
 
-Durante el curso, se utilizarán diversas herramientas y recursos para facilitar el aprendizaje y la gestión del proyecto.
+Estas son las herramientas que usarás durante el curso. Todas son gratuitas.
 
-::: details Software orientativo para las Prácticas
+::: details Software que se usa en el módulo
 
 * **Control de versiones y gestión del proyecto:** Git, GitHub y GitHub Projects.
 * **Redacción y publicación de la documentación:** Markdown, VitePress y GitHub Pages.
