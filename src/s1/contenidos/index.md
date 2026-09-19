@@ -1,14 +1,14 @@
 ---
 layout: page
-title: Sesión 6 - UI / UX. Interfaces de usuario
+title: Sesión 1 - Fundamentos del Project Management
 pageClass: slides-img-page
 ---
 
 <SlidesViewer>
 
-# **Interfaces de Usuario y Experiencia: Diseño centrado en las personas**
+# Fundamentos del Project Management
 
-### Proyecto Intermodular II | UI / UX, Usabilidad y Accesibilidad
+### Proyecto Intermodular I | Gestion de proyectos de desarrollo de software
 
 ---
 
