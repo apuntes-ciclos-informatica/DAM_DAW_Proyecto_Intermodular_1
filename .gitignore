@@ -37,3 +37,10 @@ src/.vitepress/temp/
 .agents
 copilot-instructions.md
 skills-lock.json
+
+# MemPalace per-project files (issue #185)
+mempalace.yaml
+entities.json
+
+# Knowledge graph (graphify)
+graphify-out/
