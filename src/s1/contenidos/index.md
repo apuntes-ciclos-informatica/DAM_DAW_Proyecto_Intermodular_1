@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Sesión 6 - UI / UX. Interfaces de usuario
+pageClass: slides-img-page
 ---
 
 <SlidesViewer>
