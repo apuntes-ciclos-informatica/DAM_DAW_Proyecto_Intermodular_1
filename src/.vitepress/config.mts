@@ -238,6 +238,14 @@ const dangerBoxContainer  = createContainer('danger-box',  'InfoBox', 'danger')
 const tipBoxContainer     = createContainer('tip-box',     'InfoBox', 'tip')
 const noteBoxContainer    = createContainer('note-box',    'NoteBox')
 
+// slide-centered: contenedor genérico para centrar contenido en slides sin imagen
+// (portadas). Renderiza un <div class="slide-centered"> sin componente Vue.
+const slideCenteredContainer: [typeof container, string, { render(tokens: Token[], idx: number): string }] = [container, 'slide-centered', {
+  render(tokens: Token[], idx: number) {
+    return tokens[idx].nesting === 1 ? '<div class="slide-centered">\n' : '</div>\n'
+  }
+}]
+
 // accent-box: parsea tokens de configuración al inicio (en cualquier orden) y deja el resto como título.
 //   - gradiente: primary|success|warning|danger|info|purple|orange|teal
 //   - alineación del contenido: left|center|right (+ alias) → prop `align`
@@ -311,6 +319,7 @@ export default defineConfig({
       md.use(...tipBoxContainer)
       md.use(...noteBoxContainer)
       md.use(...accentBoxContainer)
+      md.use(...slideCenteredContainer)
     }
   },
   head: headTags,

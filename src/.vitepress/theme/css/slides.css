@@ -375,24 +375,34 @@
 /* ============================================================================
  * CLASE DE UTILIDAD — SLIDE CENTRADO (portadas)
  * ============================================================================
- * Uso: añade la clase `slide-centered` al slide que quieras centrar.
+ * Uso: envuelve el contenido de la slide con el contenedor `::: slide-centered`.
  * Ejemplo en markdown:
  *
  *   ::: slide-centered
  *   # Mi Título
  *   :::
  *
- * Nota: solo funciona en slides sin imagen (no-image).
+ * El contenedor markdown-it genera un <div class="slide-centered"> alrededor
+ * del contenido. La clase se aplica a ese wrapper, no al .slide directamente.
+ * Solo tiene efecto en slides sin imagen (no-image).
  */
 
 .slide-centered {
-  align-items: center !important;
-  text-align: center !important;
+  text-align: center;
+  width: 100%;
 }
 
-.slide-centered .slide-grid.no-image {
+/* Cuando el slide contiene un wrapper .slide-centered, centrar todo el grid */
+.slide:has(.slide-centered) .slide-grid.no-image {
   align-content: center;
   justify-items: center;
+  text-align: center;
+}
+
+/* Centrar también el header (título/subtítulo) de la slide */
+.slide:has(.slide-centered) {
+  align-items: center;
+  text-align: center;
 }
 
 /* ============================================================================
