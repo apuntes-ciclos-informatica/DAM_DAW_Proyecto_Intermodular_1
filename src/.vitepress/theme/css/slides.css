@@ -655,6 +655,32 @@
 }
 
 /* ============================================================================
+ * LIGHTBOX — Slide centrado (slide-centered)
+ * ============================================================================
+ * El lightbox renderiza el slide con v-html fuera del contexto de página,
+ * por lo que :has() no se resuelve igual. Reglas específicas con mayor
+ * especificidad para el contexto .slide-lightbox-content.
+ */
+.slide-lightbox-content .slide:has(.slide-centered) {
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+}
+
+.slide-lightbox-content .slide:has(.slide-centered) header {
+  margin: 0 0 var(--custom-space-6) 0 !important;
+  padding: 0 !important;
+  flex-shrink: 0 !important;
+}
+
+.slide-lightbox-content .slide:has(.slide-centered) .slide-grid.no-image {
+  align-content: center !important;
+  justify-items: center !important;
+  text-align: center !important;
+  flex: 0 0 auto !important;
+}
+
+/* ============================================================================
  * IMPRESIÓN — una diapositiva por página (SOLO en las diapositivas)
  * ============================================================================
  * Scopeado a `.slides-container` (solo presente en páginas con <SlidesViewer>),
