@@ -11,39 +11,39 @@ title: Sesión 6 - UI / UX. Interfaces de usuario
 
 ---
 
-![""](/img/contenidos/s1/diapositivas/1.jpg)
+![""](/img/contenidos/s1/diapositivas/01.jpg)
 
 ---
 
-![""](/img/contenidos/s1/diapositivas/2.jpg)
+![""](/img/contenidos/s1/diapositivas/02.jpg)
 
 ---
 
-![""](/img/contenidos/s1/diapositivas/3.jpg)
+![""](/img/contenidos/s1/diapositivas/03.jpg)
 
 ---
 
-![""](/img/contenidos/s1/diapositivas/4.jpg)
+![""](/img/contenidos/s1/diapositivas/04.jpg)
 
 ---
 
-![""](/img/contenidos/s1/diapositivas/5.jpg)
+![""](/img/contenidos/s1/diapositivas/05.jpg)
 
 ---
 
-![""](/img/contenidos/s1/diapositivas/6.jpg)
+![""](/img/contenidos/s1/diapositivas/06.jpg)
 
 ---
 
-![""](/img/contenidos/s1/diapositivas/7.jpg)
+![""](/img/contenidos/s1/diapositivas/07.jpg)
 
 ---
 
-![""](/img/contenidos/s1/diapositivas/8.jpg)
+![""](/img/contenidos/s1/diapositivas/08.jpg)
 
 ---
 
-![""](/img/contenidos/s1/diapositivas/9.jpg)
+![""](/img/contenidos/s1/diapositivas/09.jpg)
 
 ---
 
