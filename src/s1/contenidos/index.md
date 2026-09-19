@@ -6,9 +6,11 @@ pageClass: slides-img-page
 
 <SlidesViewer>
 
+::: slide-centered
 # Fundamentos del Project Management
 
 ### Proyecto Intermodular I | Gestion de proyectos de desarrollo de software
+:::
 
 ---
 

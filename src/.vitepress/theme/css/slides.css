@@ -373,6 +373,29 @@
 }
 
 /* ============================================================================
+ * CLASE DE UTILIDAD — SLIDE CENTRADO (portadas)
+ * ============================================================================
+ * Uso: añade la clase `slide-centered` al slide que quieras centrar.
+ * Ejemplo en markdown:
+ *
+ *   ::: slide-centered
+ *   # Mi Título
+ *   :::
+ *
+ * Nota: solo funciona en slides sin imagen (no-image).
+ */
+
+.slide-centered {
+  align-items: center !important;
+  text-align: center !important;
+}
+
+.slide-centered .slide-grid.no-image {
+  align-content: center;
+  justify-items: center;
+}
+
+/* ============================================================================
  * RESPONSIVE
  * ============================================================================ */
 
