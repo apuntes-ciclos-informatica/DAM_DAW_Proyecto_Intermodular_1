@@ -392,17 +392,26 @@
   width: 100%;
 }
 
-/* Cuando el slide contiene un wrapper .slide-centered, centrar todo el grid */
+/* Cuando el slide contiene un wrapper .slide-centered, centrar todo */
+.slide:has(.slide-centered) {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+/* El header y el grid se agrupan visualmente en el centro */
+.slide:has(.slide-centered) header {
+  margin: 0 0 var(--custom-space-6) 0;
+  padding: 0;
+  flex-shrink: 0;
+}
+
 .slide:has(.slide-centered) .slide-grid.no-image {
   align-content: center;
   justify-items: center;
   text-align: center;
-}
-
-/* Centrar también el header (título/subtítulo) de la slide */
-.slide:has(.slide-centered) {
-  align-items: center;
-  text-align: center;
+  /* No crecer: dejar que flexbox centre el conjunto header+grid */
+  flex: 0 0 auto;
 }
 
 /* ============================================================================
