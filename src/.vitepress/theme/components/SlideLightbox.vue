@@ -558,4 +558,30 @@ onBeforeUnmount(() => {
   max-height: 70vh !important;
 }
 
+/* ============================================================================
+ * Slide centrado (slide-centered) dentro del lightbox
+ * ============================================================================
+ * slides.css se carga en layer(components) y los estilos scoped sin layer
+ * ganan siempre, así que estas reglas viven aquí con :deep() para que
+ * apliquen sobre el contenido inyectado por v-html.
+ */
+.slide-lightbox-content .slide:has(:deep(.slide-centered)) {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.slide-lightbox-content .slide:has(:deep(.slide-centered)) :deep(header) {
+  margin: 0 0 var(--custom-space-6) 0;
+  padding: 0;
+  flex-shrink: 0;
+}
+
+.slide-lightbox-content .slide:has(:deep(.slide-centered)) :deep(.slide-grid.no-image) {
+  align-content: center;
+  justify-items: center;
+  text-align: center;
+  flex: 0 0 auto;
+}
+
 </style>
