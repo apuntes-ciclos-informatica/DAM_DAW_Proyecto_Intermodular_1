@@ -108,7 +108,7 @@ export const UNITS: Record<string, UnitConfig> = {
     fullTitle: 'Proyecto intermodular I',
     siteTitle: 'Proyecto </br>intermodular I',
     icon: '🏠',
-    navbar: [{ text: '🏠 Guía Didáctica', link: '/' }],
+    navbar: [{ text: 'Guía Didáctica', link: '/' }],
     sidebar: []
   },
 
@@ -119,7 +119,7 @@ export const UNITS: Record<string, UnitConfig> = {
     fullTitle: 'Sesión 1 · Fundamentos del Project Management',
     siteTitle: 'Proyecto </br>intermodular I',
     icon: '📋',
-    navbar: [{ text: '🏠 Guía Didáctica', link: '/' }],
+    navbar: [{ text: 'Guía Didáctica', link: '/' }],
     sidebar: s1Sidebar
   },
 
@@ -130,7 +130,7 @@ export const UNITS: Record<string, UnitConfig> = {
     fullTitle: 'Sesión 2 · Metodologías Ágiles. Scrum',
     siteTitle: 'Proyecto </br>intermodular I',
     icon: '🏃',
-    navbar: [{ text: '🏠 Guía Didáctica', link: '/' }],
+    navbar: [{ text: 'Guía Didáctica', link: '/' }],
     sidebar: s2Sidebar
   },
 
@@ -159,6 +159,6 @@ const S1 = { text: 'S1 — Fundamentos del Project Management', link: '/s1/conte
 const S2 = { text: 'S2 — Metodologías Ágiles. Scrum',         link: '/s2/contenidos/' }
 
 export const unitNavbars: Record<string, NavGroup[]> = {
-  s1: [{ text: '📚 Sesiones', items: [S1] }],
-  s2: [{ text: '📚 Sesiones', items: [S1, S2] }],
+  s1: [{ text: 'Sesiones', items: [S1] }],
+  s2: [{ text: 'Sesiones', items: [S1, S2] }],
 }
