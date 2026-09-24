@@ -50,8 +50,27 @@ const s1Sidebar: DefaultTheme.SidebarItem[] = [
   },
 ]
 
-// ── Sesión 2 · Metodologías Ágiles. Scrum ──────────────────────────────────
+// ── Sesión 2 · Comunicación verbal y no verbal ──────────────────────────────────
 const s2Items: DefaultTheme.SidebarItem[] = [
+  { text: 'Inicio', link: '/contenidos/' },
+  { text: '1. Fundamentos', link: '/contenidos/capitulo-1-fundamentos-comunicacion' },
+  { text: '2. Diseño de diapositivas', link: '/contenidos/capitulo-2-disenyo_diapositivas' },
+  { text: '3. Estrategias de enganche y retención', link: '/contenidos/capitulo-3-estrategias_enganche_y_retención' },
+  { text: '4. Enfoque comercial vs técnico', link: '/contenidos/capitulo-4-enfoque_comercial_vs_tecnico' },
+  { text: '5. Preguntas y debate', link: '/contenidos/capitulo-5-preguntas_y_debate' },
+  { text: '6. Ensayo', link: '/contenidos/capitulo-6-ensayo' },
+]
+
+const s2Sidebar: DefaultTheme.SidebarItem[] = [
+  {
+    text: 'Comunicación verbal y no verbal',
+    collapsed: false,
+    items: s2Items,
+  },
+]
+
+// ── Sesión 3 · Metodologías Ágiles. Scrum ──────────────────────────────────
+const s3Items: DefaultTheme.SidebarItem[] = [
   { text: 'Inicio', link: '/contenidos/' },
   { text: '1. Metodologías', link: '/contenidos/capitulo-1-metodologias' },
   { text: '2. Metodologías Tradicionales', link: '/contenidos/capitulo-2-tradicional' },
@@ -62,11 +81,11 @@ const s2Items: DefaultTheme.SidebarItem[] = [
   { text: '7. Ejemplo práctico', link: '/contenidos/capitulo-7-ejemplo-scrum' },
 ]
 
-const s2Sidebar: DefaultTheme.SidebarItem[] = [
+const s3Sidebar: DefaultTheme.SidebarItem[] = [
   {
     text: 'Metodologías Ágiles. Scrum',
     collapsed: false,
-    items: s2Items,
+    items: s3Items,
   },
 ]
 
@@ -127,11 +146,22 @@ export const UNITS: Record<string, UnitConfig> = {
     id: 'S2',
     code: 's2',         // → archivos en src/s2/
     title: 'Sesión 2',
-    fullTitle: 'Sesión 2 · Metodologías Ágiles. Scrum',
+    fullTitle: 'Sesión 2 · Comunicación verbal y no verbal',
     siteTitle: 'Proyecto </br>intermodular I',
     icon: '🏃',
     navbar: [{ text: 'Guía Didáctica', link: '/' }],
     sidebar: s2Sidebar
+  },
+
+  S3: {
+    id: 'S3',
+    code: 's3',         // → archivos en src/s3/
+    title: 'Sesión 3',
+    fullTitle: 'Sesión 3 · Metodologías Ágiles. Scrum',
+    siteTitle: 'Proyecto </br>intermodular I',
+    icon: '🏃',
+    navbar: [{ text: 'Guía Didáctica', link: '/' }],
+    sidebar: s3Sidebar
   },
 
 }
@@ -156,9 +186,11 @@ export function getUnitByCode(code: string): UnitConfig | undefined {
 // Al añadir la sesión 3: crear su entrada aquí copiando la lista de s2 y
 // añadiendo la nueva línea al final.
 const S1 = { text: 'S1 — Fundamentos del Project Management', link: '/s1/contenidos/' }
-const S2 = { text: 'S2 — Metodologías Ágiles. Scrum',         link: '/s2/contenidos/' }
+const S2 = { text: 'S2 — Comunicación verbal y no verbal', link: '/s2/contenidos/' }
+const S3 = { text: 'S3 — Metodologías Ágiles. Scrum', link: '/s3/contenidos/' }
 
 export const unitNavbars: Record<string, NavGroup[]> = {
   s1: [{ text: 'Sesiones', items: [S1] }],
   s2: [{ text: 'Sesiones', items: [S1, S2] }],
+  s3: [{ text: 'Sesiones', items: [S1, S2, S3] }],
 }
