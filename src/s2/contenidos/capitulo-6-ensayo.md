@@ -2,7 +2,7 @@
 
 Llegar a la fase final de la presentación de un proyecto informático requiere convertir todo el trabajo de análisis, diseño y desarrollo en una exposición fluida y bien ajustada en tiempo. Una excelente idea o desarrollo software pierde su valor si la presentación se interrumpe abruptamente por sobrepasar el tiempo asignado o si concluye de forma precipitada e improvisada.
 
-## Control de los tiempos de exposición (Time-boxing)
+## Control de los tiempos de exposición
 
 El tiempo es uno de los recursos más valiosos en cualquier entorno profesional o académico. Exceder el tiempo estipulado en una defensa demuestra falta de preparación y falta de respeto hacia el tribunal o el público; por el contrario, quedarse excesivamente corto transmite escasez de contenido o precipitación.
 
@@ -49,7 +49,7 @@ Para que el ensayo en grupo sea productivo, conviene utilizar una rúbrica senci
 | **Dominio del software** | ¿La demo ha sido fluida y bien guiada o ha parecido improvisada? | 
 | **Comunicación no verbal** | ¿Ha habido buen contacto visual? ¿Uso correcto de pausado y tono de voz? | 
 
-## La llamada a la acción (Call to Action) y conclusión memorable
+## La conclusión
 
 El cierre es el último impacto que recibe la audiencia y el que determinará la impresión final con la que se evaluará la presentación. Concluir con un tímido *"Y bueno, esto es todo..."* arruina el trabajo previo.
 

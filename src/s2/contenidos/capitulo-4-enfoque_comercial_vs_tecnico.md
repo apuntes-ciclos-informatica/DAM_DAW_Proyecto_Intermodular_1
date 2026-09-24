@@ -28,7 +28,7 @@ El objetivo del enfoque comercial no es explicar *cómo* está construido el sof
 
 En el extremo opuesto, cuando el interlocutor es un tribunal académico, un equipo de *code review* o un *Chief Technology Officer* (CTO), el foco debe desplazarse por completo hacia las decisiones de diseño del sistema y la solvencia del desarrollo.
 
-### 1. Justificación del stack tecnológico y arquitectura del sistema
+### 1. Stack tecnológico y arquitectura del sistema
 
 * **Elección del Stack:** No basta con listar los lenguajes, *frameworks* o librerías utilizados (ej. Java, React, Docker). Es imprescindible **justificar el porqué de cada elección** en base a criterios como rendimiento, mantenibilidad, curva de aprendizaje, soporte comunitario o escalabilidad.
 

@@ -46,7 +46,7 @@ Conecta la respuesta con el valor diferencial o la solidez general del proyecto.
 * **Claridad y concisión:** Sé directo. Una respuesta demasiado larga o divagante transmite inseguridad o intento de evasión.
 * **Manejar la crítica con madurez:** Si el tribunal detecta un fallo real de diseño, admítelo con naturalidad como una oportunidad de mejora en futuras versiones o iteraciones.
 
-## Qué hacer ante preguntas cuya respuesta se desconoce
+## ¿Y si no se la respuesta?
 
 En el desarrollo de software y en proyectos tecnológicos avanzados es imposible saberlo todo. Enfrentarse a una pregunta para la que no se tiene la respuesta es un escenario normal y esperable. Lo destructivo para la credibilidad no es no saber algo, sino intentar inventar o responder con evasivas.
 

@@ -53,7 +53,7 @@ El mensaje verbal (las palabras que elegimos) representa solo una fracción de l
 * **Ritmo y pausas:** Hablar demasiado rápido proyecta nerviosismo. Las pausas estratégicas son fundamentales para permitir que el oyente procese conceptos complejos o para destacar una conclusión importante.
 * **Entonación:** Evita la monotonía. Modula el tono de voz para mantener el interés y transmitir pasión por el proyecto presentado.
 
-## La importancia de dominar la comunicación en proyectos informáticos
+## Dominar la comunicación
 
 Un proyecto técnico de excelencia mal comunicado corre el riesgo de ser rechazado, infravalorado o mal interpretado por quienes deben aprobar su presupuesto o utilizarlo en su día a día.
 

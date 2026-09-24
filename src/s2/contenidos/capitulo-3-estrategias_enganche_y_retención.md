@@ -32,7 +32,7 @@ El *elevator pitch* es una presentación síntesis de una idea o proyecto diseñ
 
 Una vez captada la atención inicial, la energía de la audiencia tiende a decaer progresivamente. Para evitar el desinterés del tribunal o cliente, es crucial incorporar dinamizadores durante el discurso:
 
-### 1. El uso de "puntos de anclaje" y resúmenes de transición
+### 1. "Puntos de anclaje" y resúmenes de transición
 
 Indica claramente en qué punto de la agenda te encuentras. Frases como *"Una vez visto cómo resolvemos el problema de la latencia, pasemos a analizar la arquitectura de datos"* ayudan a reenganchar a quienes se hayan distraído.
 
