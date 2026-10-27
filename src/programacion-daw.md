@@ -93,7 +93,7 @@ Esta programación didáctica corresponde al primer tramo, PI1, del módulo prof
 
 El marco normativo propio del módulo lo forman el Real Decreto 686/2010, de 20 de mayo, que fija sus resultados de aprendizaje y sus criterios de evaluación; el Real Decreto 500/2024, que remite a ellos los del proyecto intermodular de grado superior; y el Decreto 114/2025, que establece su currículo en la Comunitat Valenciana con las horas de cada curso. La identificación del título y el marco normativo común están en los apartados 1 y 2 de la programación de ciclo, a la que esta programación remite en todo lo que es común a los módulos del ciclo. La norma en que se apoya cada regla propia de esta programación está en el [anexo](#anexo-fundamentacion-normativa).
 
-El PI1 es un **proyecto documental**: el alumno define, organiza, modela, documenta y defiende un proyecto informático propio, pero no lo programa. La implementación llega en el PI2, en segundo curso. El PI1 de este ciclo comparte la guía didáctica y las sesiones con el PI1 del ciclo de Desarrollo de Aplicaciones Multiplataforma (módulo 0492p), que tiene su propia programación.
+El PI1 es un **proyecto documental**: el alumno define, organiza, modela, documenta y defiende un proyecto informático propio, pero no lo programa. La implementación llega en el PI2, en segundo curso. Su contenido es el mismo que el del PI1 del ciclo de Desarrollo de Aplicaciones Multiplataforma.
 
 ### 1.2. Contextualización {#s1-2-contextualizacion}
 
@@ -130,7 +130,7 @@ En el PI1, esa contribución se concreta en cuatro objetivos propios, que la gu�
 
 ### 2.2. Competencias {#s2-2-competencias}
 
-El módulo desarrolla competencias transversales y técnicas, iguales para los ciclos de DAW y de DAM:
+El módulo desarrolla competencias transversales y técnicas:
 
 - **Transversales.** Analizar un problema y proponer una solución técnica realista, explicando por qué es esa y no otra; explicar decisiones técnicas con claridad, por escrito y en voz alta, adaptando el mensaje a interlocutores técnicos y no técnicos; aprender herramientas nuevas de forma autónoma, y planificar las propias tareas y resolver los imprevistos.
 - **Técnicas.** Identificar una necesidad real, delimitar el alcance de una solución viable y expresarla como historias de usuario con criterios de aceptación; modelar el sistema con diagramas de casos de uso, de actividades y entidad/relación; organizar el trabajo con Git, un repositorio remoto y un tablero de proyecto; redactar y publicar la memoria con lenguajes de marcas, y defender oralmente las decisiones tomadas.
@@ -179,7 +179,7 @@ Los resultados de aprendizaje del módulo son los cuatro del módulo 0616 del t�
 
 ### 3.2. Resultados de aprendizaje de otros módulos que integra el proyecto {#s3-2-ra-de-otros-modulos}
 
-Por su carácter integrador, el proyecto pone en juego resultados de aprendizaje de otros módulos de primer curso, que se trabajan en las sesiones de la tabla 8. Se trabajan y se evidencian en el proyecto, pero se califican en su propio módulo, y su nota no entra en la del proyecto. Tener aprobados Lenguajes de marcas y sistemas de gestión de información, Bases de datos y Entornos de desarrollo es condición para superar el PI1 (apartado 8). Son los mismos que recoge el apartado 7.2 de la programación de ciclo y la programación del PI1 de DAM, y su enunciado es idéntico en los dos títulos. En el RA3 de Entornos de desarrollo, el texto publicado para DAW divide en dos el criterio c), de modo que tiene diez letras (a–j) y el de DAM nueve: el contenido es el mismo, pero las letras desde la d) no coinciden.
+Por su carácter integrador, el proyecto pone en juego resultados de aprendizaje de otros módulos de primer curso, los mismos que recoge el apartado 7.2 de la programación de ciclo. Se trabajan en las sesiones de la tabla 8 y se evidencian en el proyecto, pero se califican en su propio módulo, y su nota no entra en la del proyecto. Tener aprobados Lenguajes de marcas y sistemas de gestión de información, Bases de datos y Entornos de desarrollo es condición para superar el PI1 (apartado 8).
 
 <div class="prog-tabla-wrap"><table class="prog-tabla ancha">
 <colgroup><col style="width: 22%"><col style="width: 52%"><col style="width: 16%"><col style="width: 10%"></colgroup>
@@ -231,7 +231,7 @@ Los criterios de evaluación del módulo son los del título y, como sus resulta
 
 ## 5. Objetivos y contenidos {#s5-contenidos}
 
-El título no fija contenidos básicos para el módulo de proyecto: sus orientaciones pedagógicas describen las funciones que desarrolla (apartado 2.3). Los contenidos del PI1 los concreta esta programación, organizados en siete sesiones iguales para DAW y DAM, cada una con sus objetivos, que concretan los del módulo (apartado 2.1). En ninguna se programa: se analiza, se organiza, se dibuja, se documenta y se explica un proyecto propio.
+El título no fija contenidos básicos para el módulo de proyecto: sus orientaciones pedagógicas describen las funciones que desarrolla (apartado 2.3). Los contenidos del PI1 los concreta esta programación, organizados en siete sesiones, cada una con sus objetivos, que concretan los del módulo (apartado 2.1). En ninguna se programa: se analiza, se organiza, se dibuja, se documenta y se explica un proyecto propio.
 
 <div class="prog-tabla-wrap"><table class="prog-tabla">
 <colgroup><col style="width: 22%"><col style="width: 39%"><col style="width: 39%"></colgroup>
@@ -573,7 +573,7 @@ Para que el texto sea claro y conciso, esta programación no cita en cada aparta
 <tr><td class="al-center nowrap">7.4</td><td>Las adaptaciones no modifican los RA ni los criterios y no minoran la calificación</td><td>Orden 8/2025, artículo 2.4</td><td>Las adaptaciones son de metodología, tiempos y recursos.</td></tr>
 <tr><td class="al-center nowrap">7.3</td><td>Los vídeos se entregan en @ules o Teams y no se publican</td><td>Ley Orgánica 2/2006, disposición adicional vigesimotercera; Reglamento (UE) 2016/679</td><td>Se tratan con la única finalidad de evaluar, en ejercicio de la función educativa.</td></tr>
 <tr><td class="al-center nowrap">8 y 8.6</td><td>La calificación del PI1 es orientativa y forma parte de la final del proyecto en segundo</td><td>Instrucciones de inicio de curso, apartado 5.1.4</td><td>En primero se consigna en cada sesión una calificación orientativa, y la nota final del proyecto, en segundo, pondera los dos cursos.</td></tr>
-<tr><td class="al-center nowrap">8</td><td>Para superar el PI1 hay que tener aprobados Lenguajes de marcas, Bases de datos y Entornos de desarrollo; si no, se anula la matrícula del PI1</td><td>Criterio del departamento, el mismo de la programación del PI1 de DAM</td><td>El proyecto integra resultados de aprendizaje de esos tres módulos.</td></tr>
+<tr><td class="al-center nowrap">8</td><td>Para superar el PI1 hay que tener aprobados Lenguajes de marcas, Bases de datos y Entornos de desarrollo; si no, se anula la matrícula del PI1</td><td>Criterio del departamento</td><td>El proyecto integra resultados de aprendizaje de esos tres módulos.</td></tr>
 <tr><td class="al-center nowrap">8</td><td>Superar el PI1 es requisito para cursar el PI2 por separado</td><td>Criterio del departamento; programación del PI2, que exige al PI1 una nota mínima de 5</td><td>El PI2 continúa el proyecto del PI1 y pondera su calificación.</td></tr>
 <tr><td class="al-center nowrap">8.4</td><td>Una evaluación parcial en el primer cuatrimestre, con calificación numérica informativa; la del segundo coincide con la ordinaria</td><td>Resolución de instrucciones del CEEDCV, apartados 5.1, 5.2 y 5.5; Orden 8/2025, artículo 12.8, en la redacción de la Orden 5/2026; programación de ciclo, apartado 7.4</td><td>El CEEDCV aplica por cuatrimestres las evaluaciones parciales de la norma, cuyas calificaciones son numéricas e informativas.</td></tr>
 <tr><td class="al-center nowrap">8.4</td><td>La evaluación de enero no tiene prueba presencial</td><td>Criterio del centro</td><td>La única prueba presencial del módulo es la defensa final.</td></tr>
