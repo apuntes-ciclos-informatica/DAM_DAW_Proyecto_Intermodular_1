@@ -431,4 +431,11 @@
   .programacion .vp-doc p.prog-caption {
     break-before: avoid;
   }
+
+  /* Chromium no respeta break-before: avoid en el pie del documento tras una
+     tabla, y la firma quedaba sola en la última página: la última fila de la
+     tabla final pasa de página con su título y la firma. */
+  .programacion .vp-doc .prog-tabla-wrap:has(+ p.prog-caption + p.prog-pie) tr:last-child {
+    break-before: page;
+  }
 }
