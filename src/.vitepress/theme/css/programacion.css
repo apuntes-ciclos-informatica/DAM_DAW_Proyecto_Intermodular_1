@@ -1,0 +1,434 @@
+/**
+ * ============================================================================
+ * PROGRAMACIÓN DIDÁCTICA — reproduce la maqueta del documento Word del CEEDCV
+ * ============================================================================
+ * Solo afecta a la página con `pageClass: programacion` (src/programacion.md).
+ * Colores tomados del .docx: encabezados y cabeceras de tabla en salmón
+ * #DB765A, filas de empresa en #FDE9D9, filas alternas en #F2F2F2 y pies de
+ * tabla en #1F497D.
+ * ============================================================================
+ */
+
+.programacion {
+  --prog-coral: #db765a;
+  --prog-coral-texto: #b4502f;
+  --prog-caption: #1f497d;
+  --prog-borde: #4d4d4d;
+  --prog-rosa: #fde9d9;
+  --prog-gris: #f2f2f2;
+  --prog-portada: #ff5355;
+}
+
+.dark .programacion {
+  --prog-coral-texto: #ec9a80;
+  --prog-caption: #9db8dc;
+  --prog-borde: #6b6b6b;
+  --prog-rosa: rgba(219, 118, 90, 0.2);
+  --prog-gris: rgba(255, 255, 255, 0.06);
+}
+
+.programacion .vp-doc {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ── Portada ─────────────────────────────────────────────────────────────── */
+/* Tres franjas: logos (imagen), textos sobre el mismo coral y el patrón de
+   aspas (imagen) con «Ciclos Formativos» encima. Así el texto nunca pisa
+   las aspas, sea cual sea el ancho. */
+.programacion .prog-portada {
+  container-type: inline-size;
+  overflow: hidden;
+  margin: 0 0 2rem;
+  border-radius: 6px;
+  background: var(--prog-portada);
+  color: #000;
+}
+
+.programacion .vp-doc .prog-portada p:has(> img) {
+  margin: 0;
+  line-height: 0;
+}
+
+.programacion .vp-doc .prog-portada img {
+  display: block;
+  width: 100%;
+  max-width: none;
+  height: auto;
+}
+
+.programacion .prog-portada-textos {
+  padding: 1cqw 7.5% 7cqw;
+  text-align: left;
+}
+
+.programacion .vp-doc .prog-portada-modulo {
+  margin: 0 0 1.4cqw;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: #000;
+  -webkit-text-fill-color: #000;
+  font-size: max(16px, 2.9cqw);
+  line-height: 1.25;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-align: left;
+  animation: none;
+}
+
+.programacion .vp-doc .prog-portada-textos p {
+  margin: 0 0 0.7cqw;
+  font-size: max(13px, 2.1cqw);
+  line-height: 1.35;
+  font-weight: 700;
+  color: #000;
+  text-align: left;
+}
+
+.programacion .prog-portada-patron {
+  position: relative;
+}
+
+.programacion .vp-doc .prog-portada-ciclos {
+  position: absolute;
+  left: 7.5%;
+  bottom: 9%;
+  margin: 0;
+  font-size: 12cqw;
+  line-height: 0.9;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: #fff;
+  text-align: left;
+}
+
+/* ── Cabecera de página (logos GVA · CEEDCV) ─────────────────────────────── */
+.programacion .prog-cabecera {
+  margin: 0 0 1.5rem;
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+  background: #fff;
+}
+
+.programacion .prog-cabecera p {
+  margin: 0;
+}
+
+.programacion .prog-cabecera img {
+  display: block;
+  width: min(100%, 520px);
+  height: auto;
+}
+
+/* ── Índice ──────────────────────────────────────────────────────────────── */
+.programacion .prog-indice {
+  margin: 0 0 2.5rem;
+  text-align: left;
+}
+
+.programacion .prog-indice-titulo {
+  margin: 0 0 0.75rem;
+  color: var(--prog-coral-texto);
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.programacion .vp-doc .prog-indice ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.programacion .vp-doc .prog-indice > ol > li {
+  margin: 0.5rem 0 0;
+  font-weight: 700;
+}
+
+.programacion .vp-doc .prog-indice ol ol {
+  padding-left: 1.5rem;
+}
+
+.programacion .vp-doc .prog-indice ol ol li {
+  margin: 0.15rem 0 0;
+  font-weight: 400;
+}
+
+.programacion .vp-doc .prog-indice a {
+  color: var(--vp-c-text-1);
+  text-decoration: none;
+}
+
+.programacion .vp-doc .prog-indice a:hover {
+  color: var(--prog-coral-texto);
+}
+
+.programacion .prog-indice .n {
+  display: inline-block;
+  min-width: 2.25rem;
+}
+
+/* ── Encabezados: Título 1 y Título 2 del Word ───────────────────────────── */
+.programacion .vp-doc h2,
+.programacion .vp-doc h3 {
+  border: 0;
+  padding: 0;
+  color: var(--prog-coral-texto);
+  font-weight: 700;
+  animation: none;
+}
+
+.programacion .vp-doc h2 {
+  margin: 3rem 0 0.75rem;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+
+.programacion .vp-doc h3 {
+  margin: 2rem 0 0.75rem;
+  padding-left: 0.5rem;
+  font-size: 1.1rem;
+}
+
+/* ── Cuerpo («Estilo SARA»: justificado, interlineado 1,5) ───────────────── */
+.programacion .vp-doc p,
+.programacion .vp-doc li {
+  line-height: 1.65;
+}
+
+.programacion .vp-doc > div > p {
+  text-align: justify;
+  hyphens: auto;
+}
+
+/* ── Tablas ──────────────────────────────────────────────────────────────── */
+.programacion .prog-tabla-wrap {
+  overflow-x: auto;
+  margin: 1.25rem 0 0.35rem;
+}
+
+.programacion .vp-doc table.prog-tabla {
+  display: table;
+  width: 100%;
+  margin: 0;
+  border-collapse: collapse;
+  font-size: 0.875rem;
+  line-height: 1.45;
+}
+
+.programacion .vp-doc .prog-tabla tr,
+.programacion .vp-doc .prog-tabla tr:nth-child(2n) {
+  background: transparent;
+  border: 0;
+}
+
+.programacion .vp-doc .prog-tabla th,
+.programacion .vp-doc .prog-tabla td {
+  border: 1px solid var(--prog-borde);
+  padding: 0.35rem 0.6rem;
+  vertical-align: middle;
+  text-align: left;
+}
+
+.programacion .vp-doc .prog-tabla th {
+  background: var(--prog-coral);
+  color: #fff;
+  font-weight: 700;
+}
+
+.programacion .vp-doc .prog-tabla .sh-rosa {
+  background: var(--prog-rosa);
+}
+
+.programacion .vp-doc .prog-tabla .sh-gris {
+  background: var(--prog-gris);
+}
+
+.programacion .vp-doc .prog-tabla .al-center {
+  text-align: center;
+}
+
+.programacion .vp-doc .prog-tabla .al-right {
+  text-align: right;
+}
+
+.programacion .vp-doc .prog-tabla .nowrap {
+  white-space: nowrap;
+}
+
+.programacion .vp-doc .prog-tabla ul,
+.programacion .vp-doc .prog-tabla ol {
+  margin: 0;
+  padding-left: 1.1rem;
+}
+
+.programacion .vp-doc .prog-tabla li,
+.programacion .vp-doc .prog-tabla li + li {
+  margin: 0;
+  line-height: 1.45;
+}
+
+.programacion .vp-doc .prog-tabla li + li {
+  margin-top: 0.2rem;
+}
+
+/* Tablas de diez columnas (matrices UD × bloque y UD × RA) y la de
+   criterios de calificación: letra y relleno algo menores para que quepan. */
+.programacion .vp-doc .prog-tabla.ancha {
+  font-size: 0.8rem;
+}
+
+.programacion .vp-doc .prog-tabla.ancha th,
+.programacion .vp-doc .prog-tabla.ancha td {
+  padding: 0.3rem 0.4rem;
+}
+
+/* Pie de tabla (estilo «Descripción» del Word) */
+.programacion .vp-doc p.prog-caption {
+  margin: 0.35rem 0 1.75rem;
+  color: var(--prog-caption);
+  font-size: 0.8rem;
+  font-style: italic;
+  text-align: left;
+}
+
+/* ── Pie del documento ───────────────────────────────────────────────────── */
+.programacion .vp-doc p.prog-pie {
+  margin-top: 3rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--vp-c-divider);
+  color: var(--vp-c-text-2);
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+/* ── Impresión ────────────────────────────────────────────────────────────
+   Portada a página completa, índice en la segunda página y cada Título 1
+   (los h2 del documento) en página nueva. Chromium maqueta todas las páginas
+   con el mismo ancho, así que @page solo pone los márgenes verticales y el
+   lateral lo da el relleno del documento; la portada lo anula para llegar al
+   borde. */
+@media print {
+  @page {
+    size: A4;
+    margin: 20mm 0;
+  }
+
+  @page :first {
+    margin: 0;
+  }
+
+  .dark .programacion {
+    --prog-coral-texto: #b4502f;
+    --prog-caption: #1f497d;
+    --prog-borde: #4d4d4d;
+    --prog-rosa: #fde9d9;
+    --prog-gris: #f2f2f2;
+  }
+
+  .programacion .VPContent,
+  .programacion .VPDoc,
+  .programacion .VPDoc .container,
+  .programacion .VPDoc .content,
+  .programacion .VPDoc .content-container {
+    max-width: none !important;
+    width: auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .programacion .vp-doc {
+    max-width: none !important;
+    margin: 0 !important;
+    padding: 0 18mm !important;
+  }
+
+  /* Marca de agua del sitio: no va en un documento oficial. */
+  body:has(.programacion) .print-watermark {
+    display: none !important;
+  }
+
+  /* Pie del sitio (logo, copyright y licencia): no se imprime. */
+  .programacion .footer-logo-wrap {
+    display: none !important;
+  }
+
+  .programacion .prog-portada {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 210mm;
+    height: 296mm;
+    margin: 0 -18mm;
+    border-radius: 0;
+    break-after: page;
+    break-inside: avoid;
+  }
+
+  .programacion .prog-portada-textos {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .programacion .vp-doc h2,
+  .programacion .vp-doc h3 {
+    color: var(--prog-coral-texto) !important;
+  }
+
+  .programacion .vp-doc h2 {
+    break-before: page;
+    margin-top: 0;
+  }
+
+  .programacion .prog-cabecera {
+    padding: 0;
+    margin-bottom: 0.75rem;
+  }
+
+  .programacion .prog-cabecera img {
+    width: 95mm;
+  }
+
+  /* El índice cabe entero en la segunda página. */
+  .programacion .prog-indice {
+    margin: 0;
+    break-after: page;
+    font-size: 10.5pt;
+  }
+
+  .programacion .vp-doc .prog-indice li {
+    line-height: 1.3;
+  }
+
+  .programacion .vp-doc .prog-indice > ol > li {
+    margin-top: 0.3rem;
+  }
+
+  .programacion .vp-doc .prog-indice ol ol li {
+    margin-top: 0;
+  }
+
+  .programacion .prog-tabla-wrap {
+    overflow: visible;
+  }
+
+  .programacion .vp-doc table.prog-tabla {
+    break-inside: auto;
+    page-break-inside: auto;
+  }
+
+  .programacion .vp-doc .prog-tabla thead {
+    display: table-header-group;
+  }
+
+  .programacion .vp-doc .prog-tabla tr {
+    break-inside: avoid;
+  }
+
+  .programacion .vp-doc p.prog-caption {
+    break-before: avoid;
+  }
+}

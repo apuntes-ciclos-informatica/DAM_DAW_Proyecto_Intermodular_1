@@ -44,3 +44,6 @@ entities.json
 
 # Knowledge graph (graphify)
 graphify-out/
+
+# Estado de sesión de los agentes (Asork)
+.asork/
