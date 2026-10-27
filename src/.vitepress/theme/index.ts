@@ -25,6 +25,7 @@ import './css/ejercicios.css'
 import './css/slides.css'
 import './css/ejer_imgs.css'
 import './css/lightbox.css'
+import './css/programacion.css'
 
 // Importar componentes de slides y contenido
 import SlideBase from './components/SlideBase.vue'
