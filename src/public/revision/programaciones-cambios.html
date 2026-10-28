@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Cambios en las programaciones del PI1</title>
+<style>
+:root { --text:#1f2328; --muted:#59636e; --bg:#ffffff; --soft:#f6f8fa; --line:#d1d9e0;
+  --ins-bg:#dafbe1; --ins-fg:#116329; --del-bg:#ffebe9; --del-fg:#a40e26; --accent:#0969da; }
+@media (prefers-color-scheme: dark) { :root { --text:#e6edf3; --muted:#9198a1; --bg:#0d1117; --soft:#151b23; --line:#3d444d;
+  --ins-bg:#12301c; --ins-fg:#7ee2a0; --del-bg:#3c1618; --del-fg:#ff9492; --accent:#4493f8; } }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--bg); color:var(--text); font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+header { position:sticky; top:0; z-index:5; background:var(--soft); border-bottom:1px solid var(--line); padding:12px 16px; }
+header h1 { margin:0 0 4px; font-size:1.15rem; }
+header p { margin:0; color:var(--muted); font-size:.9rem; }
+header a { color:var(--accent); }
+.leyenda ins, .leyenda del { padding:0 4px; }
+main { max-width:900px; margin:0 auto; padding:16px; }
+ins { background:var(--ins-bg); color:var(--ins-fg); text-decoration:none; border-radius:3px; }
+del { background:var(--del-bg); color:var(--del-fg); text-decoration:line-through; border-radius:3px; }
+table { border-collapse:collapse; width:100%; display:block; overflow-x:auto; margin:12px 0; font-size:.92rem; }
+th, td { border:1px solid var(--line); padding:6px 8px; vertical-align:top; text-align:left; }
+th { background:var(--soft); }
+img { max-width:100%; height:auto; }
+details { border:1px solid var(--line); border-radius:6px; padding:4px 12px; margin:12px 0; }
+summary { font-weight:600; cursor:pointer; }
+blockquote, .custom-block { border-left:4px solid var(--line); margin:12px 0; padding:4px 12px; background:var(--soft); }
+.custom-block-title { font-weight:600; }
+.plugin-tabs--tab-list input { display:none; }
+.plugin-tabs--tab-list label { display:inline-block; font-weight:600; margin-right:8px; }
+.plugin-tabs--content { border-top:1px dashed var(--line); margin-top:8px; padding-top:4px; }
+code { background:var(--soft); padding:0 4px; border-radius:3px; }
+h1, h2, h3, h4 { line-height:1.3; }
+
+td.ap { white-space:nowrap; }
+</style>
+</head>
+<body>
+<header>
+<h1>Cambios en las programaciones del PI1</h1>
+<p>Cada fila enlaza al apartado de la programación. <a href="/DAM_DAW_Proyecto_Intermodular_1/programacion-daw.html">Programación de DAW</a> · <a href="/DAM_DAW_Proyecto_Intermodular_1/programacion-dam.html">Programación de DAM</a> · <a href="/DAM_DAW_Proyecto_Intermodular_1/revision/guia-cambios.html">Cambios en la guía</a></p>
+</header>
+<main>
+<h2>Programación de DAW (0616p)</h2>
+<p>Respecto a la versión publicada antes de esta revisión (commit c1e24a1).</p>
+<table><thead><tr><th>Apartado</th><th>Qué se ha añadido o cambiado</th><th>Por qué</th></tr></thead><tbody>
+<tr><td class="ap"><a href="/DAM_DAW_Proyecto_Intermodular_1/programacion-daw.html#s1-1-justificacion-de-la-programacion">1.1</a></td><td>El RD 686/2010 se cita con la nota de que el RD 405/2023 actualizó el título, pero no el módulo 0616.</td><td>Citar la redacción vigente del título. Verificado en el BOE: el 0616 conserva su texto de 2010.</td></tr>
+<tr><td class="ap"><a href="/DAM_DAW_Proyecto_Intermodular_1/programacion-daw.html#s1-2-contextualizacion">1.2, 7.2 y 7.3</a></td><td>Tutorías individuales voluntarias, que pide el alumno con cita previa; se aconseja una cada quince días en la fase 2. La hora semanal es el tiempo del profesor para atenderlas (criterio del centro, jefatura de estudios). Sin tutoría fija semanal.</td><td>Decisión del autor, igual que en la programación de DAM.</td></tr>
+<tr><td class="ap"><a href="/DAM_DAW_Proyecto_Intermodular_1/programacion-daw.html#s2-1-objetivos-del-modulo">2.1 y 2.2</a></td><td>El diagrama de clases entra en el OG2 y en las competencias técnicas.</td><td>Para verificar el 0487 RA5 d, que el proyecto integra.</td></tr>
+<tr><td class="ap"><a href="/DAM_DAW_Proyecto_Intermodular_1/programacion-daw.html#s3-2-ra-de-otros-modulos">3.2 (tabla 4) y 6.2 (tabla 8)</a></td><td>RA de otros módulos, solo con los criterios verificables sin programar: 0487 RA3 (a, b, c, d), RA6 (b, e, f); 0484 RA6 (a–e); 0373 RA6 (a, b, c, d, h). La tabla 8 da las letras por sesión. Alineado con la programación de ciclo (7.2).</td><td>El PI1 es documental: los criterios que dicen «se han utilizado», «se han efectuado» o «se han implementado» exigen código.</td></tr>
+<tr><td class="ap"><a href="/DAM_DAW_Proyecto_Intermodular_1/programacion-daw.html#s5-contenidos">5 (tabla 6)</a></td><td>S1 y S2 recogen los contenidos que tienen publicados. La S6 añade el diagrama de clases y el paso del E/R a tablas, campos y claves.</td><td>Alinear con las sesiones publicadas y poder verificar el 0487 RA5 d y el 0484 RA6.</td></tr>
+<tr><td class="ap"><a href="/DAM_DAW_Proyecto_Intermodular_1/programacion-daw.html#s6-1-las-siete-sesiones">6.1 (tabla 7)</a></td><td>Fase 2: análisis y diseño sin programar (diseño del sistema, marco de pruebas para el PI2 y calidad del código). Enero: revisión voluntaria del material, sin calificación. Programa formativo en mayo y junio, con la orientación del profesor.</td><td>Decisiones del autor: fase 2 documental; el PI1 no tiene evaluación en enero (calendario autorizado por el CEEDCV); programa formativo sin clases ni tutorías (instrucciones, 12.4.a).</td></tr>
+<tr><td class="ap"><a href="/DAM_DAW_Proyecto_Intermodular_1/programacion-daw.html#s7-1-principios-metodologicos">7.1 (tabla 9)</a></td><td>«Formas de cursar el PI1» en lugar de «itinerarios». Pitch de 2–4 minutos sin audio, expuesto en directo.</td><td>«Itinerario» queda para los del PI2 (frontend, backend, fullstack). Defensa mixta acordada con DAM.</td></tr>
+<tr><td class="ap"><a href="/DAM_DAW_Proyecto_Intermodular_1/programacion-daw.html#s7-2-actividades-y-estrategias">7.2</a></td><td>El profesor asegura al menos un contacto por cuatrimestre con cada alumno (respuesta a la propuesta o revisión de enero; antes de la entrega final), anotado en su ficha.</td><td>La resolución del CEEDCV, 4.1, exige un contacto cuatrimestral mínimo; con tutorías solo voluntarias no quedaba garantizado.</td></tr>
+<tr><td class="ap"><a href="/DAM_DAW_Proyecto_Intermodular_1/programacion-daw.html#s7-2-actividades-y-estrategias">7.2</a></td><td>Píldoras con retroalimentación del profesor; la descripción de la entrega anticipada pasa al data room; quien use la IA indica en la memoria para qué y con qué herramienta.</td><td>Revisión crítica: quitar una promesa sin plazo y dar transparencia al uso de la IA.</td></tr>
+<tr><td class="ap"><a href="/DAM_DAW_Proyecto_Intermodular_1/programacion-daw.html#s7-3-materiales-y-recursos">7.3</a></td><td>GitHub: el profesor indica un usuario que no identifique y advierte del riesgo de usar datos reales. La copia que se evalúa (URL y ZIP con la carpeta .git) se entrega en @ules. El material de la web se abre desde cada sesión de @ules.</td><td>Resolución del CEEDCV: 11.3.a y Orden 19/2013 (plataformas externas), 11.3.b (seudonimización) y 4.4 (materiales en Aules).</td></tr>
+<tr><td class="ap"><a href="/DAM_DAW_Proyecto_Intermodular_1/programacion-daw.html#s8-evaluacion">8</a></td><td>La propuesta aprobada deja de impedir presentarse: es un requisito del data room.</td><td>Ninguna norma permite impedir que el alumno se presente (Orden 8/2025, arts. 9.1 y 12.9).</td></tr>
+<tr><td class="ap"><a href="/DAM_DAW_Proyecto_Intermodular_1/programacion-daw.html#s8-2-procedimientos-de-evaluacion">8.2</a></td><td>La nota de cada instrumento sale de sus RA, con el mismo peso (RA1 y RA2, 35,8 %; RA3, 28,3 %). El profesor publica antes de cada entrega sus herramientas de corrección. El data room tiene tres requisitos (propuesta, historial, datos y cumplimiento). Fraude: se pierde la convocatoria, se califica con 1, decisión motivada y reclamable, sin conservar nada; en PI1 + PI2 rige el PI2.</td><td>Cálculo mixto DAW + DAM (nota ligada a los RA, Orden 8/2025, art. 5.1). Quien copia pierde todo.</td></tr>
+<tr><td class="ap"><a href="/DAM_DAW_Proyecto_Intermodular_1/programacion-daw.html#s8-3-instrumentos-de-evaluacion">8.3 (tabla 10)</a></td><td>Data room: ocho elementos y tres requisitos; arquitectura y viabilidad técnica; plan de ejecución con fases, plazos, riesgos, medios y equipos; plan de pruebas. Si falta una píldora, no se supera. Pitch de 2–4 minutos sin audio, calificado en el Demo Day. Demo Day con tres elementos.</td><td>Revisión de la guía (C7), fase 2, defensa mixta; el criterio 0492 RA2 c pide plazos.</td></tr>
+<tr><td class="ap"><a href="/DAM_DAW_Proyecto_Intermodular_1/programacion-daw.html#s8-4-tipo-de-evaluacion">8.4</a></td><td>Sin evaluación parcial en enero: revisión voluntaria del material, sin calificación ni prueba presencial.</td><td>Calendario específico del módulo autorizado por el CEEDCV.</td></tr>
+<tr><td class="ap"><a href="/DAM_DAW_Proyecto_Intermodular_1/programacion-daw.html#s8-5-criterios-de-calificacion">8.5 (tablas 11 y 12)</a></td><td>Evidencias: arquitectura en el RA2 b, plazos en el RA2 c, plan de pruebas en el RA2 i. El Demo Day deja de evidenciar el RA2 i.</td><td>Fase 2 y fin de la pregunta crítica puntuable.</td></tr>
+<tr><td class="ap"><a href="/DAM_DAW_Proyecto_Intermodular_1/programacion-daw.html#s8-6-relacion-con-pi2">8.6</a></td><td>La forma de cursar se elige en la tarea inicial, se comunica al profesorado del PI2 y se puede cambiar hasta la revisión de enero.</td><td>Coordinación con la programación del PI2.</td></tr>
+<tr><td class="ap"><a href="/DAM_DAW_Proyecto_Intermodular_1/programacion-daw.html#s8-7-convocatorias">8.7</a></td><td>Propuesta: si no está validada en la fecha límite, se valida con la entrega final. Causa justificada sin otro turno: la ordinaria cuenta, salvo lo que resuelva la dirección. Tras el informe del profesor, el alumno decide si se presenta a la segunda. Programa formativo sin clases ni tutorías propias. El repositorio se entrega en @ules.</td><td>Orden 8/2025, arts. 9.4, 9.5 y 9.6; instrucciones, 12.4.a.</td></tr>
+<tr><td class="ap"><a href="/DAM_DAW_Proyecto_Intermodular_1/programacion-daw.html#s8-8-demo-day-y-calculo-de-la-nota">8.8 (tabla 13)</a></td><td>Defensa mixta: pitch sin audio expuesto en directo; mesa redonda con tres preguntas del profesor, una por RA; preguntas libres de los compañeros, sin nota; coevaluación informativa y anónima en @ules; turnos a criterio del profesor con sorteo del orden; sesión no pública y grabada; turno individual con adaptaciones. Cálculo en seis pasos.</td><td>Acuerdo con DAM y revisión normativa (RD 659/2023, art. 27.1; Orden 8/2025, arts. 2.1, 3.3 y 3.4). La revisión y la grabación siguen el 7.4 de ciclo.</td></tr>
+<tr><td class="ap"><a href="/DAM_DAW_Proyecto_Intermodular_1/programacion-daw.html#s8-9-evaluacion-de-la-programacion">8.9</a></td><td>Indicadores por forma de cursar el PI1.</td><td>Coherencia de términos.</td></tr>
+<tr><td class="ap"><a href="/DAM_DAW_Proyecto_Intermodular_1/programacion-daw.html#anexo-fundamentacion-normativa">Anexo</a></td><td>Filas nuevas: nota ligada a los RA, coevaluación, copia en @ules, contacto cuatrimestral, propuesta como requisito y criterios propios del departamento (pesos, tope de 4, diez días, turnos). Corregidas: fraude (art. 5.1), grabación, materiales (4.4), enero, tutorías (jefatura de estudios), horas (RD 659/2023, art. 7.5.a) y «online» en lugar de «virtual».</td><td>Cada regla nueva con su fundamento; citas comprobadas en las fuentes.</td></tr>
+</tbody></table>
+<h2>Programación de DAM (0492p)</h2>
+<p>Respecto a la programación de Alfredo (versión de octubre). Es nueva: la de DAW adaptada al título de DAM.</p>
+<table><thead><tr><th>Apartado</th><th>Qué se ha añadido o cambiado</th><th>Por qué</th></tr></thead><tbody>
+<tr><td class="ap"><a href="/DAM_DAW_Proyecto_Intermodular_1/programacion-dam.html#s1-1-justificacion-de-la-programacion">Portada, 1.1 y formato</a></td><td>La programación es la de DAW, con el formato del departamento (portada, índice, tablas numeradas y anexo). Identificación: 0492p, 34 h; 0492, 100 h en segundo. Marco: RD 450/2010 en la redacción del RD 405/2023, RD 500/2024 y Decreto 114/2025. Sin el RD 1147/2011.</td><td>Acuerdo con Alfredo: una sola programación adaptando título y normativa. Horas del Decreto 114/2025, anexo II. El RD 1147/2011 está derogado.</td></tr>
+<tr><td class="ap"><a href="/DAM_DAW_Proyecto_Intermodular_1/programacion-dam.html#s2-objetivos-y-competencias">2</a></td><td>Las orientaciones del 0492 citan los objetivos y las competencias b), c), e), f), g), l), t) e y). Cuatro objetivos propios (OG1 a OG4) y funciones del título.</td><td>Texto del RD 405/2023 (comprobado en el BOE).</td></tr>
+<tr><td class="ap"><a href="/DAM_DAW_Proyecto_Intermodular_1/programacion-dam.html#s3-1-ra-del-modulo">3 y 4</a></td><td>RA y criterios del 0492 literales, del RD 405/2023, con los diez que evalúa el PI1. RA de otros módulos solo con los criterios verificables sin programar; en DAM, 0487 RA3 (a, b, c).</td><td>Zona intocable: los enunciados del 0492 no son los del 0616. En DAM el criterio c del 0487 RA3 no está partido en dos.</td></tr>
+<tr><td class="ap"><a href="/DAM_DAW_Proyecto_Intermodular_1/programacion-dam.html#s6-1-las-siete-sesiones">5 y 6</a></td><td>Sesiones, contenidos y temporalización iguales que en DAW (tablas 6, 7 y 8), con la fase 2 de diseño sin programar.</td><td>La temporalización ya era común; el PI1 es documental.</td></tr>
+<tr><td class="ap"><a href="/DAM_DAW_Proyecto_Intermodular_1/programacion-dam.html#s7-2-actividades-y-estrategias">7</a></td><td>Tutorías voluntarias (como ya tenía Alfredo) y un contacto garantizado por cuatrimestre. GitHub con seudónimo y copia evaluable en @ules. Uso de la IA declarado en la memoria.</td><td>Resolución del CEEDCV, 4.1, 4.4 y 11.3.</td></tr>
+<tr><td class="ap"><a href="/DAM_DAW_Proyecto_Intermodular_1/programacion-dam.html#s8-evaluacion">8</a></td><td>Condiciones para superar: propuesta aprobada como requisito del data room; Lenguajes de marcas, Bases de datos y Entornos de desarrollo aprobados (su criterio); superar el PI1 es requisito para cursar el PI2 por separado; calificación orientativa.</td><td>Decisiones comunes. Su programación no recogía el requisito para el PI2.</td></tr>
+<tr><td class="ap"><a href="/DAM_DAW_Proyecto_Intermodular_1/programacion-dam.html#s8-1-caracteristicas-de-la-evaluacion">8.1</a></td><td>Evaluación continua sin «opte por la evaluación continua» ni pérdida.</td><td>En la modalidad online no hay pérdida de la evaluación continua (Orden 8/2025, arts. 4.1, 4.3 y 7.1 a 7.3).</td></tr>
+<tr><td class="ap"><a href="/DAM_DAW_Proyecto_Intermodular_1/programacion-dam.html#s8-2-procedimientos-de-evaluacion">8.2</a></td><td>Cálculo completo: criterio, RA, instrumento, ponderación, redondeo y tope de 4, con el mismo peso por RA, que era su idea. Fraude: se pierde la convocatoria y se califica con 1, con audiencia de diez días hábiles, motivado y reclamable.</td><td>Su programación no tenía fórmula ni redondeo. La «pérdida del derecho a la evaluación continua» por fraude no existe en online (Orden 8/2025, art. 5.1; Ley 39/2015, art. 82).</td></tr>
+<tr><td class="ap"><a href="/DAM_DAW_Proyecto_Intermodular_1/programacion-dam.html#s8-3-instrumentos-de-evaluacion">8.3</a></td><td>Instrumentos elemento a elemento: data room (ocho elementos y tres requisitos), cinco píldoras, pitch (cinco) y Demo Day (tres).</td><td>Su programación no enumeraba los elementos del data room.</td></tr>
+<tr><td class="ap"><a href="/DAM_DAW_Proyecto_Intermodular_1/programacion-dam.html#s8-4-tipo-de-evaluacion">8.4</a></td><td>Evaluación inicial sin nota; sin evaluación en enero, con revisión voluntaria del material.</td><td>Calendario autorizado por el CEEDCV.</td></tr>
+<tr><td class="ap"><a href="/DAM_DAW_Proyecto_Intermodular_1/programacion-dam.html#s8-6-relacion-con-pi2">8.6</a></td><td>Formas de cursar (solo PI1 o con el PI2), elección en la tarea inicial y cambio hasta la revisión de enero.</td><td>Remitía a una tabla de instrumentos sin el caso conjunto.</td></tr>
+<tr><td class="ap"><a href="/DAM_DAW_Proyecto_Intermodular_1/programacion-dam.html#s8-7-convocatorias">8.7</a></td><td>Propuesta con tres criterios, respuesta en diez días hábiles, reenvío y reclamación. Segunda convocatoria con programa formativo y renuncia tras el informe del profesor.</td><td>Su programación no tenía propuesta ni regulaba la segunda convocatoria.</td></tr>
+<tr><td class="ap"><a href="/DAM_DAW_Proyecto_Intermodular_1/programacion-dam.html#s8-8-demo-day-y-calculo-de-la-nota">8.8</a></td><td>Defensa mixta: su formato (vídeo sin audio comentado en directo, mesa redonda, sorteo, sesión no pública) con las garantías de DAW (una pregunta del profesor por RA, grabación, coevaluación solo informativa). El pitch comercial y el vídeo demostrativo son el mismo vídeo; la «evaluación cruzada» y la «participación» no califican.</td><td>Acuerdo con Alfredo. En online califica el profesorado con instrumentos objetivos (RD 659/2023, art. 27.1; Orden 8/2025, art. 2.1).</td></tr>
+<tr><td class="ap"><a href="/DAM_DAW_Proyecto_Intermodular_1/programacion-dam.html#anexo-fundamentacion-normativa">Anexo</a></td><td>Nuevo: cada regla propia con su norma, con las filas del título de DAM (RD 450/2010 y RD 405/2023).</td><td>Su programación no lo tenía. Cada regla, defendible ante una reclamación.</td></tr>
+</tbody></table>
+</main>
+</body>
+</html>
