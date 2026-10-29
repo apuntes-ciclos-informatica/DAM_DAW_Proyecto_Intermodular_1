@@ -12,19 +12,21 @@ La técnica del ***time-boxing*** consiste en asignar una cantidad fija e innego
 
 ### Distribución recomendada del tiempo
 
-Para una exposición tipo de 15 minutos, una distribución eficaz por bloques aplicando *time-boxing* sería:
+En este módulo tienes dos formatos, y los dos son cortos: la **píldora**, de 90 segundos, y el **pitch** del Demo Day, de 2 a 4 minutos, que expones en directo sobre tu vídeo sin voz. En el PI1 no hay demostración de software: el proyecto es documental. Una distribución eficaz por bloques aplicando *time-boxing* sería:
 
-* **Introducción y Hook (10-15% del tiempo / ~1,5 - 2 min):** Captar la atención, contextualizar el problema y presentar la propuesta de valor.
+| Bloque | Píldora (90 s) | Pitch (hasta 4 min) |
+|:---|:---:|:---:|
+| **Gancho y problema:** captar la atención y contar a quién le duele y cómo se resuelve hoy | ~20 s | ~45 s |
+| **Solución y diferencia:** qué propones y qué lo hace distinto de lo que ya existe | ~50 s | ~2 min |
+| **Cierre:** la idea que debe quedar y la petición concreta | ~20 s | ~45 s |
 
-* **Núcleo Técnico y Demo (60-70% del tiempo / ~9 - 10 min):** Explicar la arquitectura, el *stack* tecnológico, las metodologías y la demostración práctica del software.
-
-* **Conclusión y Cierre (15-20% del tiempo / ~2 - 3 min):** Sintetizar los logros del proyecto, líneas futuras y llamada a la acción.
+Si te sobra tiempo, no lo rellenes: llegar al cierre con unos segundos de margen da sensación de control.
 
 ### Estrategias de control durante la presentación
 
-* **Uso de cronómetros invisibles al público:** Disponer de un reloj visible en la pantalla del ponente o utilizar las notas de orador de la herramienta de presentación para monitorizar el avance.
+* **Uso de cronómetros invisibles al público:** Disponer de un reloj visible en la pantalla del ponente o utilizar las notas de orador de la herramienta de presentación para monitorizar el avance. En el Demo Day, el propio vídeo marca el ritmo: ensaya hasta que tu voz vaya a la par que las imágenes.
 
-* **Diapositivas de control o hitos de tiempo:** Asignar a diapositivas clave un tiempo acumulado estimado (ej. *"al llegar a la demo debo llevar 6 minutos"*). Esto permite acelerar o saltar detalles secundarios de forma consciente si se detecta un retraso.
+* **Diapositivas de control o hitos de tiempo:** Asignar a diapositivas clave un tiempo acumulado estimado (ej. *"al llegar a la diferencia debo llevar un minuto"*). Esto permite acelerar o saltar detalles secundarios de forma consciente si se detecta un retraso.
 
 ## Dinámicas de ensayo y feedback entre pares
 
@@ -45,8 +47,8 @@ Para que el ensayo en grupo sea productivo, conviene utilizar una rúbrica senci
 | Criterio evaluado | Aspectos a revisar por los compañeros | 
  | ----- | ----- | 
 | **Ajuste de tiempo** | ¿Se ha respetado el límite fijado? ¿Qué bloque ha consumido más tiempo del necesario? | 
-| **Clarity y lenguaje** | ¿Ha sido comprensible el lenguaje técnico? ¿Han quedado claros los conceptos clave? | 
-| **Dominio del software** | ¿La demo ha sido fluida y bien guiada o ha parecido improvisada? | 
+| **Claridad y lenguaje** | ¿Ha sido comprensible el lenguaje técnico? ¿Han quedado claros los conceptos clave? | 
+| **Encaje con el vídeo** | ¿La exposición ha ido a la par que las imágenes o se ha adelantado o quedado atrás? | 
 | **Comunicación no verbal** | ¿Ha habido buen contacto visual? ¿Uso correcto de pausado y tono de voz? | 
 
 ## La conclusión
