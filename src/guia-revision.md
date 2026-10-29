@@ -747,7 +747,7 @@ Se entrega en la entrega final, antes del Demo Day, porque **se proyecta allí**
 
 ::: details 4. Demo Day — 25 %
 
-La prueba presencial, en el centro, en el aula que se comunica en @ules. El profesor organiza los turnos según las necesidades del grupo y los publica con antelación en el aula virtual; el orden se **sortea** el mismo día. Tu exposición dura **hasta 4 minutos**, y en la mesa redonda todos tenéis el mismo tiempo. El tribunal es **el profesor del módulo**. La sesión **no es pública**: solo asisten los alumnos del turno y el profesor. Se **graba**, para evaluarla y por si pides su revisión; se avisa a todos los asistentes y la grabación no se publica. Se conserva hasta tres meses después del inicio del curso siguiente, o hasta que acabe una reclamación, como fija la programación de ciclo.
+La prueba presencial, en el centro, en el aula que se comunica en @ules. El profesor organiza los turnos según las necesidades del grupo y los publica con antelación en el aula virtual; el orden se **sortea** el mismo día. Tu exposición dura **hasta 4 minutos**, y en la mesa redonda todos tenéis el mismo tiempo. El tribunal es **el profesor del módulo**. La sesión **no es pública**: solo asisten los alumnos del turno y el profesor. Se **graba**, para evaluarla y la grabación no se publica.
 
 #### 1. Exposición del pitch
 
@@ -767,7 +767,7 @@ Cuando han expuesto todos los del turno, empieza una mesa redonda con el profeso
 
 #### 3. Coevaluación
 
-Al terminar, valoras a cada compañero de tu turno con la misma rúbrica, en los elementos del pitch y del Demo Day, en un formulario de @ules que solo ve el profesor: tus compañeros no saben qué les has puesto. **No se suma a ninguna nota**: solo sirve para que el profesor revise la grabación cuando vuestra valoración no coincide con la suya, y cualquier cambio de nivel lo justifica en la ficha de corrección con lo que se ve en ella. La calificación es siempre del profesor.
+Al terminar, valoras a cada compañero de tu turno con la misma rúbrica, en los elementos del pitch y del Demo Day, en un formulario de @ules que solo ve el profesor: tus compañeros no saben qué les has puesto. Sirve para que el profesor revise la grabación cuando vuestra valoración no coincide con la suya, y cualquier cambio de nivel lo justifica en la ficha de corrección con lo que se ve en ella. La calificación es siempre del profesor.
 
 Si tienes reconocidas adaptaciones, puedes defender en un turno individual.
 
@@ -850,8 +850,6 @@ Si cursas **PI1 + PI2**, tu nota de PI1 sale de la programación del PI2.
 
 Quien no supere la primera convocatoria o renuncie a ella,
 dispone de una **segunda convocatoria**. Al publicar la nota de la ordinaria, el profesor te informa de si estás en condiciones de afrontarla con posibilidades de éxito. Puedes renunciar a ella, para no gastarla, si te dice que no o si acreditas un motivo justificado, como en la ordinaria (enfermedad, conciliación laboral u otra circunstancia que valore la dirección). La renuncia la resuelve la dirección del centro.
-
-Entre las dos convocatorias tienes un **programa formativo específico**, sin clases ni tutorías propias. Al publicar la nota de la ordinaria, el profesor te indica qué mejorar y por qué; trabajas por tu cuenta y planteas tus dudas en las tutorías individuales, en los foros y el correo del aula o por teléfono con cita previa.
 
 Los cuatro instrumentos, sus pesos, sus notas mínimas y la rúbrica son **los mismos** que en la primera convocatoria. 
 
