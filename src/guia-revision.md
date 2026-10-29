@@ -97,7 +97,7 @@ del trabajo aplicando **metodologías ágiles** y herramientas de gestión profe
 
 **OG2: Modelar y Documentar la Solución mediante Diagramas**:
 
-Representar el proyecto con los diagramas adecuados —casos de uso, actividades, clases y
+Representar el proyecto con los diagramas adecuados —casos de uso, actividades y
 entidad/relación— e interpretarlos correctamente, de modo que la solución quede
 descrita antes de escribir una sola línea de código.
 
@@ -147,7 +147,7 @@ explicar* un proyecto informático. Son las mismas competencias para **DAW y DAM
   delimitar el alcance de una solución viable y expresarla como **historias de
   usuario** con criterios de aceptación.
 * **Modelado mediante diagramas:** Representar el sistema con **diagramas de casos
-  de uso, de actividades, de clases y entidad/relación**, e interpretar correctamente los
+  de uso, de actividades y entidad/relación**, e interpretar correctamente los
   diagramas de otros.
 * **Organización del trabajo con herramientas profesionales:** Utilizar **Git y un
   repositorio remoto** para versionar el proyecto, y convertir las historias de
@@ -326,17 +326,16 @@ Por su **carácter integrador**, este proyecto es el lugar donde pones en juego 
 
 ### **Tabla de Módulos, RAs, CEs y Objetivos Asociados**
 
-Estos resultados de aprendizaje **se trabajan en el proyecto y se califican en su propio módulo**, no en el PI1. Solo figuran los criterios que el proyecto permite verificar sin programar. La tabla vale para DAW y DAM; solo cambian las letras del RA3 de Entornos de desarrollo, porque en DAW su criterio c está partido en dos (c y d).
+Estos resultados de aprendizaje **se trabajan en el proyecto y se califican en su propio módulo**, no en el PI1. Solo figuran los criterios que el proyecto permite verificar sin programar. La tabla vale para DAW y DAM.
 
 | Módulo | Resultado de Aprendizaje (RA) | Criterios de Evaluación (CE) | OG |
 | :--- | :--- | :--- | :--- |
-| **0487 - Entornos de desarrollo** | **RA1:** Reconoce los elementos y herramientas que intervienen en el desarrollo de un programa informático, analizando sus características y las fases en las que actúan hasta llegar a su puesta en funcionamiento. | f, g | OG1, OG4 |
-|  | **RA3:** Verifica el funcionamiento de programas diseñando y realizando pruebas. | a, b, c, d (en DAM, a, b, c) | OG4 |
-|  | **RA4:** Optimiza código empleando las herramientas disponibles en el entorno de desarrollo. | a, f, h | OG4 |
-|  | **RA5:** Genera diagramas de clases valorando su importancia en el desarrollo de aplicaciones y empleando herramientas específicas. | d | OG2 |
-|  | **RA6:** Genera diagramas de comportamiento valorando su importancia en el desarrollo de aplicaciones y empleando herramientas específicas. | b, e, f | OG2 |
+| **0373 - Lenguajes de marcas y sistemas de gestión de información** | **RA1:** Reconoce las características de lenguajes de marcas analizando e interpretando fragmentos de código. | a, b, c, d, f, g, h | OG3 |
+| | **RA2:** Utiliza lenguajes de marcas para la transmisión y presentación de información a través de la web analizando la estructura de los documentos e identificando sus elementos. | a, b, c, e, f, g, h | OG3 |
+| | **RA5:** Realiza conversiones sobre documentos para el intercambio de información utilizando técnicas, lenguajes y herramientas de procesamiento. | a, b, c, f, g | OG3 |
 | **0484 - Bases de datos** | **RA6:** Diseña modelos relacionales normalizados interpretando diagramas entidad/relación. | a, b, c, d, e | OG2, OG3 |
-| **0373 - Lenguajes de marcas y sistemas de gestión de información** | **RA6:** Gestiona la información en formatos de intercambio de datos analizando y utilizando tecnologías de almacenamiento y lenguajes de consulta. | a, b, c, d, h | OG3 |
+| **0487 - Entornos de desarrollo** | **RA1:** Reconoce los elementos y herramientas que intervienen en el desarrollo de un programa informático, analizando sus características y las fases en las que actúan hasta llegar a su puesta en funcionamiento. | b, f, g | OG1, OG4 |
+| | **RA6:** Genera diagramas de comportamiento valorando su importancia en el desarrollo de aplicaciones y empleando herramientas específicas. | a, b, e, f | OG2 |
 
 ::::
 
@@ -357,13 +356,13 @@ organiza, se dibuja, se documenta y se explica un proyecto propio.
 
 | Sesión | Título | Resultados de aprendizaje que trabaja |
 |:---:|:---|:---|
-| **1** | Fundamentos de la gestión de proyectos | PI RA2 (c, d) · 0487 RA1 (f) |
+| **1** | Fundamentos de la gestión de proyectos | PI RA2 (c, d) · 0487 RA1 (b, f) |
 | **2** | Comunicación verbal y no verbal | Competencia transversal de comunicación |
 | **3** | Metodologías Ágiles. Scrum | PI RA3 (a) · 0487 RA1 (g) |
 | **4** | Análisis de requisitos e historias de usuario | PI RA1 (c, f) y RA2 (h, i) |
-| **5** | Organización del proyecto con Git y GitHub Projects | PI RA3 (a, f) · 0487 RA4 (f, h) |
-| **6** | Diagramas del proyecto | PI RA2 (h) · 0487 RA5 (d) y RA6 (b, e, f) · 0484 RA6 (a, b, c, d, e) |
-| **7** | Documentación del proyecto con Markdown y VitePress | PI RA2 (h) y RA3 (e) |
+| **5** | Organización del proyecto con Git y GitHub Projects | PI RA3 (a, f) |
+| **6** | Diagramas del proyecto | PI RA2 (h) · 0487 RA6 (a, b, e, f) · 0484 RA6 (a, b, c, d, e) |
+| **7** | Documentación del proyecto con Markdown y VitePress | PI RA2 (h) y RA3 (e) · 0373 RA1, RA2 y RA5 |
 
 ### Contenidos por Sesión
 
@@ -432,7 +431,6 @@ el proyecto y qué harás a continuación.
 
 * Diagramas de casos de uso: quién usa el sistema y para qué.
 * Diagramas de actividades: cómo fluye un proceso.
-* Diagramas de clases: las clases del sistema, sus atributos y cómo se relacionan.
 * Diagramas entidad/relación: qué información guarda la aplicación, y su paso a tablas,
   campos y claves.
 * Herramientas de diagramación.
@@ -467,7 +465,7 @@ Las primeras fases de tu proyecto son el análisis y el diseño, y en esta fase 
 * **Marco de pruebas**: qué tipos de pruebas verificarán el producto (unitarias, de integración, de aceptación, A/B…), qué verifica cada tipo y qué historias cubre, con qué herramientas se harán y cómo se registrarán las incidencias. Las pruebas no se escriben: el marco se rellena en PI2.
 * **Calidad del código**: qué patrones de refactorización y qué control de versiones se aplicarán cuando llegue el código.
 
-Lo trabajas con las tutorías individuales que pidas, hasta la entrega final y el Demo Day. En esta fase se trabajan PI RA2 (b), 0487 RA3 (a, b, c, d; en DAM, a, b, c) y RA4 (a) y 0373 RA6 (a, b, c, d, h).
+Lo trabajas con las tutorías individuales que pidas, hasta la entrega final y el Demo Day. En esta fase se trabaja el PI RA2 (b).
 :::
 
 ### Calendario
@@ -664,8 +662,8 @@ organiza **como la pediría un inversor**, no como un índice académico:
 * **Solución y alcance**: el MVP, y de forma explícita **qué queda fuera y por qué**.
 * **Qué hará el producto y cómo se comprobará**: historias de usuario con criterios de aceptación,
   y el **plan de pruebas**, el marco de la fase 2.
-* **Cómo funciona**: diagramas de casos de uso, de actividades, de clases y entidad/relación,
-  con las tablas, los campos y las claves del diseño lógico.
+* **Cómo funciona**: diagramas de casos de uso, de actividades y entidad/relación, con las
+  tablas, los campos y las claves del diseño lógico.
 * **Arquitectura, stack propuesto** y su **viabilidad técnica**: los componentes del sistema,
   los formatos de intercambio y el almacenamiento de los datos, por qué esas tecnologías y
   por qué el proyecto se puede construir con ellas.
