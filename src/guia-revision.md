@@ -162,7 +162,7 @@ explicar* un proyecto informático. Son las mismas competencias para **DAW y DAM
 
 ### Resultados de aprendizaje
 
-Los resultados de aprendizaje y los criterios de evaluación de este módulo son los que fijan los reales decretos de cada título: el **RD 686/2010** para DAW (módulo 0616) y el **RD 450/2010**, en la redacción del **RD 405/2023**, para DAM (módulo 0492). **Su redacción no es idéntica**, así que cada resultado de aprendizaje tiene una pestaña por ciclo: la que vale para ti es la de tu ciclo. Los criterios que evalúa el PI1 tienen la misma letra en los dos.
+Los resultados de aprendizaje y los criterios de evaluación de este módulo son los que fijan los reales decretos de cada título: el **RD 686/2010** para DAW (módulo 0616) y el **RD 450/2010**, en la redacción del **RD 405/2023**, para DAM (módulo 0492).
 
 El PI1 evalúa **diez** de estos criterios, marcados con ✅ en la columna PI1: del RA1, el c y el f; del RA2, el b, el c, el d, el h y el i, y del RA3, el a, el e y el f. El PI2 evalúa los mismos y, además, el b y el c del RA4.
 
@@ -515,8 +515,6 @@ La segunda opción es la recomendable si te corresponde cursar ambos: evita dupl
 ::: details Tutorías
 
 Este módulo solo tiene **tutorías individuales**, por correo, por teléfono o por videoconferencia en Teams, y no hay tutorías colectivas. Son **voluntarias**: las pides tú, con cita previa, cuando tengas dudas sobre el módulo o sobre tu proyecto. En la segunda fase del curso conviene pedir una cada quince días para revisar tus avances y tu plan de trabajo, aunque la frecuencia depende de tu ritmo y de lo cerca que esté la entrega.
-
-Aunque no pidas ninguna, el profesor se pondrá en contacto contigo **al menos una vez por cuatrimestre**: al responder a tu propuesta o revisar tu material de enero y, en el segundo cuatrimestre, antes de la entrega final. Si aún no has entregado nada, te escribirá por @ules para saber cómo vas.
 
 :::
 
