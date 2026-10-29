@@ -61,7 +61,7 @@ empresa. Puede que no te suenen todavía, así que aquí están todas juntas:
 | **Data room** | Tu repositorio con toda la documentación del proyecto. Es el expediente que alguien leería antes de invertir en tu idea. |
 | **One-pager** | El resumen del proyecto en una sola página. |
 | **Píldora** | Un vídeo corto, de 90 segundos, en el que cuentas cómo va tu proyecto. |
-| **Pitch** | El vídeo final, de 2 a 4 minutos y sin audio, con el que vendes tu proyecto: en el Demo Day lo cuentas tú en directo. |
+| **Pitch** | El vídeo final, de 2 a 4 minutos y sin voz, con el que vendes tu proyecto: en el Demo Day lo cuentas tú en directo. |
 | **Demo Day** | La prueba presencial en la que expones tu pitch y defiendes el proyecto en una mesa redonda, ante el profesor del módulo y tus compañeros de turno. |
 | **Due diligence** | Las preguntas que te hace el profesor sobre tu propio proyecto, en la mesa redonda del Demo Day, para comprobar que de verdad lo entiendes. |
 | **Stack** | El conjunto de tecnologías con las que construirías el proyecto. |
@@ -450,7 +450,7 @@ no sabes narrar no está terminado.
 * Validación del HTML y del CSS resultantes.
 * Estructura de una memoria técnica.
 
-🎥 **Pitch final (2-4 min, sin audio)**: con el sitio ya publicado, prepara el vídeo comercial
+🎥 **Pitch final (2-4 min, sin voz)**: con el sitio ya publicado, prepara el vídeo comercial
 del proyecto, que en el Demo Day contarás tú en directo: por qué debería existir, **qué lo hace distinto de lo que ya existe** y **qué
 pedirías** para poder llevarlo a cabo.
 
@@ -509,7 +509,7 @@ Eliges la forma en la **tarea inicial del aula virtual**; si cursas también el 
 
 La segunda opción es la recomendable si te corresponde cursar ambos: evita duplicar el trabajo. Los detalles están en [Entregas y Seguimiento del Proyecto](#entregas-y-seguimiento-del-proyecto).
 
-> 💡 Si cursas **solo PI1**, elige el proyecto que quieras: no tiene que encajar en ninguno de los itinerarios del PI2. En segundo, el proyecto se hace en uno de los itinerarios que ofrezca el PI2 ese curso. Si el tuyo encaja, puedes seguir con él; si no, tendrás que empezar otro. Seguir con el mismo proyecto solo está garantizado si cursas los dos tramos a la vez.
+> 💡 Si cursas **solo PI1**, elige el proyecto que quieras. Seguir con el mismo proyecto en segundo solo está garantizado si cursas los dos tramos a la vez.
 
 :::
 
@@ -531,7 +531,7 @@ ambos casos; lo que cambia es de dónde sale el trabajo que se califica.
 | **Tu proyecto** | Un proyecto documental propio de este tramo | **Un único proyecto** para los dos tramos |
 | **Data room** | Lo construyes para PI1 | Es la memoria de PI2 |
 | **Píldoras** | Cinco vídeos de 90 s | No se piden |
-| **Pitch** | Vídeo comercial de 2-4 min, sin audio, que cuentas en directo | El vídeo que pide PI2, que se califica allí |
+| **Pitch** | Vídeo comercial de 2-4 min, sin voz, que cuentas en directo | El vídeo que pide PI2, que se califica allí |
 | **Defensa** | El Demo Day de PI1 | La defensa ante tribunal de PI2 |
 
 > [!IMPORTANT] Cómo se supera el PI1
@@ -553,7 +553,7 @@ entraría en el MVP. Las especificaciones concretas y la fecha están en el aula
 Sirve para una sola cosa: comprobar que tu proyecto es **viable y adecuado** al módulo
 antes de que dediques meses a documentarlo.
 
-**Cómo se aprueba.** La aprueba el profesor con tres criterios: que parta de un **problema real y acotado**, que su **MVP sea viable** con lo que sabes en primero y que su **alcance se pueda documentar** en el curso. Te responde por escrito en el aula virtual en **10 días hábiles**. Si la rechaza, te dice qué cambiar y puedes reenviarla. El rechazo no es una nota: si no estás de acuerdo, pide aclaraciones y reenvíala. Lo que cuenta es la validación con la entrega final, que forma parte de la nota del data room y se reclama con ella.
+**Cómo se aprueba.** La aprueba el profesor con tres criterios: que parta de un **problema real y acotado**, que su **MVP sea viable** con lo que sabes en primero y que su **alcance se pueda documentar** en el curso. Si la rechaza, te dice qué cambiar y puedes reenviarla.
 
 > [!TIP] La fecha anticipada no es obligatoria, la propuesta aprobada sí
 > La propuesta **se puede entregar hasta la fecha límite de la convocatoria**. Además hay
@@ -583,11 +583,10 @@ En una única fecha se entrega **todo lo que se califica**:
 :::: tabs
 == Solo PI1
 
-* En la tarea de @ules, la **URL del repositorio de GitHub**, con la memoria publicada, el
-  tablero del proyecto y el _one-pager_, y un **ZIP de tu repositorio** que incluya la carpeta oculta `.git`,
-  para que vaya también el historial. Ese ZIP es la copia que se evalúa: es el _data room_.
-* Las **cinco píldoras** y el **pitch**, en @ules o en Microsoft Teams, como se indique en
-  el aula.
+* El **data room** y el **pitch**, en la tarea de la entrega final de @ules.
+* Las **cinco píldoras**, cada una en su tarea de @ules, abierta hasta esa misma fecha.
+
+Cada tarea explica qué entregas y cómo.
 
 == PI1 + PI2
 
@@ -618,8 +617,8 @@ Al principio del curso hay una **evaluación inicial**, sin nota. En **enero no 
  >
  >   **No haber seguido el curso de forma continua, o no haber entregado en la fecha anticipada, no impide presentarse a ninguna de las dos convocatorias.** Todo lo que se califica se entrega en la entrega final y se defiende en la prueba presencial. Eso sí, no puedes pasar **30 días seguidos sin actividad** sin causa justificada: la dirección, a propuesta de tu tutor o tutora, puede anularte la matrícula. Antes, el profesorado se pondrá en contacto contigo, y el centro te comunicará la baja y te dará diez días hábiles para alegar.
 >* **Comunicación de resultados:** Tras cada sesión de evaluación se te comunica tu calificación y sus **motivos**, con el plazo para pedir su rectificación. Puedes pedir aclaraciones y la revisión de cualquier instrumento, incluida la grabación del Demo Day. 
->* **Fraude:** Si copias, presentas como tuyo un trabajo que no lo es o usas la inteligencia artificial donde no está permitido, en una entrega o en el Demo Day, **pierdes la evaluación de esa convocatoria**: el PI1 se califica con un **1** y la convocatoria cuenta como utilizada. Antes de decidirlo tienes diez días hábiles para alegar, y la decisión se te comunica por escrito y motivada; puedes reclamarla. Como en esa convocatoria no superas ningún resultado de aprendizaje, en la siguiente se evalúan todos. Si cursas PI1 + PI2, rige lo que diga sobre el fraude la programación del PI2. Puedes usar la IA para aprender, para revisar lo que escribes y para crear contenido multimedia, no para generar la documentación ni para que haga el trabajo por ti. Si la usas, indica en la memoria para qué y con qué herramienta.
->* **Adaptaciones:** Si tienes necesidades educativas específicas, díselo al profesorado cuanto antes, también si surgen durante el curso. Las adaptaciones se acuerdan con el profesorado, con el asesoramiento del Departamento de Orientación cuando haga falta. Se pueden adaptar los tiempos, el formato de los vídeos y las condiciones del Demo Day, sin cambiar los resultados de aprendizaje ni los criterios, y nunca para bajar tu nota.
+>* **Fraude:** Si copias, presentas como tuyo un trabajo que no lo es o usas la inteligencia artificial donde no está permitido, en una entrega o en el Demo Day, **pierdes la evaluación de esa convocatoria**: el PI1 se califica con un **1** y la convocatoria cuenta como utilizada. Si cursas PI1 + PI2, rige lo que diga sobre el fraude la programación del PI2. Puedes usar la IA para aprender, para revisar lo que escribes y para crear contenido multimedia, no para generar la documentación ni para que haga el trabajo por ti. Si la usas, indica en la memoria para qué y con qué herramienta.
+>* **Adaptaciones:** Si tienes necesidades educativas específicas, díselo al profesorado cuanto antes, también si surgen durante el curso. Las adaptaciones se acuerdan con el profesorado, con el asesoramiento del Departamento de Orientación cuando haga falta.
 
 ### El proyecto se presenta a inversores
 
@@ -636,9 +635,9 @@ Por eso los instrumentos no llevan nombre de examen, sino el que reciben fuera d
 
 | Instrumento | Qué entregas | Peso | Nota mínima |
 |:---|:---|:---:|:---:|
-| **Data room** | Tu repositorio, entregado en @ules (su URL y un ZIP con su historial), con la memoria publicada, el tablero del proyecto y el _one-pager_. | 40 % | ≥ 5 |
+| **Data room** | Tu repositorio, con la memoria publicada, el tablero del proyecto y el _one-pager_. | 40 % | ≥ 5 |
 | **Píldoras** <br>_(founder updates)_ | Cinco vídeos breves, de 90 segundos, uno por cada sesión de la 2 a la 6. | 20 % | ≥ 5 |
-| **Pitch** | El vídeo final de carácter comercial, de 2 a 4 minutos y sin audio, que expones en directo en el Demo Day. | 15 % | ≥ 5 |
+| **Pitch** | El vídeo final de carácter comercial, de 2 a 4 minutos y sin voz, aunque puede llevar música o efectos sonoros, que expones en directo en el Demo Day. | 15 % | ≥ 5 |
 | **Demo Day** | La defensa presencial: exposición del pitch y mesa redonda, con la _due diligence_ del profesor sobre tu proyecto y preguntas de tus compañeros. | 25 % | ≥ 5 |
 
 == PI1 + PI2
@@ -721,7 +720,7 @@ al Demo Day con cinco ensayos hechos.
 
 ::: details 3. Pitch — 15 %
 
-Un vídeo de **2 a 4 minutos, sin audio**, de carácter comercial: por qué este proyecto debería
+Un vídeo de **2 a 4 minutos, sin voz** (puede llevar música o efectos sonoros), de carácter comercial: por qué este proyecto debería
 existir, a quién le sirve y por qué merece la pena apostar por él. **En el Demo Day se
 proyecta y lo cuentas tú en directo**: el vídeo pone las imágenes y tú, la voz. Por eso el
 pitch se califica allí, con el vídeo y tu exposición juntos.
@@ -737,7 +736,7 @@ Se puntúa con la rúbrica común sobre **cinco elementos**:
 | **Adecuación al público** | Se explica sin tecnicismos innecesarios y se justifica por qué el proyecto merece la pena. |
 | **Diferenciación** | Dejas claro qué hace distinto a tu proyecto de lo que ya existe, como si quisieras convencer a un grupo de inversores. |
 | **Creatividad** | El vídeo usa recursos visuales que hacen la exposición más atractiva y memorable. |
-| **Ejecución** | El vídeo dura de 2 a 4 minutos y no lleva audio; tu exposición se ajusta a él, se entiende y no la lees. |
+| **Ejecución** | El vídeo dura de 2 a 4 minutos y no lleva voz; tu exposición se ajusta a él, se entiende y no la lees. |
 
 Tiene **nota mínima**, como el resto de instrumentos: saber vender un proyecto no es un
 adorno del módulo, es una de las competencias que evalúa.
@@ -752,7 +751,7 @@ La prueba presencial, en el centro, en el aula que se comunica en @ules. El prof
 
 #### 1. Exposición del pitch
 
-Se proyecta tu pitch, el vídeo sin audio que entregaste, y **lo cuentas tú en directo**. Como si quisieras convencer a un grupo de inversores, destaca **qué hace distinto tu proyecto**. Aquí se califica el pitch (apartado 3).
+Se proyecta tu pitch, el vídeo sin voz que entregaste, y **lo cuentas tú en directo**. Como si quisieras convencer a un grupo de inversores, destaca **qué hace distinto tu proyecto**. Aquí se califica el pitch (apartado 3).
 
 #### 2. Mesa redonda
 
@@ -870,9 +869,9 @@ Estas son las herramientas que usarás durante el curso. Todas son gratuitas.
 * **Redacción y publicación de la documentación:** Markdown, VitePress y GitHub Pages.
 * **Diseño y diagramación:** Draw.io, Mermaid o Lucidchart.
 * **Editor de textos:** Visual Studio Code (o cualquier editor con soporte de Markdown).
-* **Grabación de las píldoras (con audio) y del pitch (sin audio):** la grabación de pantalla
+* **Grabación de las píldoras (con voz) y del pitch (sin voz):** la grabación de pantalla
   de Microsoft Teams, o una herramienta de captura que grabe en tu equipo, sin subir el vídeo a servicios externos.
-* **Entregas:** la URL y el ZIP del repositorio, en @ules; los vídeos, en @ules o Microsoft Teams. No se publican en internet.
+* **Entregas:** todas las tareas y evidencias, en @ules; cada tarea explica qué entregas y cómo. Los vídeos no se publican en internet.
 * **Comunicación:** Microsoft Teams.
 * **Inteligencia artificial:** puedes usarla para aprender, para revisar lo que escribes y para crear contenido multimedia, no para generar la documentación ni para que haga el trabajo por ti.
 
