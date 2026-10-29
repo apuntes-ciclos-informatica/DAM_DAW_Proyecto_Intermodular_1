@@ -363,6 +363,7 @@ organiza, se dibuja, se documenta y se explica un proyecto propio.
 | **5** | Organización del proyecto con Git y GitHub Projects | PI RA3 (a, f) |
 | **6** | Diagramas del proyecto | PI RA2 (h) · 0487 RA6 (a, b, e, f) · 0484 RA6 (a, b, c, d, e) |
 | **7** | Documentación del proyecto con Markdown y VitePress | PI RA2 (h) y RA3 (e) · 0373 RA1, RA2 y RA5 |
+| **Fase 2** | Implementación de las primeras fases del proyecto | PI RA2 (b) |
 
 ### Contenidos por Sesión
 
@@ -540,7 +541,7 @@ ambos casos; lo que cambia es de dónde sale el trabajo que se califica.
 >
 > Superar el PI1 es **requisito para cursar el PI2 por separado**.
 >
-> Tu calificación de primero es **orientativa**: consta en el acta de cada evaluación y forma parte de la calificación final del módulo, que se emite al terminar segundo. Por eso **arrastra**: si tu trabajo de primero es flojo, tendrás que compensarlo en segundo.
+> Tu calificación de primero es **orientativa**: consta en el acta de cada evaluación y forma parte de la calificación final del módulo, que se emite al terminar segundo. Por eso **cuenta**, y no se compensa en segundo: si cursas solo PI1, necesitas superarlo para cursar el PI2, y si cursas PI1 y PI2 a la vez, la programación del PI2 te exige en él al menos un 5.
 
 ### Las dos entregas
 
@@ -552,12 +553,13 @@ entraría en el MVP. Las especificaciones concretas y la fecha están en el aula
 Sirve para una sola cosa: comprobar que tu proyecto es **viable y adecuado** al módulo
 antes de que dediques meses a documentarlo.
 
-**Cómo se aprueba.** La aprueba el profesor con tres criterios: que parta de un **problema real y acotado**, que su **MVP sea viable** con lo que sabes en primero y que su **alcance se pueda documentar** en el curso. Te responde por escrito en el aula virtual en **10 días hábiles**. Si la rechaza, te dice qué cambiar y puedes reenviarla. Si no estás de acuerdo con el rechazo, puedes reclamar por el procedimiento de la programación de ciclo.
+**Cómo se aprueba.** La aprueba el profesor con tres criterios: que parta de un **problema real y acotado**, que su **MVP sea viable** con lo que sabes en primero y que su **alcance se pueda documentar** en el curso. Te responde por escrito en el aula virtual en **10 días hábiles**. Si la rechaza, te dice qué cambiar y puedes reenviarla. El rechazo no es una nota: si no estás de acuerdo, pide aclaraciones y reenvíala. Lo que cuenta es la validación con la entrega final, que forma parte de la nota del data room y se reclama con ella.
 
 > [!TIP] La fecha anticipada no es obligatoria, la propuesta aprobada sí
 > La propuesta **se puede entregar hasta la fecha límite de la convocatoria**. Además hay
 > una **fecha de entrega anticipada**, que no es obligatoria y **no tiene nota propia**:
-> la descripción que escribes aquí acaba siendo parte del data room, y se califica allí.
+> la descripción que escribes aquí acaba siendo parte del data room: su aprobación es uno
+> de sus requisitos, y lo que describe se califica en sus elementos.
 >
 > Lo obligatorio es que **la propuesta esté aprobada**: es un **requisito del data room**.
 > Siempre puedes entregar y presentarte, pero sin propuesta aprobada el data room no se
@@ -581,10 +583,10 @@ En una única fecha se entrega **todo lo que se califica**:
 :::: tabs
 == Solo PI1
 
-* En la tarea de @ules, la **URL del repositorio de GitHub**, con la memoria publicada y el
-  tablero del proyecto, y un **ZIP de tu repositorio** que incluya la carpeta oculta `.git`,
+* En la tarea de @ules, la **URL del repositorio de GitHub**, con la memoria publicada, el
+  tablero del proyecto y el _one-pager_, y un **ZIP de tu repositorio** que incluya la carpeta oculta `.git`,
   para que vaya también el historial. Ese ZIP es la copia que se evalúa: es el _data room_.
-* Las **cinco píldoras** y el **pitch**, en la plataforma institucional que se indique en
+* Las **cinco píldoras** y el **pitch**, en @ules o en Microsoft Teams, como se indique en
   el aula.
 
 == PI1 + PI2
@@ -604,20 +606,20 @@ La evaluación es **continua**: no hay un examen final de contenidos, sino un pr
 
 Lo que se califica son los **resultados de aprendizaje**: lo que debes ser capaz de hacer cuando acabes el módulo.
 
-Al principio del curso hay una **evaluación inicial**, sin nota. En **enero no hay evaluación**: si quieres, puedes aportar el material que lleves hecho (la propuesta y las píldoras) para que el profesor lo revise y te dé su opinión, sin nota y sin prueba presencial, en las fechas que publique el aula. La calificación de cada convocatoria sale de la entrega final y del Demo Day.
+Al principio del curso hay una **evaluación inicial**, sin nota. En **enero no hay evaluación**: si quieres, puedes aportar el material que lleves hecho (la propuesta y las píldoras) para que el profesor lo revise y te dé su opinión, sin nota y sin prueba presencial, en el calendario que fija el CEEDCV y que se publica en el aula. La calificación de cada convocatoria sale de la entrega final y del Demo Day.
 
 > [!CAUTION] ¡ATENCIÓN IMPORTANTE!
 >
 > ### Principios y Condiciones de la Evaluación
 >
->* **Aprobado de Módulos Previos:** Para superar PI1 necesitas tener aprobados los módulos cuyos resultados de aprendizaje se trabajan en el proyecto: **Lenguajes de marcas**, **Bases de datos** y **Entornos de desarrollo**. Si al llegar la prueba final no los tienes aprobados, se te anulará la matrícula del PI1.
+>* **Aprobado de Módulos Previos:** Para superar PI1 necesitas tener aprobados los módulos cuyos resultados de aprendizaje se trabajan en el proyecto: **Lenguajes de marcas**, **Bases de datos** y **Entornos de desarrollo**. Si al llegar la evaluación de la convocatoria no los tienes aprobados, se te anulará la matrícula del PI1.
 >* **Alumnado de PI1 y PI2 simultáneo:** Realizas **un único proyecto** para los dos módulos, con una sola memoria y una sola defensa. Tu nota de PI1 sale de la programación del PI2. Ponte en contacto con el profesorado de PI2 al inicio del curso para ajustar el calendario, que es el de PI2.
 >* **Entregas y Plazos:** Si cursas solo PI1, tu nota sale de los **cuatro instrumentos** de la tabla siguiente, y hay que superar los cuatro. La fecha de la entrega final es **inamovible** y no se admiten entregas fuera de plazo en ningún caso.
  >
- >   **No haber seguido el curso de forma continua, o no haber entregado en la fecha anticipada, no impide presentarse a ninguna de las dos convocatorias.** Todo lo que se califica se entrega en la entrega final y se defiende en la prueba presencial. Eso sí, no puedes pasar **30 días seguidos sin actividad** sin causa justificada: la dirección puede anularte la matrícula. Antes, el profesorado se pondrá en contacto contigo.
->* **Comunicación de resultados:** Si no superas el PI1, se te comunicará la calificación y el **motivo** por el que no lo has superado. Puedes pedir aclaraciones y la revisión de cualquier instrumento, incluida la grabación del Demo Day. 
->* **Fraude:** Si copias, presentas como tuyo un trabajo que no lo es o usas la inteligencia artificial donde no está permitido, en una entrega o en el Demo Day, **pierdes la evaluación de esa convocatoria**: el PI1 se califica con un **1** y la convocatoria cuenta como utilizada. Antes de decidirlo tienes diez días hábiles para alegar, y la decisión se te comunica por escrito y motivada; puedes reclamarla. No conservas nada de esa convocatoria ni de una anterior. Si cursas PI1 + PI2, rige lo que diga sobre el fraude la programación del PI2. Puedes usar la IA para aprender, para revisar lo que escribes y para crear contenido multimedia, no para generar la documentación ni para que haga el trabajo por ti. Si la usas, indica en la memoria para qué y con qué herramienta.
->* **Adaptaciones:** Si tienes necesidades educativas específicas, díselo al profesorado al empezar el curso. Se pueden adaptar los tiempos, el formato de los vídeos y las condiciones del Demo Day, sin cambiar los resultados de aprendizaje ni los criterios, y nunca para bajar tu nota.
+ >   **No haber seguido el curso de forma continua, o no haber entregado en la fecha anticipada, no impide presentarse a ninguna de las dos convocatorias.** Todo lo que se califica se entrega en la entrega final y se defiende en la prueba presencial. Eso sí, no puedes pasar **30 días seguidos sin actividad** sin causa justificada: la dirección, a propuesta de tu tutor o tutora, puede anularte la matrícula. Antes, el profesorado se pondrá en contacto contigo, y el centro te comunicará la baja y te dará diez días hábiles para alegar.
+>* **Comunicación de resultados:** Tras cada sesión de evaluación se te comunica tu calificación y sus **motivos**, con el plazo para pedir su rectificación. Puedes pedir aclaraciones y la revisión de cualquier instrumento, incluida la grabación del Demo Day. 
+>* **Fraude:** Si copias, presentas como tuyo un trabajo que no lo es o usas la inteligencia artificial donde no está permitido, en una entrega o en el Demo Day, **pierdes la evaluación de esa convocatoria**: el PI1 se califica con un **1** y la convocatoria cuenta como utilizada. Antes de decidirlo tienes diez días hábiles para alegar, y la decisión se te comunica por escrito y motivada; puedes reclamarla. Como en esa convocatoria no superas ningún resultado de aprendizaje, en la siguiente se evalúan todos. Si cursas PI1 + PI2, rige lo que diga sobre el fraude la programación del PI2. Puedes usar la IA para aprender, para revisar lo que escribes y para crear contenido multimedia, no para generar la documentación ni para que haga el trabajo por ti. Si la usas, indica en la memoria para qué y con qué herramienta.
+>* **Adaptaciones:** Si tienes necesidades educativas específicas, díselo al profesorado cuanto antes, también si surgen durante el curso. Las adaptaciones se acuerdan con el profesorado, con el asesoramiento del Departamento de Orientación cuando haga falta. Se pueden adaptar los tiempos, el formato de los vídeos y las condiciones del Demo Day, sin cambiar los resultados de aprendizaje ni los criterios, y nunca para bajar tu nota.
 
 ### El proyecto se presenta a inversores
 
@@ -652,7 +654,7 @@ Entregas una sola memoria y haces una sola defensa, las del PI2. Tu nota de PI1 
 ::: details 1. Data room — 40 %
 
 Tu repositorio es el expediente del proyecto. La memoria se publica como sitio web y se
-organiza **como la pediría un inversor**, no como un índice académico:
+organiza **como la pediría un inversor**, no como un índice académico. Tiene **ocho elementos que puntúan**:
 
 * **One-pager**: resumen ejecutivo en una página. Lo primero que se lee y lo último que
   se escribe. Debe poder **exportarse a PDF** desde el propio sitio.
@@ -668,14 +670,12 @@ organiza **como la pediría un inversor**, no como un índice académico:
 * **Plan de ejecución**: las **fases** del proyecto, su contenido y sus plazos; el tablero de GitHub
   Projects, con las historias convertidas en tareas y su estado al día; los **riesgos** y
   cómo prevenirlos, y los **medios y equipos** necesarios.
-* **Datos y cumplimiento**: qué información personal manejaría la aplicación y qué
-  implica el **RGPD**, el reglamento europeo de protección de datos. No puntúa, pero es
-  **requisito**: si no llega al nivel 2 de la rúbrica, el data room no se supera.
+* **Sitio web**: la memoria publicada, que se evalúa también como documento web (más abajo).
 
 El **README del repositorio** es su portada: es lo primero que ve quien llega, y debe
 permitir entender el proyecto y encontrar la memoria publicada.
 
-Además de sus elementos, el data room tiene **tres requisitos** que no puntúan, pero sin los que no se supera: tu **propuesta aprobada** (ver la entrega anticipada), «datos y cumplimiento» y el historial del repositorio.
+Además de sus elementos, el data room tiene **tres requisitos** que no puntúan, pero sin los que no se supera: tu **propuesta aprobada** (ver la entrega anticipada), el **historial del repositorio** (más abajo) y **datos y cumplimiento**: qué información personal manejaría la aplicación y qué implica el **RGPD**, el reglamento europeo de protección de datos, que tiene que llegar al nivel 2 de la rúbrica.
 
 **El sitio publicado se evalúa también como documento web**, no solo por su contenido:
 
@@ -688,8 +688,8 @@ Además de sus elementos, el data room tiene **tres requisitos** que no puntúan
 >
 > No puntúa, pero es **requisito**: si no se cumplen estos dos hechos, el data room no se supera. **(1)** El repositorio está en tu cuenta y los commits son tuyos; **(2)** el historial contiene al menos un commit por cada sección de la memoria, de modo que pueda seguirse cómo se construyó.
 
-> [!TIP] Usa una cuenta de GitHub que no te identifique
-> GitHub es una plataforma pública y ajena al centro, y tu memoria se publica en internet. Conviene que te registres con un **usuario y un nombre que no te identifiquen**. Si usas tus datos reales, tu nombre quedará asociado públicamente a tu proyecto, y lo haces bajo tu responsabilidad. Trabajes con la cuenta que trabajes, la copia que se evalúa la entregas en @ules. Sea cual sea tu cuenta, la asocias a ti en una tarea inicial del aula virtual, que solo ve el profesorado.
+> [!IMPORTANT] Tu cuenta de GitHub no te identifica
+> GitHub es una plataforma pública y ajena al centro, y tu memoria se publica en internet. Por eso, en este módulo, te registras en GitHub con un **usuario y un nombre que no te identifiquen**, y configuras en Git un nombre y un correo que tampoco lo hagan (GitHub te da una dirección privada): el historial de commits los muestra. Tu nombre real no aparece en la memoria publicada. Asocias la cuenta a ti en una tarea inicial del aula virtual, que solo ve el profesorado, y la copia que se evalúa la entregas en @ules.
 
 :::
 
@@ -748,7 +748,7 @@ Se entrega en la entrega final, antes del Demo Day, porque **se proyecta allí**
 
 ::: details 4. Demo Day — 25 %
 
-La prueba presencial, en el centro. El profesor organiza los turnos según las necesidades del grupo y los publica con antelación en el aula virtual; el orden se **sortea** el mismo día. Tu exposición dura **hasta 4 minutos**, y en la mesa redonda todos tenéis el mismo tiempo. El tribunal es **el profesor del módulo**. La sesión **no es pública**: solo asisten los alumnos del turno y el profesor. Se **graba**, para evaluarla y por si pides su revisión; se avisa a todos los asistentes y la grabación no se publica. Se conserva hasta tres meses después del inicio del curso siguiente, o hasta que acabe una reclamación, como fija la programación de ciclo.
+La prueba presencial, en el centro, en el aula que se comunica en @ules. El profesor organiza los turnos según las necesidades del grupo y los publica con antelación en el aula virtual; el orden se **sortea** el mismo día. Tu exposición dura **hasta 4 minutos**, y en la mesa redonda todos tenéis el mismo tiempo. El tribunal es **el profesor del módulo**. La sesión **no es pública**: solo asisten los alumnos del turno y el profesor. Se **graba**, para evaluarla y por si pides su revisión; se avisa a todos los asistentes y la grabación no se publica. Se conserva hasta tres meses después del inicio del curso siguiente, o hasta que acabe una reclamación, como fija la programación de ciclo.
 
 #### 1. Exposición del pitch
 
@@ -773,13 +773,13 @@ Al terminar, valoras a cada compañero de tu turno con la misma rúbrica, en los
 Si tienes reconocidas adaptaciones, puedes defender en un turno individual.
 
 > [!WARNING] Si no te presentas
-> El Demo Day y el pitch, que se califica en él, se califican con un **0**, y la convocatoria cuenta como utilizada, salvo que hayas renunciado a ella en plazo. Si no puedes ir por una causa justificada y acreditada, se te asigna otro turno dentro de la semana de pruebas cuando sea posible. Si no lo es, la convocatoria ordinaria cuenta como utilizada, porque solo se puede renunciar hasta diez días hábiles antes, salvo lo que resuelva la dirección, y te presentas en la segunda.
+> El Demo Day y el pitch, que se califica en él, se califican con un **0**, y la convocatoria cuenta como utilizada, salvo que hayas renunciado a ella en plazo: se renuncia por un motivo justificado (enfermedad acreditada, conciliación laboral u otra circunstancia que valore la dirección), que acreditas con la solicitud, hasta diez días hábiles antes, y la renuncia la resuelve la dirección del centro.
 
 :::
 
 ### Rúbrica común
 
-Todo se califica con la misma escala de niveles, aplicada a lo que se pide en cada pieza. Antes de cada entrega, el profesor publica en el aula qué espera de cada elemento y la ficha con la que corrige, ajustadas al tipo de proyecto y a los contenidos del curso.
+Todo se califica con la misma escala de niveles, aplicada a lo que se pide en cada pieza. Antes de cada entrega, el profesor publica en el aula qué espera de cada elemento y la ficha con la que corrige, ajustadas al tipo de proyecto y a los contenidos del curso, siempre dentro de esta escala y de lo que evidencia cada criterio.
 Esta tabla es la **rúbrica**: dice qué hace falta para llegar a cada nivel.
 
 | Nivel | Descripción |
@@ -803,7 +803,7 @@ El **nivel 2 es el mínimo**: todos tus elementos tienen que llegar a él. Si un
 
 ### Cómo se calcula tu nota
 
-Si cursas **solo PI1**, tu nota sale de los tres resultados de aprendizaje del PI1, y cada uno pesa lo mismo dentro de cada instrumento. Desde la puntuación de cada elemento:
+Si cursas **solo PI1**, tu nota sale de los tres resultados de aprendizaje del PI1, y, dentro de cada instrumento, pesan lo mismo los que este evidencia. Desde la puntuación de cada elemento:
 
 1. **Criterio.** Su nota es la media de los elementos que lo evidencian en ese instrumento (tabla siguiente).
 2. **Resultado de aprendizaje.** Su nota es la media de sus criterios.
@@ -834,7 +834,7 @@ Si cursas **solo PI1**, tu nota sale de los tres resultados de aprendizaje del P
 | RA3 | e) | Plan de ejecución (riesgos, medios y equipos) | — | — |
 | RA3 | f) | Plan de ejecución (tablero) | — | — |
 
-En el **Demo Day**, cada una de las tres preguntas de la _due diligence_ puntúa en el criterio sobre el que recae. Las preguntas de tus compañeros y la coevaluación no puntúan.
+En el **Demo Day**, el profesor elige para cada resultado de aprendizaje uno de sus criterios de esta tabla, te pregunta por su evidencia en el data room y lo anota en la ficha de corrección. La pregunta puntúa en ese criterio, y la nota de ese resultado de aprendizaje en el Demo Day es la de su pregunta. Las preguntas de tus compañeros y la coevaluación no puntúan.
 
 La **propuesta aprobada**, el **historial del repositorio** y **datos y cumplimiento** no puntúan: son los tres requisitos del data room.
 
@@ -850,13 +850,13 @@ Si cursas **PI1 + PI2**, tu nota de PI1 sale de la programación del PI2.
 ### Segunda convocatoria
 
 Quien no supere la primera convocatoria o renuncie a ella,
-dispone de una **segunda convocatoria**. Con el informe del profesor sobre si estás en condiciones de afrontarla, decides si te presentas o renuncias a ella para no gastarla.
+dispone de una **segunda convocatoria**. Al publicar la nota de la ordinaria, el profesor te informa de si estás en condiciones de afrontarla con posibilidades de éxito. Puedes renunciar a ella, para no gastarla, si te dice que no o si acreditas un motivo justificado, como en la ordinaria (enfermedad, conciliación laboral u otra circunstancia que valore la dirección). La renuncia la resuelve la dirección del centro.
 
-Entre las dos convocatorias tienes un **programa formativo específico**, sin clases ni tutorías propias. Al publicar la nota de la ordinaria, el profesor te indica qué elementos rehacer y por qué; trabajas por tu cuenta y planteas tus dudas en las tutorías individuales, en los foros y el correo del aula o por teléfono con cita previa.
+Entre las dos convocatorias tienes un **programa formativo específico**, sin clases ni tutorías propias. Al publicar la nota de la ordinaria, el profesor te indica qué mejorar y por qué; trabajas por tu cuenta y planteas tus dudas en las tutorías individuales, en los foros y el correo del aula o por teléfono con cita previa.
 
 Los cuatro instrumentos, sus pesos, sus notas mínimas y la rúbrica son **los mismos** que en la primera convocatoria. 
 
-Puedes partir del trabajo que ya tenías y mejorarlo, pero la calificación se construye entera sobre lo entregado y defendido en la segunda convocatoria.
+Entregas y defiendes de nuevo **los cuatro instrumentos**: el PI1 se supera entero o no se supera, y no te reconoce resultados de aprendizaje por separado, así que de la ordinaria no se guarda la nota de ninguno. Puedes partir del trabajo que ya tenías y mejorarlo, pero la calificación se construye entera sobre lo entregado y defendido en la segunda convocatoria.
 
 Si cursas **PI1 + PI2**, la segunda convocatoria es la del PI2 y se rige por su programación.
 
@@ -871,7 +871,7 @@ Estas son las herramientas que usarás durante el curso. Todas son gratuitas.
 * **Diseño y diagramación:** Draw.io, Mermaid o Lucidchart.
 * **Editor de textos:** Visual Studio Code (o cualquier editor con soporte de Markdown).
 * **Grabación de las píldoras (con audio) y del pitch (sin audio):** la grabación de pantalla
-  de Microsoft Teams, o cualquier herramienta de captura de pantalla.
+  de Microsoft Teams, o una herramienta de captura que grabe en tu equipo, sin subir el vídeo a servicios externos.
 * **Entregas:** la URL y el ZIP del repositorio, en @ules; los vídeos, en @ules o Microsoft Teams. No se publican en internet.
 * **Comunicación:** Microsoft Teams.
 * **Inteligencia artificial:** puedes usarla para aprender, para revisar lo que escribes y para crear contenido multimedia, no para generar la documentación ni para que haga el trabajo por ti.
@@ -880,7 +880,7 @@ Estas son las herramientas que usarás durante el curso. Todas son gratuitas.
 
 ::: details Recursos Organizativos y de Comunicación
 
-* 🏫 Uso de la plataforma @ules.
+* 🏫 Uso de la plataforma @ules: desde cada sesión llegas a su material, en la web del módulo.
 * 💬 Uso de la plataforma Microsoft Teams.
 * 📧 Uso del correo electrónico.
 
