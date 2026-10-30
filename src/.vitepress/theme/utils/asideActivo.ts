@@ -18,7 +18,7 @@ export function initializeAsideActivo(): void {
     const c = caja.getBoundingClientRect()
     const a = activo.getBoundingClientRect()
     const nav = parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--vp-nav-height')) || 64
-    const arriba = Math.max(c.top, 0) + nav + 16
+    const arriba = Math.max(c.top, nav) + 16
     const abajo = Math.min(c.bottom, window.innerHeight) - 48
 
     if (a.bottom > abajo) caja.scrollTop += a.bottom - abajo
