@@ -7,6 +7,7 @@ import { enhanceAppWithTabs } from 'vitepress-plugin-tabs/client'
 import customEnhanceApp from './enhanceApp'
 import { initializeHeaderScrollController } from './js/headerScrollController'
 import { initLightbox } from './utils/lightboxManager'
+import { initializeAsideActivo } from './utils/asideActivo'
 import SlidesViewer from './components/SlidesViewer.vue'
 import SlidesLayout from './components/SlidesLayout.vue'
 import SidebarLogos from './components/SidebarLogos.vue'
@@ -181,6 +182,7 @@ export default {
       const initAll = () => {
         try {
           initializeHeaderScrollController();
+          initializeAsideActivo();
           initMermaid();
           // Inicializar lightbox con un pequeño delay para asegurar que el DOM esté listo
           setTimeout(() => {
