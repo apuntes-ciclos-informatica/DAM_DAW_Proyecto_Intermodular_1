@@ -447,3 +447,28 @@ html {
     page-break-inside: avoid;
   }
 }
+
+/* Índice lateral («En esta página»): sticky en lugar de fixed, para que al llegar al
+   final de la página se detenga encima del pie en lugar de quedar tapado por él.
+   Si el índice no cabe en la pantalla, se desplaza dentro de su columna: se deja ver
+   una barra fina para que se note y un margen inferior para que la última entrada
+   (el anexo) no quede bajo el degradado del final. */
+@media (min-width: 1280px) {
+  .VPDoc .aside .aside-container {
+    position: sticky;
+    top: 0;
+    scrollbar-width: thin;
+    scrollbar-color: var(--vp-c-divider) transparent;
+  }
+  .VPDoc .aside .aside-container::-webkit-scrollbar {
+    display: block;
+    width: 6px;
+  }
+  .VPDoc .aside .aside-container::-webkit-scrollbar-thumb {
+    background: var(--vp-c-divider);
+    border-radius: 3px;
+  }
+  .VPDoc .aside .aside-content {
+    padding-bottom: 64px;
+  }
+}
