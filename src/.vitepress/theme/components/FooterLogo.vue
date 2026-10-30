@@ -69,10 +69,22 @@ const licenseIcon = computed(() => (license.value?.icon ? withBase(license.value
 </template>
 
 <style scoped>
+/* Como el VPFooter nativo: fondo propio y por encima del índice lateral (aside),
+   que es fixed y, si no, se pinta sobre el pie al llegar al final de la página. */
 .footer-logo-wrap {
+  position: relative;
+  z-index: var(--vp-z-index-footer);
+  background-color: var(--vp-c-bg);
   text-align: center;
   padding: 24px 24px 8px;
   border-top: 1px solid var(--vp-c-divider);
+}
+
+/* Con barra lateral (fixed, por encima), el pie se centra en el espacio que queda. */
+@media (min-width: 960px) {
+  .VPContent.has-sidebar ~ .footer-logo-wrap {
+    padding-left: calc(var(--vp-sidebar-width) + 24px);
+  }
 }
 
 .footer-legal {
