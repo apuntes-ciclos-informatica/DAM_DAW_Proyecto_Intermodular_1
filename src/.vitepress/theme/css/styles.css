@@ -450,23 +450,16 @@ html {
 
 /* Índice lateral («En esta página»): sticky en lugar de fixed, para que al llegar al
    final de la página se detenga encima del pie en lugar de quedar tapado por él.
-   Si el índice no cabe en la pantalla, se desplaza dentro de su columna: se deja ver
-   una barra fina para que se note y un margen inferior para que la última entrada
-   (el anexo) no quede bajo el degradado del final. */
+   Se queda a la altura del contenido, bajo la barra de navegación, como el original
+   fixed. El margen inferior evita que la última entrada (el anexo) quede bajo el
+   degradado del final; si el índice no cabe, utils/asideActivo.ts lo desplaza hasta
+   la entrada activa. */
 @media (min-width: 1280px) {
   .VPDoc .aside .aside-container {
     position: sticky;
-    top: 0;
-    scrollbar-width: thin;
-    scrollbar-color: var(--vp-c-divider) transparent;
-  }
-  .VPDoc .aside .aside-container::-webkit-scrollbar {
-    display: block;
-    width: 6px;
-  }
-  .VPDoc .aside .aside-container::-webkit-scrollbar-thumb {
-    background: var(--vp-c-divider);
-    border-radius: 3px;
+    top: calc(var(--vp-nav-height) + var(--vp-layout-top-height, 0px) + var(--vp-doc-top-height, 0px) + 48px);
+    height: calc(100vh - var(--vp-nav-height) - var(--vp-layout-top-height, 0px) - var(--vp-doc-top-height, 0px) - 48px);
+    padding-top: 0;
   }
   .VPDoc .aside .aside-content {
     padding-bottom: 64px;
