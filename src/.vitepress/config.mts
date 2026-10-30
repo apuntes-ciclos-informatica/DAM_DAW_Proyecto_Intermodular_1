@@ -344,7 +344,10 @@ export default defineConfig({
     logoBranding,
     unitNavbars,
     sidebar: sidebar,
-    footer: { copyright: PROJECT.copyright },
+    // No usamos `footer` nativo de VitePress para no duplicar el copyright:
+    // el pie de página lo pinta FooterLogo.vue (slot layout-bottom), que lee
+    // `copyright` y `license` de aquí.
+    copyright: PROJECT.copyright,
     license: PROJECT.license,
     printWatermark: PROJECT.printWatermark
   } as any

@@ -9,7 +9,8 @@
  *
  * Los datos se leen de themeConfig (configurado en config.mts):
  *   - logoBranding: logos institucionales
- *   - footer.copyright: texto de copyright
+ *   - copyright: texto de copyright (clave propia; no usamos el footer nativo
+ *     de VitePress para no duplicarlo)
  *   - license: { text, url, icon } de la licencia
  */
 import { computed } from 'vue'
@@ -26,7 +27,7 @@ const b = theme.value.logoBranding as {
   }
 }
 
-const copyright = computed(() => (theme.value.footer as { copyright?: string })?.copyright ?? '')
+const copyright = computed(() => (theme.value.copyright as string) ?? '')
 const license = computed(() => theme.value.license as { text?: string; url?: string; icon?: string } | undefined)
 const licenseIcon = computed(() => (license.value?.icon ? withBase(license.value.icon) : ''))
 </script>
