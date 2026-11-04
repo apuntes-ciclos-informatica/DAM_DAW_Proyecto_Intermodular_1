@@ -1,21 +1,71 @@
 ---
-title: Sesión 3 - Metodologías Ágiles. Scrum
+layout: page
+title: Sesión 1 - Fundamentos del Project Management
+pageClass: slides-img-page
 ---
 
-# Sesión 3 · Metodologías Ágiles. Scrum
+<SlidesViewer>
 
-En esta sesión ves en qué se diferencian las metodologías ágiles de las tradicionales y cómo se organiza un proyecto con Scrum: sus roles, sus eventos y sus artefactos. Al terminar, lo aplicas a tu propio proyecto.
+::: slide-centered
+# Fundamentos del Project Management
 
-## Contenidos
+### Proyecto Intermodular I | Gestion de proyectos de desarrollo de software
+:::
 
-1. [Metodologías](./capitulo-1-metodologias)
-2. [Metodologías tradicionales](./capitulo-2-tradicional)
-3. [Metodologías ágiles](./capitulo-3-agil)
-4. [Scrum (I)](./capitulo-4-scrum-1)
-5. [Scrum (II)](./capitulo-5-scrum-2)
-6. [Scrum (III)](./capitulo-6-scrum-3)
-7. [Ejemplo práctico: un *sprint* en el desarrollo de TaskFlow](./capitulo-7-ejemplo-scrum)
+---
 
-## Píldora 2 (90 s)
+![""](/img/contenidos/s1/diapositivas/01.jpg)
 
-Eres el responsable técnico del proyecto y un inversor te pregunta cómo lo construirías. Explica cómo organizarías el trabajo: qué metodología seguirías y **por qué encaja con tu proyecto**, qué perfiles necesitarías en el equipo y cómo repartirías el trabajo en el tiempo.
+---
+
+![""](/img/contenidos/s1/diapositivas/02.jpg)
+
+---
+
+![""](/img/contenidos/s1/diapositivas/03.jpg)
+
+---
+
+![""](/img/contenidos/s1/diapositivas/04.jpg)
+
+---
+
+![""](/img/contenidos/s1/diapositivas/05.jpg)
+
+---
+
+![""](/img/contenidos/s1/diapositivas/06.jpg)
+
+---
+
+![""](/img/contenidos/s1/diapositivas/07.jpg)
+
+---
+
+![""](/img/contenidos/s1/diapositivas/08.jpg)
+
+---
+
+![""](/img/contenidos/s1/diapositivas/09.jpg)
+
+---
+
+![""](/img/contenidos/s1/diapositivas/10.jpg)
+
+---
+
+![""](/img/contenidos/s1/diapositivas/11.jpg)
+
+---
+
+![""](/img/contenidos/s1/diapositivas/12.jpg)
+
+---
+
+![""](/img/contenidos/s3/diapositivas/13.jpg)
+
+---
+
+![""](/img/contenidos/s1/diapositivas/14.jpg)
+
+</SlidesViewer>
